@@ -1,0 +1,132 @@
+/* About Component Styles */
+.about-section {
+  padding: 8rem var(--container-px);
+  opacity: 0;
+  transition: opacity 0.8s ease-out;
+}
+
+.about-section.about--visible {
+  opacity: 1;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+}
+
+.about-image-wrap {
+  position: relative;
+}
+
+.about-img-placeholder {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: linear-gradient(135deg, #F4F5F5 0%, #E8EBEA 100%);
+}
+
+.about-img-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.about-logo-large {
+  max-width: 300px;
+  opacity: 0.9;
+}
+
+.about-badge-float {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background: var(--c-white);
+  color: var(--c-white);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 12px 40px rgba(7, 70, 53, 0.15);
+}
+
+.badge-years {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--font-serif);
+  color: var(--c-baus-gold);
+}
+
+.badge-years-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+}
+
+.about-content {
+  padding-left: 2rem;
+}
+
+.about-text {
+  font-size: 1.05rem;
+  color: var(--c-text-light);
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.about-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 2rem 0;
+  padding: 2rem 0;
+  border-top: 1px solid var(--c-border);
+  border-bottom: 1px solid var(--c-border);
+}
+
+.about-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.feature-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: var(--c-baus-gold);
+  color: var(--c-white);
+  border-radius: 50%;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-image-wrap {
+    max-width: 500px;
+    margin: 0 auto;
+    order: -1;
+  }
+
+  .about-content {
+    padding-left: 0;
+  }
+}

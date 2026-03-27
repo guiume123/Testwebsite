@@ -1,0 +1,109 @@
+/* USP Component Styles */
+.usp-section {
+  padding: 4rem var(--container-px);
+  background: var(--c-bg-off);
+  border-top: 1px solid var(--c-border);
+  border-bottom: 1px solid var(--c-border);
+}
+
+.usp-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.usp-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+.usp-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c-baus-green);
+}
+
+.usp-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.usp-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.usp-text strong {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--c-baus-green-dark);
+  margin-bottom: 0.25rem;
+}
+
+.usp-text span {
+  font-size: 0.9rem;
+  color: var(--c-text-light);
+  line-height: 1.4;
+}
+
+.usp-divider {
+  width: 1px;
+  height: 60px;
+  background: var(--c-border);
+  flex-shrink: 0;
+}
+
+.usp-divider:last-of-type {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .usp-grid {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .usp-item {
+    width: 100%;
+  }
+
+  .usp-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .usp-section {
+    padding: 3rem var(--container-px);
+  }
+
+  .usp-grid {
+    gap: 1.5rem;
+  }
+
+  .usp-item {
+    gap: 1rem;
+  }
+
+  .usp-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .usp-text strong {
+    font-size: 0.95rem;
+  }
+
+  .usp-text span {
+    font-size: 0.85rem;
+  }
+}
