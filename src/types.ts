@@ -16,6 +16,17 @@ export interface CategoryCard {
   wide?: boolean;
 }
 
+export interface Product {
+  name: string;
+  image: string;
+  price: number | null;
+  description: string | null;
+  main_category: string;
+  subcategory: string | null;
+  brand: string | null;
+  link: string;
+}
+
 export interface UspItem {
   iconSvg: string;
   title: string;

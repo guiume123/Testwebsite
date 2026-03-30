@@ -5,31 +5,35 @@ import categoriesHTML from './categories.html?raw';
 const categories: CategoryCard[] = [
   {
     id: 'cat-wapens', name: 'Wapens', description: 'Geweren, pistolen & luchtdruk',
-    href: '#wapens', iconSvg: icons.catWapens, bgClass: 'cat-bg-1',
+    href: '?category=wapens', iconSvg: icons.catWapens, bgClass: 'cat-bg-1',
   },
   {
     id: 'cat-munitie', name: 'Munitie', description: 'Kalibers voor elke discipline',
-    href: '#munitie', iconSvg: icons.catMunitie, bgClass: 'cat-bg-2',
+    href: '?category=munitie', iconSvg: icons.catMunitie, bgClass: 'cat-bg-2',
   },
   {
     id: 'cat-kleding', name: 'Kleding', description: 'Jacht- & outdoorkleding',
-    href: '#kleding', iconSvg: icons.catKleding, bgClass: 'cat-bg-3',
+    href: '?category=kleding', iconSvg: icons.catKleding, bgClass: 'cat-bg-3',
   },
   {
     id: 'cat-geschenken', name: 'Geschenken', description: "Cadeau's voor de echte sportsman",
-    href: '#geschenken', iconSvg: icons.catGeschenken, bgClass: 'cat-bg-4',
+    href: '?category=geschenken', iconSvg: icons.catGeschenken, bgClass: 'cat-bg-4',
   },
   {
     id: 'cat-optiek', name: 'Optiek', description: 'Richtkijkers, verrekijkers & meer',
-    href: '#optiek', iconSvg: icons.catOptiek, bgClass: 'cat-bg-5',
+    href: '?category=optiek', iconSvg: icons.catOptiek, bgClass: 'cat-bg-5',
   },
   {
     id: 'cat-honden', name: 'Honden', description: 'Voor de jachthond & zijn baas',
-    href: '#honden', iconSvg: icons.catHonden, bgClass: 'cat-bg-6',
+    href: '?category=honden', iconSvg: icons.catHonden, bgClass: 'cat-bg-6',
   },
   {
-    id: 'cat-toebehoren', name: 'Toebehoren', description: 'Kluizen, onderhoud, tassen & bescherming',
-    href: '#toebehoren', iconSvg: icons.catToebehoren, bgClass: 'cat-bg-7',
+    id: 'cat-toebehoren', name: 'Toebehoren', description: 'Onderhoud, tassen & bescherming',
+    href: '?category=toebehoren', iconSvg: icons.catToebehoren, bgClass: 'cat-bg-7',
+  },
+  {
+    id: 'cat-veiligheid', name: 'Brand- en veiligheidskoffer', description: 'Veiligheidskoffers',
+    href: '?category=brand-en-veiligheidskoffer', iconSvg: icons.catVeiligheid, bgClass: 'cat-bg-8',
   },
 ];
 

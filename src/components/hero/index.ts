@@ -3,7 +3,7 @@ import { icons } from '../../icons';
 import heroHTML from './hero.html?raw';
 
 const heroStats: StatItem[] = [
-  { number: '30+', label: 'Jaar ervaring' },
+  { number: '80+', label: 'Jaar ervaring' },
   { number: '5000+', label: 'Producten' },
   { number: '100%', label: 'Erkend & legaal' },
 ];

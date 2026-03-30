@@ -39,4 +39,6 @@ export const icons = {
   catHonden: `<svg viewBox="0 0 64 64" fill="none"><path d="M10 44C10 44 14 28 24 24C28 22 36 22 40 24L48 20L52 24L46 30C50 34 52 40 52 44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="30" r="3" stroke="currentColor" stroke-width="2"/><path d="M10 44L14 56M52 44L48 56" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>`,
 
   catToebehoren: `<svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="10" stroke="currentColor" stroke-width="2.5"/><path d="M32 10V16M32 48V54M10 32H16M48 32H54" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M18 18L22 22M42 42L46 46M18 46L22 42M42 22L46 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+
+  catVeiligheid: `<svg viewBox="0 0 64 64" fill="none"><path d="M32 12s20-10 20-10v22c0 14-20 28-20 28S12 38 12 24V2l20 10z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>`,
 } as const;
