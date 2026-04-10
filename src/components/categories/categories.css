@@ -1,21 +1,23 @@
 /* Categories Component Styles */
 .categories-section {
-  padding: 8rem var(--container-px);
+  padding: 6rem var(--container-px);
   background: var(--c-bg-off);
 }
 
 .categories-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row dense;
   gap: 2rem;
   margin-top: 3rem;
+  width: 100%;
 }
 
 .category-card {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-lg);
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -51,7 +53,7 @@
 .cat-bg-5 { background: url('/images/optiek.jpg') center/cover no-repeat; }
 .cat-bg-6 { background: url('/images/honden.jpg') center/cover no-repeat; }
 .cat-bg-7 { background: url('/images/toebehoren.jpg') center/cover no-repeat; }
-.cat-bg-8 { background: url('/images/veiligheid.jpg') center/cover no-repeat, #28282b; }
+.cat-bg-8 { background: url('/images/brandenveiligheidskoffers.jpg') center/cover no-repeat; }
 
 .category-overlay {
   position: absolute;
@@ -73,37 +75,16 @@
   pointer-events: none;
 }
 
-.category-icon {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  margin-bottom: 1rem;
-  z-index: 2;
-}
-
-.category-icon svg {
-  width: 100%;
-  height: 100%;
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
-}
-
 .category-info {
   position: relative;
   z-index: 2;
 }
 
 .category-name {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--c-white);
   margin-bottom: 0.25rem;
-}
-
-.category-desc {
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 0.75rem;
-  line-height: 1.4;
 }
 
 .category-link {
@@ -118,41 +99,10 @@
   transform: translateX(4px);
 }
 
-.category-card-wide {
-  grid-column: 1 / -1;
-  min-height: auto;
-  flex-direction: row;
-  align-items: center;
-  gap: 2rem;
-}
-
-.category-card-wide .category-icon {
-  margin-bottom: 0;
-  margin-left: auto;
-  width: 80px;
-  height: 80px;
-}
-
-@media (min-width: 1025px) {
-  .categories-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
 @media (max-width: 1024px) {
   .categories-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-  }
-
-  .category-card-wide {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-
-  .category-card-wide .category-icon {
-    margin-left: 0;
   }
 }
 
@@ -163,14 +113,5 @@
 
   .categories-grid {
     grid-template-columns: 1fr;
-  }
-
-  .category-card-wide {
-    height: auto;
-  }
-
-  .category-card-wide .category-icon {
-    width: 48px;
-    height: 48px;
   }
 }

@@ -70,9 +70,20 @@
 .hours-list li {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
   font-size: 0.85rem;
   color: var(--c-text-light);
   margin-bottom: 0.5rem;
+}
+
+.hours-list li span:first-child {
+  flex-shrink: 0;
+}
+
+.hours-list li span:last-child {
+  text-align: right;
+  flex: 1;
 }
 
 .contact-link {

@@ -1,53 +1,26 @@
 import type { CategoryCard } from '../../types';
-import { icons } from '../../icons';
 import categoriesHTML from './categories.html?raw';
 
 const categories: CategoryCard[] = [
-  {
-    id: 'cat-wapens', name: 'Wapens', description: 'Geweren, pistolen & luchtdruk',
-    href: '?category=wapens', iconSvg: icons.catWapens, bgClass: 'cat-bg-1',
-  },
-  {
-    id: 'cat-munitie', name: 'Munitie', description: 'Kalibers voor elke discipline',
-    href: '?category=munitie', iconSvg: icons.catMunitie, bgClass: 'cat-bg-2',
-  },
-  {
-    id: 'cat-kleding', name: 'Kleding', description: 'Jacht- & outdoorkleding',
-    href: '?category=kleding', iconSvg: icons.catKleding, bgClass: 'cat-bg-3',
-  },
-  {
-    id: 'cat-geschenken', name: 'Geschenken', description: "Cadeau's voor de echte sportsman",
-    href: '?category=geschenken', iconSvg: icons.catGeschenken, bgClass: 'cat-bg-4',
-  },
-  {
-    id: 'cat-optiek', name: 'Optiek', description: 'Richtkijkers, verrekijkers & meer',
-    href: '?category=optiek', iconSvg: icons.catOptiek, bgClass: 'cat-bg-5',
-  },
-  {
-    id: 'cat-honden', name: 'Honden', description: 'Voor de jachthond & zijn baas',
-    href: '?category=honden', iconSvg: icons.catHonden, bgClass: 'cat-bg-6',
-  },
-  {
-    id: 'cat-toebehoren', name: 'Toebehoren', description: 'Onderhoud, tassen & bescherming',
-    href: '?category=toebehoren', iconSvg: icons.catToebehoren, bgClass: 'cat-bg-7',
-  },
-  {
-    id: 'cat-veiligheid', name: 'Brand- en veiligheidskoffer', description: 'Veiligheidskoffers',
-    href: '?category=brand-en-veiligheidskoffer', iconSvg: icons.catVeiligheid, bgClass: 'cat-bg-8',
-  },
+  { id: 'cat-wapens', name: 'Wapens', href: '?category=wapens', bgClass: 'cat-bg-1' },
+  { id: 'cat-munitie', name: 'Munitie', href: '?category=munitie', bgClass: 'cat-bg-2' },
+  { id: 'cat-kleding', name: 'Kleding', href: '?category=kleding', bgClass: 'cat-bg-3' },
+  { id: 'cat-geschenken', name: 'Geschenken', href: '?category=geschenken', bgClass: 'cat-bg-4' },
+  { id: 'cat-optiek', name: 'Optiek', href: '?category=optiek', bgClass: 'cat-bg-5' },
+  { id: 'cat-honden', name: 'Honden', href: '?category=honden', bgClass: 'cat-bg-6' },
+  { id: 'cat-toebehoren', name: 'Toebehoren', href: '?category=toebehoren', bgClass: 'cat-bg-7' },
+  { id: 'cat-veiligheid', name: 'Brand- en veiligheidskoffer', href: '?category=brand-en-veiligheidskoffer', bgClass: 'cat-bg-8' },
 ];
 
 function renderCategoryCard(cat: CategoryCard): string {
   return `
-    <a href="${cat.href}" class="category-card ${cat.wide ? 'category-card-wide' : ''}"
+    <a href="${cat.href}" class="category-card"
        id="${cat.id}" role="listitem" aria-label="Categorie ${cat.name}">
       <div class="category-bg ${cat.bgClass}"></div>
       <div class="category-overlay"></div>
-      <div class="category-icon">${cat.iconSvg}</div>
       <div class="category-info">
         <h3 class="category-name">${cat.name}</h3>
-        <p class="category-desc">${cat.description}</p>
-        <span class="category-link">Bekijk collectie →</span>
+        <button class="category-link">Bekijk collectie →</button>
       </div>
       <div class="category-shine"></div>
     </a>

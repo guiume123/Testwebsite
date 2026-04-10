@@ -5,7 +5,8 @@ import footerHTML from './footer.html?raw';
 const footerHours: HourEntry[] = [
   { day: 'Ma', time: 'Gesloten' },
   { day: 'Di', time: '9u30 - 18u00' },
-  { day: 'We', time: 'Voormiddag op afspraak / 13u00 - 20u30' },
+  { day: 'Wo', time: '<strong>Voormiddag op afspraak</strong>' },
+  { day: '', time: '13u00 - 20u30' },
   { day: 'Do', time: '9u30 - 18u00' },
   { day: 'Vr', time: '9u30 - 18u00' },
   { day: 'Za', time: '9u30 - 18u00' },

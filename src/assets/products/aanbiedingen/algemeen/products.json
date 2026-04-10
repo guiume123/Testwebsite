@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Airgun Technology",
+        "image": "https://baus.be/assets/components/phpthumbof/cache/841_IMG_5426.70a2d2bce3351c3f1eb64becb18ee338.jpg",
+        "price": null,
+        "description": "Deze precisie P.C.P.'s zijn nu beschikbaar",
+        "main_category": "Aanbiedingen",
+        "subcategory": null,
+        "brand": null,
+        "link": "/?category=aanbiedingen"
+    },
+    {
+        "name": "FAIR einde reeks/fin serie",
+        "image": "https://baus.be/assets/components/phpthumbof/cache/827_IMG_4946.ce5ec19c0f31bb1d74b31a56a0b28d04.jpg",
+        "price": "1550,-  -25%",
+        "description": "FAIR O/U 12/70 Steel Proof Mod LX600 DL 71cm Inv XP50 \u00e9ject DUS",
+        "main_category": "Aanbiedingen",
+        "subcategory": null,
+        "brand": null,
+        "link": "https://baus.be/aanbiedingen/"
+    },
+    {
+        "name": "FAIR einde reeks/fin serie",
+        "image": "https://baus.be/assets/components/phpthumbof/cache/826_IMG_4945.d5239d4a851149ab0d875d8d7e0df239.jpg",
+        "price": "1395,-  -25%",
+        "description": "FAIR O/U 12/70 Steel Proof  Mod LX 600 71cm inv XP50 \u00e9ject DUS",
+        "main_category": "Aanbiedingen",
+        "subcategory": null,
+        "brand": null,
+        "link": "https://baus.be/aanbiedingen/"
+    },
+    {
+        "name": "FAIR einde reeks/fin serie",
+        "image": "https://baus.be/assets/components/phpthumbof/cache/825_IMG_4944.35c4148599c89de02acde01f115ae385.jpg",
+        "price": "1580,-  -25%",
+        "description": "FAIR O/U 12/70 Steel Proof  Mod LX 680  71 cm Inv XP50 \u00e9ject DUS",
+        "main_category": "Aanbiedingen",
+        "subcategory": null,
+        "brand": null,
+        "link": "https://baus.be/aanbiedingen/"
+    }
+]

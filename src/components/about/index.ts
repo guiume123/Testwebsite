@@ -19,4 +19,34 @@ export function initAbout(): void {
   );
 
   observer.observe(aboutSection);
+
+  // Carousel functionality
+  const carouselSlides = document.querySelectorAll('.carousel-slide') as NodeListOf<HTMLImageElement>;
+  
+  if (carouselSlides.length === 0) return;
+  
+  let currentIndex = 0;
+  const slideCount = carouselSlides.length;
+  const slideInterval = 5000; // 5 seconds per slide
+  
+  function showSlide(index: number) {
+    carouselSlides.forEach((slide, i) => {
+      if (i === index) {
+        slide.classList.add('active');
+      } else {
+        slide.classList.remove('active');
+      }
+    });
+  }
+  
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % slideCount;
+    showSlide(currentIndex);
+  }
+  
+  // Show first slide
+  showSlide(0);
+  
+  // Auto-rotate slides
+  setInterval(nextSlide, slideInterval);
 }

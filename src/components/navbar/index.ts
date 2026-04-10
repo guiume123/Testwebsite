@@ -4,94 +4,88 @@ import navbarHTML from './navbar.html?raw';
 
 const navItems: NavItem[] = [
   {
-    label: 'Home', href: '/', id: 'nav-home',
-  },
-  {
     label: 'Producten', href: '?category=alle', id: 'nav-producten',
     children: [
       {
         label: 'Wapens', href: '?category=wapens', id: 'nav-wapens',
         children: [
-          { label: 'Geweren en Karabijnen', href: '?category=wapens', id: 'nav-geweren' },
-          { label: 'Pistolen en Revolvers/Pistolet et Revolvers', href: '?category=wapens', id: 'nav-pistolen' },
-          { label: 'Luchtdrukwapens', href: '?category=wapens', id: 'nav-luchtdrukwapens' },
-          { label: 'CO2 Pistolen en Revolvers', href: '?category=wapens', id: 'nav-co2-pistolen' },
-          { label: 'Alarmpistolen en Revolvers', href: '?category=wapens', id: 'nav-alarmpistolen' },
-          { label: 'Soft-Air Guns', href: '?category=wapens', id: 'nav-softair' },
-          { label: 'Messen', href: '?category=wapens', id: 'nav-messen' },
-          { label: 'Kruisbogen', href: '?category=wapens', id: 'nav-kruisbogen' },
+          { label: 'Geweren en Karabijnen', href: '?category=wapens&subcategory=Geweren%20en%20Karabijnen', id: 'nav-geweren' },
+          { label: 'Pistolen en Revolvers/Pistolet et Revolvers', href: '?category=wapens&subcategory=Pistolen%20en%20Revolvers', id: 'nav-pistolen' },
+          { label: 'Luchtdrukwapens', href: '?category=wapens&subcategory=Luchtdrukwapens', id: 'nav-luchtdrukwapens' },
+          { label: 'CO2 Pistolen en Revolvers', href: '?category=wapens&subcategory=CO2%20Pistolen%20en%20Revolvers', id: 'nav-co2-pistolen' },
+          { label: 'Alarmpistolen en Revolvers', href: '?category=wapens&subcategory=Alarmpistolen%20en%20Revolvers', id: 'nav-alarmpistolen' },
+          { label: 'Soft-Air Guns', href: '?category=wapens&subcategory=Soft-Air%20Guns', id: 'nav-softair' },
+          { label: 'Messen', href: '?category=wapens&subcategory=Messen', id: 'nav-messen' },
+          { label: 'Kruisbogen', href: '?category=wapens&subcategory=Kruisbogen', id: 'nav-kruisbogen' },
         ],
       },
       {
         label: 'Munitie', href: '?category=munitie', id: 'nav-munitie',
         children: [
-          { label: 'Hagel Munitie Jacht', href: '?category=munitie', id: 'nav-hagel-jacht' },
-          { label: 'Kogel Munitie Jacht', href: '?category=munitie', id: 'nav-kogel-jacht' },
-          { label: 'Hagel Munitie Sport', href: '?category=munitie', id: 'nav-hagel-sport' },
-          { label: 'Kogel Munitie Sport', href: '?category=munitie', id: 'nav-kogel-sport' },
-          { label: 'Luchtdruk Munitie', href: '?category=munitie', id: 'nav-luchtdruk-munitie' },
-          { label: 'Alarm Munitie', href: '?category=munitie', id: 'nav-alarm-munitie' },
-          { label: 'Herlaad Toebehoren', href: '?category=munitie', id: 'nav-herlaad' },
+          { label: 'Hagel Munitie Jacht', href: '?category=munitie&subcategory=Hagel%20Munitie%20Jacht', id: 'nav-hagel-jacht' },
+          { label: 'Kogel Munitie Jacht', href: '?category=munitie&subcategory=Kogel%20Munitie%20Jacht', id: 'nav-kogel-jacht' },
+          { label: 'Hagel Munitie Sport', href: '?category=munitie&subcategory=Hagel%20Munitie%20Sport', id: 'nav-hagel-sport' },
+          { label: 'Kogel Munitie Sport', href: '?category=munitie&subcategory=Kogel%20Munitie%20Sport', id: 'nav-kogel-sport' },
+          { label: 'Luchtdruk Munitie', href: '?category=munitie&subcategory=Luchtdruk%20Munitie', id: 'nav-luchtdruk-munitie' },
+          { label: 'Alarm Munitie', href: '?category=munitie&subcategory=Alarm%20Munitie', id: 'nav-alarm-munitie' },
+          { label: 'Herlaad Toebehoren', href: '?category=munitie&subcategory=Herlaad%20Toebehoren', id: 'nav-herlaad' },
         ],
       },
       {
         label: 'Kleding', href: '?category=kleding', id: 'nav-kleding',
         children: [
-          { label: 'Kleding', href: '?category=kleding', id: 'nav-kleding-main' },
-          { label: 'Kleivesten en toebehoren', href: '?category=kleding', id: 'nav-kleivesten' },
-          { label: 'Laarzen en Schoenen', href: '?category=kleding', id: 'nav-laarzen' },
-          { label: 'Waadpakken', href: '?category=kleding', id: 'nav-waadpakken' },
+          { label: 'Kleding', href: '?category=kleding&subcategory=Kleding', id: 'nav-kleding-main' },
+          { label: 'Kleivesten en toebehoren', href: '?category=kleding&subcategory=Kleivesten%20en%20toebehoren', id: 'nav-kleivesten' },
+          { label: 'Laarzen en Schoenen', href: '?category=kleding&subcategory=Laarzen%20en%20Schoenen', id: 'nav-laarzen' },
+          { label: 'Waadpakken', href: '?category=kleding&subcategory=Waadpakken', id: 'nav-waadpakken' },
         ],
       },
       {
         label: 'Geschenken', href: '?category=geschenken', id: 'nav-geschenken',
         children: [
-          { label: 'Allerlei Geschenkartikelen', href: '?category=geschenken', id: 'nav-geschenkartikelen' },
+          { label: 'Allerlei Geschenkartikelen', href: '?category=geschenken&subcategory=Allerlei%20Geschenkartikelen', id: 'nav-geschenkartikelen' },
         ],
       },
       {
         label: 'Optiek', href: '?category=optiek', id: 'nav-optiek',
         children: [
-          { label: 'Richtkijkers & verrekijkers', href: '?category=optiek', id: 'nav-richtkijkers' },
+          { label: 'Richtkijkers & verrekijkers', href: '?category=optiek&subcategory=Richtkijkers%20%26%20verrekijkers', id: 'nav-richtkijkers' },
         ],
       },
       {
         label: 'Honden', href: '?category=honden', id: 'nav-honden',
         children: [
-          { label: 'Africhtinghalsband', href: '?category=honden', id: 'nav-africhtingshalsbands' },
+          { label: 'Africhtinghalsband', href: '?category=honden&subcategory=Africhtinghalsband', id: 'nav-africhtingshalsbands' },
         ],
       },
       {
         label: 'Toebehoren', href: '?category=toebehoren', id: 'nav-toebehoren',
         children: [
-          { label: 'Lokkers Decoys', href: '?category=toebehoren', id: 'nav-lokkers' },
-          { label: 'Vallen en vangkooien', href: '?category=toebehoren', id: 'nav-vallen' },
-          { label: 'Hoogzitten en Tenten', href: '?category=toebehoren', id: 'nav-hoogszitten' },
-          { label: 'Wildcamera\'s', href: '?category=toebehoren', id: 'nav-wildcamera' },
+          { label: 'Lokkers Decoys', href: '?category=toebehoren&subcategory=Lokkers%20Decoys', id: 'nav-lokkers' },
+          { label: 'Vallen en vangkooien', href: '?category=toebehoren&subcategory=Vallen%20en%20vangkooien', id: 'nav-vallen' },
+          { label: 'Hoogzitten en Tenten', href: '?category=toebehoren&subcategory=Hoogzitten%20en%20Tenten', id: 'nav-hoogszitten' },
+          { label: 'Wildcamera\'s', href: '?category=toebehoren&subcategory=Wildcamera%27s', id: 'nav-wildcamera' },
         ],
       },
       {
         label: 'Brand- en veiligheidskoffer', href: '?category=brand-en-veiligheidskoffer', id: 'nav-brand-veiligheidskoffer',
         children: [
-          { label: 'Veiligheidskoffers', href: '?category=brand-en-veiligheidskoffer', id: 'nav-veiligheidskoffers' },
+          { label: 'Veiligheidskoffers', href: '?category=brand-en-veiligheidskoffer&subcategory=Veiligheidskoffers', id: 'nav-veiligheidskoffers' },
         ],
       },
     ],
   },
   {
-    label: 'Aanbiedingen', href: '#aanbiedingen', id: 'nav-aanbiedingen',
+    label: 'Aanbiedingen', href: '?category=aanbiedingen', id: 'nav-aanbiedingen',
   },
-  {
+   {
     label: 'Logo', href: '/', id: 'nav-logo', isLogo: true,
   },
-  {
-    label: 'Tweedehands', href: '#tweedehands', id: 'nav-tweedehands',
+   {
+    label: 'Tweedehands', href: '?category=tweedehands', id: 'nav-tweedehands',
   },
   {
-    label: 'Contact', href: '#contact', id: 'nav-contact',
-  },
-  {
-    label: 'Openingsuren', href: '#openingsuren', id: 'nav-openingsuren',
+    label: 'Openingsuren', href: '#', id: 'nav-openingsuren',
   },
 ];
 

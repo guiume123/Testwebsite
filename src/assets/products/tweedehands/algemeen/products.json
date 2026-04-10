@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Revolver Colt Detective",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/865_IMG_1230.7f3274aabe57381ba023e342fa19d21f.jpg",
+    "price": "450 euro",
+    "description": "Revolver Colt Detective Spee Cal. 38 spee",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Pistool Colt",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/862_IMG_1228.84e210442fa4e643b1617bded26d685f.jpg",
+    "price": "600 euro",
+    "description": "Pistool Colt Kadet .22LR \ninclusief koffer",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Revolver Uberti",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/860_IMG_1226.f3ebfd6d166e4f3e24af58d7b2cdca18.jpg",
+    "price": "375 euro",
+    "description": "Revolver Uberti 45 Long Colt",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Revolver Colt",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/859_IMG_1224.5ae5ec7e31c9227ec6cd388b01c08183.jpg",
+    "price": "400 euro",
+    "description": "Revolver Colt New Frontier .22LR",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Pistool Glock",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/857_IMG_1221.d7cbea5dfdcb46108bf4d7a6204f873a.jpg",
+    "price": "400 euro",
+    "description": "Pistool Glock Mod 22 Cal. 40",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Pistool Melior",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/855_IMG_1219.8a7b068839741374cb2ce98d2a5aceb5.jpg",
+    "price": "150 euro",
+    "description": "Pistool Melior 6,35 mm",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Revolver S&W mod 36",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/853_IMG_1217.75cc9eef9825a1185a3801c45a344052.jpg",
+    "price": "150 euro",
+    "description": "Smith & Wesson mod 36  3\" .38",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Revolver Ruger",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/845_IMG_1216.5d8828d9c59841373ddd1321b40ed1f2.jpg",
+    "price": "950 euro",
+    "description": "Ruger CP100 .357 Magnum",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Revolver S&W",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/844_IMG_1210.b1b8e3356fbc7e964f84c6929f241c05.jpg",
+    "price": "750 euro",
+    "description": "S&W Mod 686 STST 357 Magnum",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Mixste",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/812_IMG_4905.4b4e451b054e99ace27d65de05b2a73a.jpg",
+    "price": "1000,-",
+    "description": "Juxtaposée Mixste Gebr Kupper Dresden kaliber 16  -  8x57JRS met voorspanner kijker Swarovski 1.5-6x42 Duitse inhaakmontage.",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Juxtaposée",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/799_IMG_3428.0fa8258436fed18f90b26ed2b4d15697.jpg",
+    "price": "1550,-",
+    "description": "ANGELO ZOLI \nPlatines syst H&H Model Edward Cal. 12/70 71 cm F/M",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  },
+  {
+    "name": "Superposée",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/800_IMG_3431.90f6d73e11468d9a7b9590a9d4344546.jpg",
+    "price": "195,-",
+    "description": "LAMBER  DUE KALIBER. 12/70  75cm F/M",
+    "main_category": "Tweedehands",
+    "subcategory": null,
+    "brand": null,
+    "link": "https://baus.be/tweedehands/"
+  }
+]

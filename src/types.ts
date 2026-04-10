@@ -9,17 +9,14 @@ export interface NavItem {
 export interface CategoryCard {
   id: string;
   name: string;
-  description: string;
   href: string;
-  iconSvg: string;
   bgClass: string;
-  wide?: boolean;
 }
 
 export interface Product {
   name: string;
   image: string;
-  price: number | null;
+  price: string | null;
   description: string | null;
   main_category: string;
   subcategory: string | null;

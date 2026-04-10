@@ -1,0 +1,149 @@
+/* Openingsuren Modal Styles */
+.openingsuren-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+}
+
+.openingsuren-modal.modal-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.openingsuren-modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.openingsuren-modal-content {
+  position: relative;
+  z-index: 2001;
+  background: var(--c-white);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalSlideIn 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.openingsuren-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--c-text-light);
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.openingsuren-modal-close:hover {
+  color: var(--c-baus-green-dark);
+}
+
+.openingsuren-modal-body {
+  text-align: center;
+}
+
+.openingsuren-modal-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--c-baus-green) 0%, var(--c-baus-green-dark) 100%);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: var(--c-white);
+}
+
+.openingsuren-modal-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.openingsuren-modal-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--c-baus-green-dark);
+  margin-bottom: 1.5rem;
+}
+
+.openingsuren-modal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.openingsuren-modal-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: var(--c-text);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--c-border);
+}
+
+.openingsuren-modal-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.openingsuren-modal-list li:nth-child(3) {
+  border-bottom: none;
+}
+
+.openingsuren-modal-list li span:first-child {
+  flex-shrink: 0;
+  font-weight: 500;
+}
+
+.openingsuren-modal-list li span:last-child {
+  text-align: right;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .openingsuren-modal-content {
+    padding: 2rem;
+    max-width: 90%;
+  }
+
+  .openingsuren-modal-title {
+    font-size: 1.5rem;
+  }
+}

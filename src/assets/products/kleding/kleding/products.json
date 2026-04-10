@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Barbour Bardon Quilt",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/703_Barbour_bardon_Quilt.3393aaf8f40f674f455d46956ce6e3e0.jpg",
+    "price": null,
+    "description": null,
+    "main_category": "Kleding",
+    "subcategory": "Kleding",
+    "brand": "Barbour",
+    "link": "https://baus.be/duplicaat-van-kleding.html"
+  },
+  {
+    "name": "Barbour Cordbridge Wax Jacket",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/702_Barbour_Cordbridge_Wax_Jacket.3393aaf8f40f674f455d46956ce6e3e0.jpg",
+    "price": null,
+    "description": null,
+    "main_category": "Kleding",
+    "subcategory": "Kleding",
+    "brand": "Barbour",
+    "link": "https://baus.be/duplicaat-van-kleding.html"
+  },
+  {
+    "name": "Fjäll Räven Forest Fleece Jacket",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/701_Forest_Fleece_Jacket.95231e2e0b5fdc41fff452e281a5cc51.png",
+    "price": null,
+    "description": null,
+    "main_category": "Kleding",
+    "subcategory": "Kleding",
+    "brand": null,
+    "link": "https://baus.be/duplicaat-van-kleding.html"
+  },
+  {
+    "name": "Fjäll Räven Karl Pro Trousers ",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/699_Karl_Pro_Trousers_M.95231e2e0b5fdc41fff452e281a5cc51.png",
+    "price": null,
+    "description": null,
+    "main_category": "Kleding",
+    "subcategory": "Kleding",
+    "brand": null,
+    "link": "https://baus.be/duplicaat-van-kleding.html"
+  },
+  {
+    "name": "Deerhunter Wingshooter Fleece ",
+    "image": "https://baus.be/assets/components/phpthumbof/cache/700_Wingshooter_Fleece_W_Membrane.95231e2e0b5fdc41fff452e281a5cc51.png",
+    "price": null,
+    "description": null,
+    "main_category": "Kleding",
+    "subcategory": "Kleding",
+    "brand": "Deerhunter",
+    "link": "https://baus.be/duplicaat-van-kleding.html"
+  }
+]
