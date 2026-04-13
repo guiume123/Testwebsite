@@ -1,13 +1,17 @@
 <?php
 session_start();
 
-// Check if logged in
 if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
     header('Location: index.php');
     exit();
 }
 
-// Get the current tab/category
+$tab = $_GET['tab'] ?? 'products';
+$validTabs = ['products', 'berichten'];
+if (!in_array($tab, $validTabs)) {
+    $tab = 'products';
+}
+
 $category = $_GET['category'] ?? 'aanbiedingen';
 $validCategories = ['aanbiedingen', 'tweedehands'];
 
@@ -15,16 +19,25 @@ if (!in_array($category, $validCategories)) {
     $category = 'aanbiedingen';
 }
 
-// Get products for current category
-$jsonPath = "../src/assets/products/{$category}/algemeen/products.json";
 $products = [];
+$messages = [];
+
+$jsonPath = "../src/assets/products/{$category}/algemeen/products.json";
 
 if (file_exists($jsonPath)) {
     $jsonContent = file_get_contents($jsonPath);
     $products = json_decode($jsonContent, true) ?? [];
 }
 
-// Handle logout
+$messagesPath = __DIR__ . '/data/vraag-submissions.json';
+if (file_exists($messagesPath)) {
+    $messagesContent = file_get_contents($messagesPath);
+    $messages = json_decode($messagesContent, true) ?? [];
+    if (!is_array($messages)) {
+        $messages = [];
+    }
+}
+
 if (isset($_GET['logout'])) {
     session_destroy();
     header('Location: index.php');
@@ -36,7 +49,7 @@ if (isset($_GET['logout'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baus Admin Dashboard</title>
+    <title>Baus Admin</title>
     <style>
         * {
             margin: 0;
@@ -78,16 +91,39 @@ if (isset($_GET['logout'])) {
         }
 
         .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
+            max-width: none;
+            width: 100%;
+            margin: 2rem 0;
+            padding: 0;
+        }
+
+        .dashboard-layout {
+            display: grid;
+            grid-template-columns: 280px minmax(0, 1fr);
+            gap: 1.5rem;
+            align-items: start;
+        }
+
+        .sidebar {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+        }
+
+        .main-content {
+            min-width: 0;
+            padding: 0 1rem 0 0;
         }
 
         .tabs {
             display: flex;
-            gap: 1rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.35rem;
             margin-bottom: 2rem;
             border-bottom: 2px solid #ddd;
+            padding-bottom: 0.75rem;
         }
 
         .tab-btn {
@@ -99,6 +135,9 @@ if (isset($_GET['logout'])) {
             color: #666;
             border-bottom: 3px solid transparent;
             transition: all 0.3s;
+            text-align: left;
+            width: 100%;
+            max-width: 340px;
         }
 
         .tab-btn.active {
@@ -217,9 +256,76 @@ if (isset($_GET['logout'])) {
             opacity: 0.5;
         }
 
+        .messages-list {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .message-card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #173f35;
+        }
+
+        .message-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .message-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #173f35;
+        }
+
+        .message-date {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .message-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0.6rem 1rem;
+        }
+
+        .message-row {
+            font-size: 0.92rem;
+            color: #333;
+        }
+
+        .message-row strong {
+            color: #173f35;
+        }
+
+        .message-body {
+            margin-top: 0.9rem;
+            background: #f8f8f8;
+            border: 1px solid #e2e2e2;
+            border-radius: 6px;
+            padding: 0.85rem;
+            white-space: pre-wrap;
+            line-height: 1.5;
+            font-size: 0.92rem;
+        }
+
         @media (max-width: 768px) {
             .products-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .dashboard-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .main-content {
+                padding: 0 1rem;
             }
 
             .navbar {
@@ -231,65 +337,110 @@ if (isset($_GET['logout'])) {
 </head>
 <body>
     <div class="navbar">
-        <h1>Baus Admin Dashboard</h1>
+        <h1>Baus Admin</h1>
         <a href="?logout=1">Uitloggen</a>
     </div>
 
     <div class="container">
-        <div class="tabs">
-            <button class="tab-btn <?php echo $category === 'aanbiedingen' ? 'active' : ''; ?>" 
-                    onclick="window.location.href='?category=aanbiedingen'">
-                Aanbiedingen
-            </button>
-            <button class="tab-btn <?php echo $category === 'tweedehands' ? 'active' : ''; ?>" 
-                    onclick="window.location.href='?category=tweedehands'">
-                Tweedehands
-            </button>
-        </div>
+        <div class="dashboard-layout">
+            <aside class="sidebar">
+                <div class="tabs">
+                    <button class="tab-btn <?php echo $tab === 'products' && $category === 'aanbiedingen' ? 'active' : ''; ?>" 
+                            onclick="window.location.href='?tab=products&category=aanbiedingen'">
+                        Aanbiedingen
+                    </button>
+                    <button class="tab-btn <?php echo $tab === 'products' && $category === 'tweedehands' ? 'active' : ''; ?>" 
+                            onclick="window.location.href='?tab=products&category=tweedehands'">
+                        Tweedehands
+                    </button>
+                    <button class="tab-btn <?php echo $tab === 'berichten' ? 'active' : ''; ?>" 
+                            onclick="window.location.href='?tab=berichten'">
+                        Vraagformulier Berichten
+                    </button>
+                </div>
+            </aside>
 
-        <button class="btn btn-add" onclick="window.location.href='product-form.php?category=<?php echo $category; ?>'">
-            ➕ Nieuw Product Toevoegen
-        </button>
+            <section class="main-content">
+            <?php if ($tab === 'products'): ?>
+                <button class="btn btn-add" onclick="window.location.href='product-form.php?category=<?php echo $category; ?>'">
+                    ➕ Nieuw Product Toevoegen
+                </button>
 
-        <?php if (empty($products)): ?>
-            <div class="empty-state">
-                <p>Geen producten gevonden.</p>
-                <p>Klik op "Nieuw Product Toevoegen" om te starten.</p>
-            </div>
-        <?php else: ?>
-            <div class="products-grid">
-                <?php foreach ($products as $index => $product): ?>
-                    <div class="product-card">
-                        <?php if (!empty($product['image'])): ?>
-                            <img src="<?php echo htmlspecialchars($product['image']); ?>" alt="<?php echo htmlspecialchars($product['name']); ?>" class="product-image">
-                        <?php else: ?>
-                            <div class="product-image" style="background: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #ccc;">
-                                Geen afbeelding
-                            </div>
-                        <?php endif; ?>
-                        
-                        <div class="product-info">
-                            <h3><?php echo htmlspecialchars($product['name']); ?></h3>
-                            <?php if (!empty($product['price'])): ?>
-                                <p class="price"><?php echo htmlspecialchars($product['price']); ?></p>
-                            <?php endif; ?>
-                            <p><?php echo substr(htmlspecialchars($product['description'] ?? ''), 0, 80) . (strlen($product['description'] ?? '') > 80 ? '...' : ''); ?></p>
-                            
-                            <div class="actions">
-                                <button class="btn btn-edit" onclick="window.location.href='product-form.php?category=<?php echo $category; ?>&index=<?php echo $index; ?>'">
-                                    Wijzigen
-                                </button>
-                                <button class="btn btn-delete" onclick="deleteProduct(<?php echo $index; ?>)">
-                                    Verwijderen
-                                </button>
-                            </div>
-                        </div>
+                <?php if (empty($products)): ?>
+                    <div class="empty-state">
+                        <p>Geen producten gevonden.</p>
+                        <p>Klik op "Nieuw Product Toevoegen" om te starten.</p>
                     </div>
-                <?php endforeach; ?>
-            </div>
-        <?php endif; ?>
+                <?php else: ?>
+                    <div class="products-grid">
+                        <?php foreach ($products as $index => $product): ?>
+                            <div class="product-card">
+                                <?php if (!empty($product['image'])): ?>
+                                    <img src="<?php echo htmlspecialchars($product['image']); ?>" alt="<?php echo htmlspecialchars($product['name']); ?>" class="product-image">
+                                <?php else: ?>
+                                    <div class="product-image" style="background: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #ccc;">
+                                        Geen afbeelding
+                                    </div>
+                                <?php endif; ?>
+                                
+                                <div class="product-info">
+                                    <h3><?php echo htmlspecialchars($product['name']); ?></h3>
+                                    <?php if (!empty($product['price'])): ?>
+                                        <p class="price"><?php echo htmlspecialchars($product['price']); ?></p>
+                                    <?php endif; ?>
+                                    <p><?php echo substr(htmlspecialchars($product['description'] ?? ''), 0, 80) . (strlen($product['description'] ?? '') > 80 ? '...' : ''); ?></p>
+                                    
+                                    <div class="actions">
+                                        <button class="btn btn-edit" onclick="window.location.href='product-form.php?category=<?php echo $category; ?>&index=<?php echo $index; ?>'">
+                                            Wijzigen
+                                        </button>
+                                        <button class="btn btn-delete" onclick="deleteProduct(<?php echo $index; ?>)">
+                                            Verwijderen
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                <?php endif; ?>
+            <?php else: ?>
+                <?php if (empty($messages)): ?>
+                    <div class="empty-state">
+                        <p>Er zijn nog geen formulierberichten binnengekomen.</p>
+                    </div>
+                <?php else: ?>
+                    <div class="messages-list">
+                        <?php foreach ($messages as $message): ?>
+                            <?php
+                                $submittedAt = $message['submitted_at'] ?? null;
+                                $submittedLabel = $submittedAt ? date('d-m-Y H:i:s', strtotime($submittedAt)) : 'Onbekend';
+                            ?>
+                            <article class="message-card">
+                                <div class="message-header">
+                                    <div class="message-title">
+                                        <?php echo htmlspecialchars(trim(($message['voornaam'] ?? '') . ' ' . ($message['naam'] ?? '')) ?: 'Onbekende afzender'); ?>
+                                    </div>
+                                    <div class="message-date">Verstuurd op: <?php echo htmlspecialchars($submittedLabel); ?></div>
+                                </div>
+
+                                <div class="message-grid">
+                                    <div class="message-row"><strong>E-mail:</strong> <?php echo htmlspecialchars($message['email'] ?? '-'); ?></div>
+                                    <div class="message-row"><strong>Telefoon:</strong> <?php echo htmlspecialchars($message['telefoon'] ?? '-'); ?></div>
+                                    <div class="message-row"><strong>Adres:</strong> <?php echo htmlspecialchars($message['adres'] ?? '-'); ?></div>
+                                    <div class="message-row"><strong>Woonplaats:</strong> <?php echo htmlspecialchars($message['woonplaats'] ?? '-'); ?></div>
+                                </div>
+
+                                <div class="message-body"><?php echo htmlspecialchars($message['bericht'] ?? ''); ?></div>
+                            </article>
+                        <?php endforeach; ?>
+                    </div>
+                <?php endif; ?>
+            <?php endif; ?>
+            </section>
+        </div>
     </div>
 
+    <?php if ($tab === 'products'): ?>
     <script>
         function deleteProduct(index) {
             if (confirm('Weet je zeker dat je dit product wilt verwijderen?')) {
@@ -318,5 +469,6 @@ if (isset($_GET['logout'])) {
             }
         }
     </script>
+    <?php endif; ?>
 </body>
 </html>

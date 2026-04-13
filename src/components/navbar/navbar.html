@@ -1,13 +1,25 @@
 <header class="site-header" id="site-header">
   <nav class="navbar" role="navigation" aria-label="Hoofdnavigatie">
-    <div class="navbar-start">
-      <button class="hamburger" id="hamburger" aria-label="Menu openen" aria-expanded="false" aria-controls="nav-menu">
+    <div class="navbar-left">
+      <button class="hamburger" id="hamburger" aria-label="Menu openen" aria-expanded="false" aria-controls="nav-menu-left nav-menu-right">
         <span></span><span></span><span></span>
       </button>
 
-      <ul class="nav-menu" id="nav-menu" role="list">
-        <!-- nav items -->
+      <ul class="nav-menu nav-menu-left" id="nav-menu-left" role="list">
+        <!-- nav items left -->
       </ul>
+    </div>
+
+    <a href="/" class="nav-logo-center" aria-label="Baus - Startpagina">
+      <img src="/images/baus-logo.png" alt="Baus Logo" class="logo-img" />
+    </a>
+
+    <div class="navbar-right">
+      <ul class="nav-menu nav-menu-right" id="nav-menu-right" role="list">
+        <!-- nav items right -->
+      </ul>
+
+      <a href="?page=vraag" class="nav-contact-box" aria-label="Ga naar vraagformulier">Heeft u een vraag?</a>
     </div>
   </nav>
 </header>

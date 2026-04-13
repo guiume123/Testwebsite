@@ -34,6 +34,8 @@ import './components/sponsors/sponsors.css';
 import { createContact, initContact } from './components/contact';
 import './components/contact/contact.css';
 
+import { createVraag, initVraag } from './components/vraag';
+
 import { createOpeningsuren, initOpeningsuren } from './components/openingsuren';
 import './components/openingsuren/openingsuren.css';
 
@@ -47,10 +49,21 @@ function renderApp() {
   if (!app) return;
 
   const urlParams = new URLSearchParams(window.location.search);
+  const page = urlParams.get('page');
   const category = urlParams.get('category');
   const type = urlParams.get('type');
 
-  if (category === 'aanbiedingen') {
+  if (page === 'vraag') {
+    app.innerHTML = `
+      ${createAnnouncementBar()}
+      ${createNavbar()}
+      ${createOpeningsuren()}
+      <main>
+        ${createVraag()}
+      </main>
+      ${createFooter()}
+    `;
+  } else if (category === 'aanbiedingen') {
     app.innerHTML = `
       ${createAnnouncementBar()}
       ${createNavbar()}
@@ -102,6 +115,7 @@ async function initApp() {
   renderApp();
 
   const urlParams = new URLSearchParams(window.location.search);
+  const page = urlParams.get('page');
   const category = urlParams.get('category');
   const type = urlParams.get('type');
 
@@ -109,7 +123,9 @@ async function initApp() {
   initNavbar();
   initOpeningsuren();
 
-  if (category === 'aanbiedingen') {
+  if (page === 'vraag') {
+    initVraag();
+  } else if (category === 'aanbiedingen') {
     initAanbiedingen();
   } else if (category === 'tweedehands') {
     initTweedehands();

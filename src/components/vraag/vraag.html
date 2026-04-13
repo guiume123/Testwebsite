@@ -1,0 +1,53 @@
+<section class="vraag-section" id="vraag" aria-label="Vraagformulier">
+  <div class="container">
+    <h2 class="vraag-title">Contact</h2>
+    <p class="vraag-subtitle">Heeft U een vraag, neem dan gerust contact met ons op.
+    Of laat een berichtje achter, wij contacteren U zo spoedig mogelijk terug.</p>
+
+    <form class="vraag-form" novalidate>
+      <div class="vraag-form-grid">
+        <div class="vraag-form-left">
+          <div class="vraag-field">
+            <label for="vraag-naam">Naam</label>
+            <input id="vraag-naam" name="naam" type="text" placeholder="Naam" />
+          </div>
+
+          <div class="vraag-field">
+            <label for="vraag-voornaam">Voornaam</label>
+            <input id="vraag-voornaam" name="voornaam" type="text" placeholder="Voornaam" />
+          </div>
+
+          <div class="vraag-field">
+            <label for="vraag-email">E-mail</label>
+            <input id="vraag-email" name="email" type="email" placeholder="jouw@email.be" required />
+          </div>
+
+          <div class="vraag-field">
+            <label for="vraag-telefoon">Telefoon</label>
+            <input id="vraag-telefoon" name="telefoon" type="tel" inputmode="tel" pattern="\+?[0-9]*" maxlength="20" placeholder="+32 000 00 00 00" />
+          </div>
+
+          <div class="vraag-field">
+            <label for="vraag-adres">Adres</label>
+            <input id="vraag-adres" name="adres" type="text" placeholder="Straatnaam en huisnummer" />
+          </div>
+
+          <div class="vraag-field">
+            <label for="vraag-woonplaats">Woonplaats</label>
+            <input id="vraag-woonplaats" name="woonplaats" type="text" placeholder="Jouw woonplaats" />
+          </div>
+        </div>
+
+        <div class="vraag-form-right">
+          <div class="vraag-field vraag-field-bericht">
+            <label for="vraag-bericht">Bericht</label>
+            <textarea id="vraag-bericht" name="bericht" rows="6" placeholder="Jouw vraag..."></textarea>
+          </div>
+
+          <button class="vraag-submit" type="submit">Verstuur</button>
+          <p class="vraag-feedback" aria-live="polite"></p>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>

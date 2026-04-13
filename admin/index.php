@@ -130,7 +130,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <div class="login-header">
             <h1>Baus Admin</h1>
-            <p>Aanbiedingen & Tweedehands beheren</p>
         </div>
 
         <div class="error-message"><?php echo htmlspecialchars($error); ?></div>

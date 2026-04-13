@@ -34,8 +34,17 @@
   display: flex;
   gap: 3rem;
   padding: 0 2rem;
-  animation: scroll 30s linear infinite;
+  animation: sponsors-scroll var(--sponsors-scroll-duration, 30s) linear infinite;
   will-change: transform;
+}
+
+.sponsors-scroll.is-paused {
+  animation-play-state: paused;
+}
+
+.sponsors-scroll.is-reduced-motion {
+  animation: none;
+  transform: none;
 }
 
 .sponsor-item {
@@ -55,12 +64,12 @@
   object-fit: contain;
 }
 
-@keyframes scroll {
+@keyframes sponsors-scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-180px * 8 - 3rem * 8));
+    transform: translateX(calc(-1 * var(--sponsors-scroll-distance, 1600px)));
   }
 }
 
@@ -86,13 +95,11 @@
     min-width: 140px;
     height: 100px;
   }
+}
 
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-140px * 8 - 2rem * 8));
-    }
+@media (prefers-reduced-motion: reduce) {
+  .sponsors-scroll {
+    animation: none;
+    transform: none;
   }
 }

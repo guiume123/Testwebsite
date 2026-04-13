@@ -78,10 +78,7 @@ const navItems: NavItem[] = [
   {
     label: 'Aanbiedingen', href: '?category=aanbiedingen', id: 'nav-aanbiedingen',
   },
-   {
-    label: 'Logo', href: '/', id: 'nav-logo', isLogo: true,
-  },
-   {
+  {
     label: 'Tweedehands', href: '?category=tweedehands', id: 'nav-tweedehands',
   },
   {
@@ -89,17 +86,12 @@ const navItems: NavItem[] = [
   },
 ];
 
-function renderNavItem(item: NavItem, isNested: boolean = false): string {
-  if ((item as any).isLogo) {
-    return `
-    <li class="nav-item nav-item--logo">
-      <a href="${item.href}" class="nav-link nav-link--logo" id="${item.id}" aria-label="Baus - Startpagina">
-        <img src="/images/baus-logo.png" alt="Baus Logo" class="logo-img" />
-      </a>
-    </li>
-  `;
-  }
+const navItemsLeft = navItems.filter(
+  item => item.id === 'nav-producten' || item.id === 'nav-aanbiedingen' || item.id === 'nav-tweedehands'
+);
+const navItemsRight = navItems.filter(item => item.id === 'nav-openingsuren');
 
+function renderNavItem(item: NavItem, isNested: boolean = false): string {
   const hasChildren = item.children && item.children.length > 0;
   const dropdownHtml = hasChildren
     // FIX: nested items get ONLY 'dropdown--nested', not both classes
@@ -122,16 +114,19 @@ function renderNavItem(item: NavItem, isNested: boolean = false): string {
 }
 
 export function createNavbar(): string {
-  const navItemsHtml = navItems.map(item => renderNavItem(item)).join('');
+  const navItemsLeftHtml = navItemsLeft.map(item => renderNavItem(item)).join('');
+  const navItemsRightHtml = navItemsRight.map(item => renderNavItem(item)).join('');
   return navbarHTML
-    .replace('<!-- nav items -->', navItemsHtml)
+    .replace('<!-- nav items left -->', navItemsLeftHtml)
+    .replace('<!-- nav items right -->', navItemsRightHtml)
     .replace('<span id="phone-icon"></span>', icons.phone);
 }
 
 export function initNavbar(): void {
   const header = document.getElementById('site-header');
   const hamburger = document.getElementById('hamburger');
-  const navMenu = document.getElementById('nav-menu');
+  const navMenuLeft = document.getElementById('nav-menu-left');
+  const navMenuRight = document.getElementById('nav-menu-right');
 
   // Sticky header on scroll
   if (header) {
@@ -153,12 +148,13 @@ export function initNavbar(): void {
   }
 
   // Mobile hamburger toggle
-  if (hamburger && navMenu) {
+  if (hamburger && navMenuLeft) {
     hamburger.addEventListener('click', () => {
       const isOpen = hamburger.getAttribute('aria-expanded') === 'true';
       hamburger.setAttribute('aria-expanded', String(!isOpen));
       hamburger.classList.toggle('is-active');
-      navMenu.classList.toggle('nav-menu--open');
+      navMenuLeft.classList.toggle('nav-menu--open');
+      if (navMenuRight) navMenuRight.classList.toggle('nav-menu--open');
       document.body.classList.toggle('nav-open');
     });
   }
@@ -213,10 +209,11 @@ export function initNavbar(): void {
     link.addEventListener('click', () => {
       const parentItem = link.closest('.nav-item');
       const hasChildren = parentItem?.classList.contains('has-dropdown');
-      if (!hasChildren && navMenu && hamburger && window.innerWidth <= 1024) {
+      if (!hasChildren && navMenuLeft && hamburger && window.innerWidth <= 1024) {
         hamburger.setAttribute('aria-expanded', 'false');
         hamburger.classList.remove('is-active');
-        navMenu.classList.remove('nav-menu--open');
+        navMenuLeft.classList.remove('nav-menu--open');
+        if (navMenuRight) navMenuRight.classList.remove('nav-menu--open');
         document.body.classList.remove('nav-open');
       }
     });
