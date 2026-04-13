@@ -59,6 +59,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             margin-bottom: 2rem;
         }
 
+        .login-logo {
+            width: 170px;
+            max-width: 70%;
+            height: auto;
+            margin: 0 auto 1rem;
+            display: block;
+        }
+
         .login-header h1 {
             color: #173f35;
             font-size: 1.8rem;
@@ -129,6 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <div class="login-container">
         <div class="login-header">
+            <img src="../public/images/logo/baus-logo.png" alt="Baus logo" class="login-logo">
             <h1>Baus Admin</h1>
         </div>
 

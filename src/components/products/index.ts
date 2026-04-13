@@ -4,6 +4,14 @@ import productsData from '../../data/products.json';
 
 let products: any[] = productsData;
 
+const GEWEREN_BRAND_IMAGE_MAP: Record<string, string> = {
+  artisanale: '/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Artsinale.jpg',
+  fair: '/src/assets/products/wapens/geweren-en-karabijnen/Fair/Fair.jpg',
+  browning: '/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning.jpg',
+  winchester: '/src/assets/products/wapens/geweren-en-karabijnen/Winchester/Winchester.jpg',
+  diverse: '/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Diverse.jpg'
+};
+
 function getParams() {
   const urlParams = new URLSearchParams(window.location.search);
   return {
@@ -87,6 +95,7 @@ export function initProducts() {
 
   const titleEl = document.getElementById('category-title');
   const subtitleEl = document.getElementById('category-subtitle');
+  const labelEl = document.getElementById('category-label');
   if (titleEl) titleEl.textContent = title;
   if (subtitleEl) subtitleEl.style.display = 'none';
 
@@ -94,6 +103,8 @@ export function initProducts() {
   const section = document.querySelector('.products-section') as HTMLElement;
 
   if (subcategory && subcategory.toLowerCase() === 'geweren en karabijnen' && !brand && grid) {
+    if (labelEl) labelEl.style.display = 'none';
+    if (section) section.classList.add('geweren-brand-view');
     if (section) section.style.backgroundColor = 'var(--c-baus-green, #173f35)';
     if (titleEl) {
       titleEl.style.color = 'var(--c-baus-gold, #d39535)';
@@ -102,17 +113,17 @@ export function initProducts() {
     
     const brands = Array.from(new Set(filteredProducts.map(p => p.brand).filter(Boolean))) as string[];
     
-    grid.style.display = 'grid';
-    grid.style.gridTemplateColumns = 'repeat(auto-fit, minmax(280px, 1fr))';
-    grid.style.gap = '3rem';
-    grid.style.paddingTop = '1rem';
+    grid.classList.add('geweren-brand-grid');
     
     grid.innerHTML = brands.map(b => {
       const firstProduct = filteredProducts.find(p => p.brand === b);
       const sub = firstProduct?.subcategory ? firstProduct.subcategory.toLowerCase().replace(/ /g, '-') : 'unknown';
       let imagePath = '/placeholder.jpg';
+      const brandImage = GEWEREN_BRAND_IMAGE_MAP[b.toLowerCase()];
       
-      if (firstProduct) {
+      if (brandImage) {
+        imagePath = brandImage;
+      } else if (firstProduct) {
         if (firstProduct.image) {
           imagePath = firstProduct.image;
         } else {
@@ -123,21 +134,24 @@ export function initProducts() {
       return `
         <a href="?category=${encodeURIComponent(category || '')}&subcategory=${encodeURIComponent(subcategory)}&brand=${encodeURIComponent(b)}" style="text-decoration: none; color: inherit;">
           <div class="product-card" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; background: transparent; height: 100%; border: none; box-shadow: none;">
-            <div style="height: 200px; background: #fff; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 1rem; padding: 1rem;">
+            <div style="height: 150px; background: #fff; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 0.75rem; padding: 0.75rem;">
               <img src="${imagePath}" alt="${b}" style="max-height: 100%; max-width: 100%; object-fit: contain;" loading="lazy" onerror="this.src='/placeholder.jpg'">
             </div>
-            <h3 style="color: var(--c-baus-gold, #d39535); font-style: italic; font-size: 1.5rem; font-weight: 700; text-transform: uppercase; margin: 0; align-self: flex-start; width: 100%;">${b}</h3>
+            <h3 style="color: var(--c-baus-gold, #d39535); font-style: italic; font-size: 1.3rem; font-weight: 700; text-transform: uppercase; margin: 0; align-self: flex-start; width: 100%;">${b}</h3>
           </div>
         </a>
       `;
     }).join('');
   } else if (grid) {
     grid.style.cssText = '';
+    grid.classList.remove('geweren-brand-grid');
+    if (section) section.classList.remove('geweren-brand-view');
     if (section) section.style.backgroundColor = '';
     if (titleEl) {
       titleEl.style.color = '';
       titleEl.parentElement!.style.backgroundColor = '';
     }
+    if (labelEl) labelEl.style.display = '';
     grid.innerHTML = filteredProducts.map(p => renderProductCard(p, !!isTweedehands)).join('');
   }
 

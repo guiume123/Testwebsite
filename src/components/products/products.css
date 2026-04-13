@@ -5,6 +5,14 @@
   position: relative;
 }
 
+.products-section.geweren-brand-view {
+  padding-top: 1rem;
+}
+
+.products-section.geweren-brand-view .section-header {
+  margin-bottom: 1.5rem;
+}
+
 .products-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -28,6 +36,14 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
+}
+
+.products-grid.geweren-brand-grid {
+  grid-template-columns: repeat(3, minmax(220px, 280px));
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 0.75rem;
+  padding-top: 0;
 }
 
 .product-card {
@@ -176,6 +192,10 @@
     margin-left: 0;
   }
 
+  .products-grid.geweren-brand-grid {
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+  }
+
   .products-sidebar {
     position: relative;
     left: auto;
@@ -183,5 +203,11 @@
     width: auto;
     max-height: none;
     margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .products-grid.geweren-brand-grid {
+    grid-template-columns: 1fr;
   }
 }

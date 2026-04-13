@@ -1,7 +1,7 @@
 [
   {
     "name": "Barbour Bardon Quilt",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/703_Barbour_bardon_Quilt.3393aaf8f40f674f455d46956ce6e3e0.jpg",
+    "image": "/src/assets/products/kleding/kleding/Barbour Bardon Quilt/Barbour_Bardon_Quilt.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -11,7 +11,7 @@
   },
   {
     "name": "Barbour Cordbridge Wax Jacket",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/702_Barbour_Cordbridge_Wax_Jacket.3393aaf8f40f674f455d46956ce6e3e0.jpg",
+    "image": "/src/assets/products/kleding/kleding/Barbour Cordbridge Wax Jacket/Barbour_Cordbridge_Wax_Jacket.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Fjäll Räven Forest Fleece Jacket",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/701_Forest_Fleece_Jacket.95231e2e0b5fdc41fff452e281a5cc51.png",
+    "image": "/src/assets/products/kleding/kleding/Fjäll Räven Forest Fleece Jacket/Fjäll_Räven_Forest_Fleece_Jacket.png",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Fjäll Räven Karl Pro Trousers ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/699_Karl_Pro_Trousers_M.95231e2e0b5fdc41fff452e281a5cc51.png",
+    "image": "/src/assets/products/kleding/kleding/Fjäll Räven Karl Pro Trousers/Fjäll_Räven_Karl_Pro_Trousers_.png",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Deerhunter Wingshooter Fleece ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/700_Wingshooter_Fleece_W_Membrane.95231e2e0b5fdc41fff452e281a5cc51.png",
+    "image": "/src/assets/products/kleding/kleding/Deerhunter Wingshooter Fleece/Deerhunter_Wingshooter_Fleece_.png",
     "price": null,
     "description": null,
     "main_category": "Kleding",

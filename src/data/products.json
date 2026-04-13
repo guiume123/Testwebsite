@@ -140,46 +140,6 @@
     "link": "https://baus.be/luchtdrukwapens.html"
   },
   {
-    "name": "Bipod ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/651_Bipod_TMB_II.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
-    "name": "Gamo Field Target ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/655_Gamo_Squirrel_target_trap.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
-    "name": "Walther Pellet ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/652_Walther_Pellet_Trap.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": "Walther",
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
-    "name": "Walther Magnum Pellet ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/653_Walther_Magnum_Pellet_Trap.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": "Walther",
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
     "name": "RWS",
     "image": "https://baus.be/assets/components/phpthumbof/cache/650_rws.5e40cf4b6d3c902c426a815952637b14.jpg",
     "price": null,
@@ -1111,85 +1071,85 @@
     "subcategory": "Luchtdrukwapens"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Luchtdruk Flessen",
+    "cat": "Wapens",
+    "sub": "Luchtdrukwapens",
     "brand": "Diverse",
     "name": "Luchtdruk fles 4L en 7L 300 Bar met Gun Valve en manometer -",
-    "image": "/src/assets/products/toebehoren/luchtdruk-flessen/Luchtdruk%20fles%204L%20en%207L%20300%20Bar%20met%20Gun%20Valve%20en%20manometer%20-/Luchtdruk_fles_4L_en_7L_300_Bar_met_Gun_Valve_en_manometer_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Luchtdruk Flessen"
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Luchtdruk%20fles%204L%20en%207L%20300%20Bar%20met%20Gun%20Valve%20en%20manometer%20-/Luchtdruk_fles_4L_en_7L_300_Bar_met_Gun_Valve_en_manometer_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Accessoires Luchtkarabijnen",
+    "cat": "Wapens",
+    "sub": "Luchtdrukwapens",
     "brand": "Diverse",
     "name": "Bipod",
-    "image": "/src/assets/products/toebehoren/accessoires-luchtkarabijnen/Bipod/Bipod_.png",
-    "main_category": "Toebehoren",
-    "subcategory": "Accessoires Luchtkarabijnen"
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Bipod/Bipod_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Doelen en Kogelvangers",
+    "cat": "Wapens",
+    "sub": "Luchtdrukwapens",
     "brand": "Diana",
     "name": "Kogelvangers Silhouetten -",
-    "image": "/src/assets/products/toebehoren/doelen-en-kogelvangers/Kogelvangers%20Silhouetten%20-/Kogelvangers_Silhouetten_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Doelen en Kogelvangers"
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Kogelvangers%20Silhouetten%20-/Kogelvangers_Silhouetten_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Doelen en Kogelvangers",
+    "cat": "Wapens",
+    "sub": "Luchtdrukwapens",
     "brand": "Gamo",
     "name": "Gamo Packet 100 Assorted Targets",
-    "image": "/src/assets/products/toebehoren/doelen-en-kogelvangers/Gamo%20Packet%20100%20Assorted%20Targets/Gamo_Packet_100_Assorted_Targets.png",
-    "main_category": "Toebehoren",
-    "subcategory": "Doelen en Kogelvangers"
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo%20Packet%20100%20Assorted%20Targets/Gamo_Packet_100_Assorted_Targets.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Doelen en Kogelvangers",
+    "cat": "Wapens",
+    "sub": "Luchtdrukwapens",
     "brand": "Gamo",
     "name": "Gamo Field Target",
-    "image": "/src/assets/products/toebehoren/doelen-en-kogelvangers/Gamo%20Field%20Target/Gamo_Field_Target_.png",
-    "main_category": "Toebehoren",
-    "subcategory": "Doelen en Kogelvangers"
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo%20Field%20Target/Gamo_Field_Target_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Munitie Luchtkarabijnen",
+    "cat": "Wapens",
+    "sub": "Luchtdrukwapens",
     "brand": "Walther",
     "name": "Walther Pellet",
-    "image": "/src/assets/products/toebehoren/munitie-luchtkarabijnen/Walther%20Pellet/Walther_Pellet_.png",
-    "main_category": "Toebehoren",
-    "subcategory": "Munitie Luchtkarabijnen"
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Walther%20Pellet/Walther_Pellet_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Munitie Luchtkarabijnen",
+    "cat": "Wapens",
+    "sub": "Luchtdrukwapens",
     "brand": "Walther",
     "name": "Walther Magnum Pellet",
-    "image": "/src/assets/products/toebehoren/munitie-luchtkarabijnen/Walther%20Magnum%20Pellet/Walther_Magnum_Pellet_.png",
-    "main_category": "Toebehoren",
-    "subcategory": "Munitie Luchtkarabijnen"
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Walther%20Magnum%20Pellet/Walther_Magnum_Pellet_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Foudralen",
+    "cat": "Wapens",
+    "sub": "Luchtdrukwapens",
     "brand": "Gamo",
     "name": "Gamo Gun Cover Black Green 130cm",
-    "image": "/src/assets/products/toebehoren/foudralen/Gamo%20Gun%20Cover%20Black%20Green%20130cm/Gamo_Gun_Cover_Black_Green_130cm.png",
-    "main_category": "Toebehoren",
-    "subcategory": "Foudralen"
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo%20Gun%20Cover%20Black%20Green%20130cm/Gamo_Gun_Cover_Black_Green_130cm.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Doelen en Kogelvangers",
+    "cat": "Wapens",
+    "sub": "Luchtdrukwapens",
     "brand": "Gamo",
     "name": "Spinner Target Spinner Target De Luxe -",
-    "image": "/src/assets/products/toebehoren/doelen-en-kogelvangers/Spinner%20Target%20Spinner%20Target%20De%20Luxe%20-/Spinner_Target_Spinner_Target_De_Luxe_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Doelen en Kogelvangers"
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Spinner%20Target%20Spinner%20Target%20De%20Luxe%20-/Spinner_Target_Spinner_Target_De_Luxe_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   },
   {
     "cat": "Wapens",
@@ -1597,49 +1557,49 @@
     "subcategory": "CO2 Pistolen en Revolvers"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Munitie CO2",
+    "cat": "Wapens",
+    "sub": "CO2 Pistolen en Revolvers",
     "brand": "Umarex",
     "name": "BB Steel C-4,5mm -",
-    "image": "/src/assets/products/toebehoren/munitie-co2/BB%20Steel%20C-4%2C5mm%20-/BB_Steel_C-4%2C5mm_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Munitie CO2"
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/BB%20Steel%20C-4%2C5mm%20-/BB_Steel_C-4%2C5mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Munitie CO2",
+    "cat": "Wapens",
+    "sub": "CO2 Pistolen en Revolvers",
     "brand": "Diverse",
     "name": "CO2 Busjes per stuk verkrijgbaar -",
-    "image": "/src/assets/products/toebehoren/munitie-co2/CO2%20Busjes%20per%20stuk%20verkrijgbaar%20-/CO2_Busjes_per_stuk_verkrijgbaar_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Munitie CO2"
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2%20Busjes%20per%20stuk%20verkrijgbaar%20-/CO2_Busjes_per_stuk_verkrijgbaar_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Optiek",
+    "cat": "Wapens",
+    "sub": "CO2 Pistolen en Revolvers",
     "brand": "Hawke",
     "name": "Red Dot Hawke 1x30 -",
-    "image": "/src/assets/products/toebehoren/optiek/Red%20Dot%20Hawke%201x30%20-/Red_Dot_Hawke_1x30_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Optiek"
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/Red%20Dot%20Hawke%201x30%20-/Red_Dot_Hawke_1x30_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Holsters",
+    "cat": "Wapens",
+    "sub": "CO2 Pistolen en Revolvers",
     "brand": "Umarex",
     "name": "Belt Holster 2",
-    "image": "/src/assets/products/toebehoren/holsters/Belt%20Holster%202/Belt_Holster_2.png",
-    "main_category": "Toebehoren",
-    "subcategory": "Holsters"
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/Belt%20Holster%202/Belt_Holster_2.png",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Holsters",
+    "cat": "Wapens",
+    "sub": "CO2 Pistolen en Revolvers",
     "brand": "Umarex",
     "name": "Belt Holster",
-    "image": "/src/assets/products/toebehoren/holsters/Belt%20Holster/Belt_Holster.png",
-    "main_category": "Toebehoren",
-    "subcategory": "Holsters"
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/Belt%20Holster/Belt_Holster.png",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
   },
   {
     "cat": "Wapens",
@@ -1798,8 +1758,8 @@
     "cat": "Wapens",
     "sub": "Soft-Air Guns",
     "brand": "CZ",
-    "name": "Spoft Air CZ 75- P 07 Duty 6mm",
-    "image": "/src/assets/products/wapens/soft-air-guns/Spoft%20Air%20CZ%2075-%20P%2007%20Duty%206mm/Spoft_Air_CZ_75-_P_07_Duty_6mm.png",
+    "name": "Soft Air CZ 75- P 07 Duty 6mm",
+    "image": "/src/assets/products/wapens/soft-air-guns/Soft%20Air%20CZ%2075-%20P%2007%20Duty%206mm/Soft_Air_CZ_75-_P_07_Duty_6mm.png",
     "main_category": "Wapens",
     "subcategory": "Soft-Air Guns"
   },
@@ -1813,76 +1773,76 @@
     "subcategory": "Soft-Air Guns"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Toebehoren Soft-Air",
+    "cat": "Wapens",
+    "sub": "Soft-Air Guns",
     "brand": "Diverse",
     "name": "Doelkaart met opvang voor BB bolletjes -",
-    "image": "/src/assets/products/toebehoren/toebehoren-soft-air/Doelkaart%20met%20opvang%20voor%20BB%20bolletjes%20-/Doelkaart_met_opvang_voor_BB_bolletjes_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Toebehoren Soft-Air"
+    "image": "/src/assets/products/wapens/soft-air-guns/Doelkaart%20met%20opvang%20voor%20BB%20bolletjes%20-/Doelkaart_met_opvang_voor_BB_bolletjes_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Toebehoren Soft-Air",
+    "cat": "Wapens",
+    "sub": "Soft-Air Guns",
     "brand": "Diverse",
     "name": "BB bolletjes BIO 20-25-28-32",
-    "image": "/src/assets/products/toebehoren/toebehoren-soft-air/BB%20bolletjes%20BIO%2020-25-28-32/BB_bolletjes_BIO_20-25-28-32.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Toebehoren Soft-Air"
+    "image": "/src/assets/products/wapens/soft-air-guns/BB%20bolletjes%20BIO%2020-25-28-32/BB_bolletjes_BIO_20-25-28-32.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Toebehoren Soft-Air",
+    "cat": "Wapens",
+    "sub": "Soft-Air Guns",
     "brand": "Diverse",
     "name": "Doelschijf met opvang voor BB bolletjes (kleefstrook) -",
-    "image": "/src/assets/products/toebehoren/toebehoren-soft-air/Doelschijf%20met%20opvang%20voor%20BB%20bolletjes%20(kleefstrook)%20-/Doelschijf_met_opvang_voor_BB_bolletjes_(kleefstrook)_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Toebehoren Soft-Air"
+    "image": "/src/assets/products/wapens/soft-air-guns/Doelschijf%20met%20opvang%20voor%20BB%20bolletjes%20(kleefstrook)%20-/Doelschijf_met_opvang_voor_BB_bolletjes_(kleefstrook)_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Toebehoren Soft-Air",
+    "cat": "Wapens",
+    "sub": "Soft-Air Guns",
     "brand": "Ultrair",
     "name": "Ultrair Power Gas voor Soft Air -",
-    "image": "/src/assets/products/toebehoren/toebehoren-soft-air/Ultrair%20Power%20Gas%20voor%20Soft%20Air%20-/Ultrair_Power_Gas_voor_Soft_Air_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Toebehoren Soft-Air"
+    "image": "/src/assets/products/wapens/soft-air-guns/Ultrair%20Power%20Gas%20voor%20Soft%20Air%20-/Ultrair_Power_Gas_voor_Soft_Air_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Toebehoren Soft-Air",
+    "cat": "Wapens",
+    "sub": "Soft-Air Guns",
     "brand": "Diverse",
     "name": "Beschermbril -",
-    "image": "/src/assets/products/toebehoren/toebehoren-soft-air/Beschermbril%20-/Beschermbril_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Toebehoren Soft-Air"
+    "image": "/src/assets/products/wapens/soft-air-guns/Beschermbril%20-/Beschermbril_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Holsters",
+    "cat": "Wapens",
+    "sub": "Soft-Air Guns",
     "brand": "Diverse",
     "name": "Universeel holster -",
-    "image": "/src/assets/products/toebehoren/holsters/Universeel%20holster%20-/Universeel_holster_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Holsters"
+    "image": "/src/assets/products/wapens/soft-air-guns/Universeel%20holster%20-/Universeel_holster_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Holsters",
+    "cat": "Wapens",
+    "sub": "Soft-Air Guns",
     "brand": "Umarex",
     "name": "Universeel holster 2 -",
-    "image": "/src/assets/products/toebehoren/holsters/Universeel%20holster%202%20-/Universeel_holster_2_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Holsters"
+    "image": "/src/assets/products/wapens/soft-air-guns/Universeel%20holster%202%20-/Universeel_holster_2_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
   },
   {
-    "cat": "Toebehoren",
-    "sub": "Holsters",
+    "cat": "Wapens",
+    "sub": "Soft-Air Guns",
     "brand": "Diverse",
     "name": "Universeel beenholster -",
-    "image": "/src/assets/products/toebehoren/holsters/Universeel%20beenholster%20-/Universeel_beenholster_-.jpg",
-    "main_category": "Toebehoren",
-    "subcategory": "Holsters"
+    "image": "/src/assets/products/wapens/soft-air-guns/Universeel%20beenholster%20-/Universeel_beenholster_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
   },
   {
     "cat": "Wapens",
@@ -2024,7 +1984,7 @@
     "sub": "Kleding",
     "brand": "Barbour",
     "name": "Barbour Bardon Quilt",
-    "image": "/src/assets/products/kleding/kleding/Barbour%20Bardon%20Quilt/Barbour_Bardon_Quilt.jpg",
+    "image": "/src/assets/products/kleding/kleding/Barbour Bardon Quilt/Barbour_Bardon_Quilt.jpg",
     "main_category": "Kleding",
     "subcategory": "Kleding"
   },
@@ -2033,7 +1993,7 @@
     "sub": "Kleding",
     "brand": "Barbour",
     "name": "Barbour Cordbridge Wax Jacket",
-    "image": "/src/assets/products/kleding/kleding/Barbour%20Cordbridge%20Wax%20Jacket/Barbour_Cordbridge_Wax_Jacket.jpg",
+    "image": "/src/assets/products/kleding/kleding/Barbour Cordbridge Wax Jacket/Barbour_Cordbridge_Wax_Jacket.jpg",
     "main_category": "Kleding",
     "subcategory": "Kleding"
   },
@@ -2042,7 +2002,7 @@
     "sub": "Kleding",
     "brand": "Fjäll Räven",
     "name": "Fjäll Räven Forest Fleece Jacket",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/701_Forest_Fleece_Jacket.95231e2e0b5fdc41fff452e281a5cc51.png",
+    "image": "/src/assets/products/kleding/kleding/Fjäll Räven Forest Fleece Jacket/Fjäll_Räven_Forest_Fleece_Jacket.png",
     "main_category": "Kleding",
     "subcategory": "Kleding"
   },
@@ -2051,7 +2011,7 @@
     "sub": "Kleding",
     "brand": "Fjäll Räven",
     "name": "Fjäll Räven Karl Pro Trousers",
-    "image": null,
+    "image": "/src/assets/products/kleding/kleding/Fjäll Räven Karl Pro Trousers/Fjäll_Räven_Karl_Pro_Trousers_.png",
     "main_category": "Kleding",
     "subcategory": "Kleding"
   },
@@ -2060,7 +2020,7 @@
     "sub": "Kleding",
     "brand": "Deerhunter",
     "name": "Deerhunter Wingshooter Fleece",
-    "image": "/src/assets/products/kleding/kleding/Deerhunter%20Wingshooter%20Fleece/Deerhunter_Wingshooter_Fleece_.png",
+    "image": "/src/assets/products/kleding/kleding/Deerhunter Wingshooter Fleece/Deerhunter_Wingshooter_Fleece_.png",
     "main_category": "Kleding",
     "subcategory": "Kleding"
   },
@@ -2069,7 +2029,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Gilet Classic",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet%20Classic/Gilet_Classic_.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Classic/Gilet_Classic_.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2078,7 +2038,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Gilet Classic 2",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet%20Classic%202/Gilet_Classic_.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Classic 2/Giles_classic2.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2087,7 +2047,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Gilet Pro Sport",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet%20Pro%20Sport/Gilet_Pro_Sport_.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Pro Sport/Gilet_Pro_Sport_.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2096,7 +2056,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Gilet Pro Sport 2",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet%20Pro%20Sport%202/Gilet_Pro_Sport_.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Pro Sport 2/Gilet_Pro_Sport_.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2105,7 +2065,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Gilet Sporter",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet%20Sporter/Gilet_Sporter.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Sporter/Gilet_Sporter.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2114,7 +2074,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Oorbeschermer Cadence",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Oorbeschermer%20Cadence/Oorbeschermer_Cadence_.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Oorbeschermer Cadence/Oorbeschermer_Cadence_.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2123,7 +2083,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Oorbeschermer Kit Tactical",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Oorbeschermer%20Kit%20Tactical/Oorbeschermer_Kit_Tactical.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Oorbeschermer Kit Tactical/Oorbeschermer_Kit_Tactical.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2132,7 +2092,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Draagtas Phoenix",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas%20Phoenix/Draagtas_Phoenix.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas Phoenix/Draagtas_Phoenix.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2141,7 +2101,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Draagtas Ultra Flash",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas%20Ultra%20Flash/Draagtas_Ultra_Flash.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas Ultra Flash/Draagtas_Ultra_Flash.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2150,7 +2110,7 @@
     "sub": "Kleivesten en toebehoren",
     "brand": "Browning",
     "name": "Bril Kit Eagle",
-    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Bril%20Kit%20Eagle/Bril_Kit_Eagle.png",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Bril Kit Eagle/Bril_Kit_Eagle.png",
     "main_category": "Kleding",
     "subcategory": "Kleivesten en toebehoren"
   },
@@ -2159,7 +2119,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Aigle",
     "name": "Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle%20Bellastic%20Kaki%20-%20Nu%2090%E2%82%AC%20Maten%2041%20en%2047/Aigle_Bellastic_Kaki_-_Nu_90%E2%82%AC_Maten_41_en_47_.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47/Aigle_Bellastic_Kaki_-_Nu_90€_Maten_41_en_47_.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2168,7 +2128,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Aigle",
     "name": "Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle%20Benyl%20XL%20-%20NU%2080%E2%82%AC%20Maten%2040-41-42-47-48/Aigle_Benyl_XL_-_NU_80%E2%82%AC_Maten_40-41-42-47-48.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48/Aigle_Benyl_XL_-_NU_80€_Maten_40-41-42-47-48.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2177,7 +2137,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Aigle",
     "name": "Aigle Parcours 2 Bronze -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle%20Parcours%202%20Bronze%20-/Aigle_Parcours_2_Bronze_-.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Parcours 2 Bronze -/Aigle_Parcours_2_Bronze_-.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2186,7 +2146,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Aigle",
     "name": "Aigle Parcours 2 Bronze ISO -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle%20Parcours%202%20Bronze%20ISO%20-/Aigle_Parcours_2_Bronze_ISO_-.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Parcours 2 Bronze ISO -/Aigle_Parcours_2_Bronze_ISO_-.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2195,7 +2155,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Arxus",
     "name": "Arxus Primo - Primo Neoprene - Primo Neoprene Zip -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Arxus%20Primo%20-%20Primo%20Neoprene%20-%20Primo%20Neoprene%20Zip%20-/Arxus_Primo_-_Primo_Neoprene_-_Primo_Neoprene_Zip_-.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Arxus Primo - Primo Neoprene - Primo Neoprene Zip -/Arxus_Primo_-_Primo_Neoprene_-_Primo_Neoprene_Zip_-.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2204,7 +2164,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Le Chameau",
     "name": "Le Chameau Vierzon Jersey voering -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le%20Chameau%20Vierzon%20Jersey%20voering%20-/Le_Chameau_Vierzon_Jersey_voering_-.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzon Jersey voering -/Le_Chameau_Vierzon_Jersey_voering_-.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2213,7 +2173,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Le Chameau",
     "name": "Le Chameau Vierzonnord",
-    "image": null,
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord/Le_Chameau_Vierzonord_.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2222,7 +2182,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Le Chameau",
     "name": "Le Chameau Saint-Hubert Leder voering -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le%20Chameau%20Saint-Hubert%20Leder%20voering%20-/Lre_Chameau_Saint-Hubert_Leder_voering_-.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Saint-Hubert Leder voering -/Lre_Chameau_Saint-Hubert_Leder_voering_-.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2231,7 +2191,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Le Chameau",
     "name": "Le Chameau Country",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le%20Chameau%20Country/Le_Chameau_Country_.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Country/Le_Chameau_Country_.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2240,7 +2200,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Le Chameau",
     "name": "Le Chameau Chasseur Fourree",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le%20Chameau%20Chasseur%20Fourree/Le_Chameau_Chasseur_Fourree.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Chasseur Fourree/Le_Chameau_Chasseur_Fourree.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2249,7 +2209,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Le Chameau",
     "name": "Le Chameau Vierzonnord Plus",
-    "image": null,
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord Plus/Le_Chameau_Vierzonord_Plus.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2258,7 +2218,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Meindl",
     "name": "Meindl Tauern 2 GTX Comfort Fit -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl%20Tauern%202%20GTX%20Comfort%20Fit%20-/Meindl_Tauern_2_GTX_Comfort_Fit_-.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Tauern 2 GTX Comfort Fit -/Meindl_Tauern_2_GTX_Comfort_Fit_-.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2267,7 +2227,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Meindl",
     "name": "Meindl Vakuum Men GTX -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl%20Vakuum%20Men%20GTX%20-/Meindl_Vakuum_Men_GTX_-.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men GTX -/Meindl_Vakuum_Men_GTX_-.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2276,7 +2236,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Meindl",
     "name": "Meindl Vakuum Men Ultra GTX -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl%20Vakuum%20Men%20Ultra%20GTX%20-/Meindl_Vakuum_Men_Ultra_GTX_-.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men Ultra GTX -/Meindl_Vakuum_Men_Ultra_GTX_-.jpg",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2285,7 +2245,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Meindl",
     "name": "Meindl Kansas GTX",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl%20Kansas%20GTX/Meindl_Kansas_GTX.png",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Kansas GTX/Meindl_Kansas_GTX.png",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2294,7 +2254,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Meindl",
     "name": "Meindl Meran GTX",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl%20Meran%20GTX/Meindl_Meran_GTX.png",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Meran GTX/Meindl_Meran_GTX.png",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2303,7 +2263,7 @@
     "sub": "Laarzen en Schoenen",
     "brand": "Le Chameau",
     "name": "Le Chameau Laarzentas",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le%20Chameau%20Laarzentas/Le_Chameau_Laarzentas.png",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Laarzentas/Le_Chameau_Laarzentas.png",
     "main_category": "Kleding",
     "subcategory": "Laarzen en Schoenen"
   },
@@ -2312,7 +2272,7 @@
     "sub": "Waadpakken",
     "brand": "Select Waders",
     "name": "Select Waders Ademend Waadpak Alpha",
-    "image": "/src/assets/products/kleding/waadpakken/Select%20Waders%20Ademend%20Waadpak%20Alpha/Select_Waders_Ademend_Waadpak_Alpha.jpg",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Ademend Waadpak Alpha/Select_Waders_Ademend_Waadpak_Alpha.jpg",
     "main_category": "Kleding",
     "subcategory": "Waadpakken"
   },
@@ -2321,7 +2281,7 @@
     "sub": "Waadpakken",
     "brand": "Select Waders",
     "name": "Select Waders Neopreen Waadpak",
-    "image": "/src/assets/products/kleding/waadpakken/Select%20Waders%20Neopreen%20Waadpak/Select_Waders_Neopreen_Waadpak.jpg",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Neopreen Waadpak/Select_Waders_Neopreen_Waadpak.jpg",
     "main_category": "Kleding",
     "subcategory": "Waadpakken"
   },
@@ -2330,7 +2290,7 @@
     "sub": "Waadpakken",
     "brand": "Select Waders",
     "name": "Select Waders Neopreen Lieslaars",
-    "image": "/src/assets/products/kleding/waadpakken/Select%20Waders%20Neopreen%20Lieslaars/Select_Waders_Neopreen_Lieslaars.jpg",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Neopreen Lieslaars/Select_Waders_Neopreen_Lieslaars.jpg",
     "main_category": "Kleding",
     "subcategory": "Waadpakken"
   },

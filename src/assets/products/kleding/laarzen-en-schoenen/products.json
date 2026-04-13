@@ -1,7 +1,7 @@
 [
   {
     "name": "Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47                     ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/250_Aigle_Bellastic_Kaki_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47/Aigle_Bellastic_Kaki_-_Nu_90€_Maten_41_en_47_.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -11,7 +11,7 @@
   },
   {
     "name": "Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/249_Aigle_Benyl_XL_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48/Aigle_Benyl_XL_-_NU_80€_Maten_40-41-42-47-48.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Aigle Parcours 2 Bronze -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/248_Aigle_Parcours_2_Bronze_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Parcours 2 Bronze -/Aigle_Parcours_2_Bronze_-.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Aigle Parcours 2 Bronze ISO -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/247_Aigle_Parcours_2_Bronze_ISO_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Parcours 2 Bronze ISO -/Aigle_Parcours_2_Bronze_ISO_-.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Arxus Primo - Primo Neoprene - Primo Neoprene Zip -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/252_Arxus_Primo_Primo_Neoprene_Primo_Neoprene_Zip_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Arxus Primo - Primo Neoprene - Primo Neoprene Zip -/Arxus_Primo_-_Primo_Neoprene_-_Primo_Neoprene_Zip_-.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -51,7 +51,7 @@
   },
   {
     "name": "Le Chameau Vierzon Jersey voering -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/251_Le_Chameau_Vierzon_Jersey_voering_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzon Jersey voering -/Le_Chameau_Vierzon_Jersey_voering_-.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Le Chameau Vierzonord ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/254_Le_Chameau_Vierzonord_en_Vierzonord_PLUS_Neoprene_voering_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord/Le_Chameau_Vierzonord_.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Lre Chameau Saint-Hubert Leder voering -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/256_Lre_Chameau_Saint_Hubert_Leder_voering_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Saint-Hubert Leder voering -/Lre_Chameau_Saint-Hubert_Leder_voering_-.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -81,7 +81,7 @@
   },
   {
     "name": "Le Chameau Country ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/708_Country_Jersey_XL.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Country/Le_Chameau_Country_.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Le Chameau Chasseur Fourree",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/709_Chasseur_Fourree.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Chasseur Fourree/Le_Chameau_Chasseur_Fourree.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Le Chameau Vierzonord Plus",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/707_Vierzonord_plus.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord Plus/Le_Chameau_Vierzonord_Plus.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -111,7 +111,7 @@
   },
   {
     "name": "Meindl Tauern 2 GTX Comfort Fit -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/261_Meindl_Tauern_2_GTX_Comfort_Fit_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Tauern 2 GTX Comfort Fit -/Meindl_Tauern_2_GTX_Comfort_Fit_-.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Meindl Vakuum Men GTX -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/260_Meindl_Vakuum_Men_GTX_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men GTX -/Meindl_Vakuum_Men_GTX_-.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -131,7 +131,7 @@
   },
   {
     "name": "Meindl Vakuum Men Ultra GTX -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/262_Meindl_Vakuum_Men_Ultra_GTX_.68b3d6b395bc34e1d7760901d3249e9e.jpg",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men Ultra GTX -/Meindl_Vakuum_Men_Ultra_GTX_-.jpg",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -141,7 +141,7 @@
   },
   {
     "name": "Meindl Kansas GTX",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/712_Kansas_GTX.71f16f11dd8994c266b8b312d40a22a1.png",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Kansas GTX/Meindl_Kansas_GTX.png",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -151,7 +151,7 @@
   },
   {
     "name": "Meindl Meran GTX",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/713_Meran_GTX.71f16f11dd8994c266b8b312d40a22a1.png",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Meran GTX/Meindl_Meran_GTX.png",
     "price": null,
     "description": null,
     "main_category": "Kleding",
@@ -161,7 +161,7 @@
   },
   {
     "name": "Le Chameau Laarzentas",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/714_care_kit_botte.71f16f11dd8994c266b8b312d40a22a1.png",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Laarzentas/Le_Chameau_Laarzentas.png",
     "price": null,
     "description": null,
     "main_category": "Kleding",

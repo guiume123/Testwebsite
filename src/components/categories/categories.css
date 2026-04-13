@@ -46,14 +46,14 @@
   z-index: -2;
 }
 
-.cat-bg-1 { background: url('/images/wapens.jpg') center/cover no-repeat; }
-.cat-bg-2 { background: url('/images/munitie.jpg') center/cover no-repeat; }
-.cat-bg-3 { background: url('/images/kleding.jpg') center/cover no-repeat; }
-.cat-bg-4 { background: url('/images/geschenken.jpg') center/cover no-repeat; }
-.cat-bg-5 { background: url('/images/optiek.jpg') center/cover no-repeat; }
-.cat-bg-6 { background: url('/images/honden.jpg') center/cover no-repeat; }
-.cat-bg-7 { background: url('/images/toebehoren.jpg') center/cover no-repeat; }
-.cat-bg-8 { background: url('/images/brandenveiligheidskoffers.jpg') center/cover no-repeat; }
+.cat-bg-1 { background: url('/images/categories/wapens.jpg') center/cover no-repeat; }
+.cat-bg-2 { background: url('/images/categories/munitie.jpg') center/cover no-repeat; }
+.cat-bg-3 { background: url('/images/categories/kleding.jpg') center/cover no-repeat; }
+.cat-bg-4 { background: url('/images/categories/geschenken.jpg') center/cover no-repeat; }
+.cat-bg-5 { background: url('/images/categories/optiek.jpg') center/cover no-repeat; }
+.cat-bg-6 { background: url('/images/categories/honden.jpg') center/cover no-repeat; }
+.cat-bg-7 { background: url('/images/categories/toebehoren.jpg') center/cover no-repeat; }
+.cat-bg-8 { background: url('/images/categories/brandenveiligheidskoffers.jpg') center/cover no-repeat; }
 
 .category-overlay {
   position: absolute;

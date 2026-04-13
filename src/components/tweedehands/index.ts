@@ -1,6 +1,6 @@
 import type { Product } from '../../types';
 import tweedehands from './tweedehands.html?raw';
-import tweedehandsData from '../../assets/products/tweedehands/algemeen/products.json';
+import tweedehandsData from '../../assets/products/tweedehands/products.json';
 
 export function createTweedehands(): string {
   return `
