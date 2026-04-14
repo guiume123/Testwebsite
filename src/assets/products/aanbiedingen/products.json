@@ -6,8 +6,7 @@
     "description": "Deze precisie P.C.P.'s zijn nu beschikbaar",
     "main_category": "Aanbiedingen",
     "subcategory": null,
-    "brand": null,
-    "link": "/?category=aanbiedingen"
+    "brand": null,  
   },
   {
     "name": "FAIR einde reeks/fin serie",
@@ -17,7 +16,6 @@
     "main_category": "Aanbiedingen",
     "subcategory": null,
     "brand": null,
-    "link": "https://baus.be/aanbiedingen/"
   },
   {
     "name": "FAIR einde reeks/fin serie",
@@ -27,7 +25,6 @@
     "main_category": "Aanbiedingen",
     "subcategory": null,
     "brand": null,
-    "link": "https://baus.be/aanbiedingen/"
   },
   {
     "name": "FAIR einde reeks/fin serie",
@@ -37,6 +34,5 @@
     "main_category": "Aanbiedingen",
     "subcategory": null,
     "brand": null,
-    "link": "https://baus.be/aanbiedingen/"
   }
 ]
