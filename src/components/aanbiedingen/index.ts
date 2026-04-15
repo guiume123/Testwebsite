@@ -29,7 +29,7 @@ export function initAanbiedingen(): void {
   const lightboxClose = document.getElementById('lightbox-close');
 
   if (grid) {
-    grid.innerHTML = aanbiedingenData.map((p: Product) => renderAanbiedingenCard(p)).join('');
+    grid.innerHTML = aanbiedingenData.map((p: any) => renderAanbiedingenCard(p)).join('');
     
     // Add lightbox functionality for all images
     const images = grid.querySelectorAll('.lightbox-trigger');
