@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Meindl",
-  "name": "Meindl Tauern 2 GTX Comfort Fit -"
-}
+    "brand": "",
+    "name": "Meindl Tauern 2 GTX Comfort Fit -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Tauern 2 GTX Comfort Fit -/Meindl_Tauern_2_GTX_Comfort_Fit_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

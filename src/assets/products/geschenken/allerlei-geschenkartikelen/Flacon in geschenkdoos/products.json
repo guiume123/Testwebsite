@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Flacon in geschenkdoos"
-}
+    "brand": "",
+    "name": "Flacon in geschenkdoos",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Flacon in geschenkdoos/Flacon_geschenkdoos.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

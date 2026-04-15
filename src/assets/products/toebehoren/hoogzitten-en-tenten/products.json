@@ -1,42 +1,30 @@
 [
   {
-    "name": "Tent 100% Waterdicht inclusief stoel met armsteunen 90x150cm Hoogte 135cm -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/340_Tent_100_Waterdicht_inclusief_stoel_met_armsteunen_90x150cm_Hoogte_135cm_.658269f3f1b296d73504a3c18512d24b.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Toebehoren",
-    "subcategory": "Hoogzitten en Tenten",
-    "brand": null,
-    "link": "https://baus.be/hoogzitten-en-tenten.html"
-  },
-  {
-    "name": "Tent met afneembaar dak 142x142x165cm -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/341_Tent_met_afneembaar_dak_142x142x165cm_.658269f3f1b296d73504a3c18512d24b.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Toebehoren",
-    "subcategory": "Hoogzitten en Tenten",
-    "brand": null,
-    "link": "https://baus.be/hoogzitten-en-tenten.html"
-  },
-  {
-    "name": "hochsitz3331523",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/339_hochsitz3331523.658269f3f1b296d73504a3c18512d24b.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Toebehoren",
-    "subcategory": "Hoogzitten en Tenten",
-    "brand": null,
-    "link": "https://baus.be/hoogzitten-en-tenten.html"
-  },
-  {
+    "brand": "",
     "name": "Alu 1 Hoogte 4m Gewicht 13kg -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/337_Alu_1_Hoogte_4m_Gewicht_13kg_.658269f3f1b296d73504a3c18512d24b.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/toebehoren/hoogzitten-en-tenten/Alu 1 Hoogte 4m Gewicht 13kg -/Alu_1_Hoogte_4m_Gewicht_13kg_-.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Hoogzitten en Tenten",
-    "brand": null,
-    "link": "https://baus.be/hoogzitten-en-tenten.html"
+    "subcategory": "Hoogzitten en Tenten"
+  },
+  {
+    "brand": "",
+    "name": "Tent 100% Waterdicht inclusief stoel met armsteunen 90x150cm Hoogte",
+    "image": "/src/assets/products/toebehoren/hoogzitten-en-tenten/Tent 100% Waterdicht inclusief stoel met armsteunen 90x150cm Hoogte/Tent_100-_Waterdicht_inclusief_stoel_met_armsteunen_90x150cm.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Hoogzitten en Tenten"
+  },
+  {
+    "brand": "",
+    "name": "Tent met afneembaar dak 142x142x165cm -",
+    "image": "/src/assets/products/toebehoren/hoogzitten-en-tenten/Tent met afneembaar dak 142x142x165cm -/Tent_met_afneembaar_dak_142x142x165cm_-.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Hoogzitten en Tenten"
+  },
+  {
+    "brand": "",
+    "name": "hochsitz3331523",
+    "image": "/src/assets/products/toebehoren/hoogzitten-en-tenten/hochsitz3331523/hochsitz3331523.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Hoogzitten en Tenten"
   }
 ]

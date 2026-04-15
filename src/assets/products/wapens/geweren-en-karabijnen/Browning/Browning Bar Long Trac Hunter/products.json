@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning Bar Long Trac Hunter"
-}
+    "brand": "Browning",
+    "name": "Browning Bar Long Trac Hunter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Bar Long Trac Hunter/Barlongtrachunter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

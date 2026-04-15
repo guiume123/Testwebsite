@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning Prestige Ultra XS"
-}
+    "brand": "Browning",
+    "name": "Browning Prestige Ultra XS",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Prestige Ultra XS/PrestigeultraXS.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

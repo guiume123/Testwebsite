@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning Maxus Camo Mobu C-12 76 INV"
-}
+    "brand": "Browning",
+    "name": "Browning Maxus Camo Mobu C-12 76 INV",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Maxus Camo Mobu C-12 76 INV/Maxuscamo.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

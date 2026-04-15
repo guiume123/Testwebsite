@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "Artisanale",
-  "name": "Kolf 5 stars. Voorhout nog te kiezen"
-}
+    "brand": "Artisanale",
+    "name": "Kolf 5 stars. Voorhout nog te kiezen",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Kolf 5 stars. Voorhout nog te kiezen/Kolf5startsmetvoorhoutnogtekiezen.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

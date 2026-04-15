@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Lokkers Decoys",
-  "brand": "Diverse",
-  "name": "Hunting Alarm"
-}
+    "brand": "",
+    "name": "Hunting Alarm",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Hunting Alarm/Hunting_Alarm_.png",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  }

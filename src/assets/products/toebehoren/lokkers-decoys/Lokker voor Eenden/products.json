@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Lokkers Decoys",
-  "brand": "Diverse",
-  "name": "Lokker voor Eenden"
-}
+    "brand": "",
+    "name": "Lokker voor Eenden",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker voor Eenden/Lokker_voor_Eenden_.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  }

@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleivesten en toebehoren",
-  "brand": "Browning",
-  "name": "Gilet Pro Sport 2"
-}
+    "brand": "BROWNING",
+    "name": "Gilet Pro Sport 2",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Pro Sport 2/Gilet_Pro_Sport_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  }

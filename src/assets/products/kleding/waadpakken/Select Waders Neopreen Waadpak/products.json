@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Waadpakken",
-  "brand": "Select Waders",
-  "name": "Select Waders Neopreen Waadpak"
-}
+    "brand": "",
+    "name": "Select Waders Neopreen Waadpak",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Neopreen Waadpak/Select_Waders_Neopreen_Waadpak.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Waadpakken"
+  }

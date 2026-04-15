@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Meindl",
-  "name": "Meindl Vakuum Men GTX -"
-}
+    "brand": "",
+    "name": "Meindl Vakuum Men GTX -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men GTX -/Meindl_Vakuum_Men_GTX_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

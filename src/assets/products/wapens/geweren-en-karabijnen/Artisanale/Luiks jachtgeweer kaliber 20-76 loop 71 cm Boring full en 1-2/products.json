@@ -1,6 +1,7 @@
-{
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "Artisanale",
-  "name": "Luiks jachtgeweer kaliber 20-76 loop 71 cm Boring full en 1-2"
-}
+{ 
+    "brand": "Artisanale",
+    "name": "Luiks jachtgeweer kaliber 20-76 loop 71 cm Boring full en 1-2",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Luiks jachtgeweer kaliber 20-76 loop 71 cm Boring full en 1-2/Luiksjachtgeweerkaliber20.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "WINCHESTER",
-  "name": "select-energy"
-}
+    "brand": "",
+    "name": "select-energy",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Winchester/select-energy/Selectenergy.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

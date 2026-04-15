@@ -1,6 +1,7 @@
-{
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "Artisanale",
-  "name": "Jachtkarabijn Belge kaliber 9.3x74R voorzien van battue kijker swarovski"
-}
+ {
+    "brand": "Artisanale",
+    "name": "Jachtkarabijn Belge kaliber 9.3x74R voorzien van battue kijker swarovski",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Jachtkarabijn Belge kaliber 9.3x74R voorzien van battue kijker swarovski/Jachtkarabijnbelge.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

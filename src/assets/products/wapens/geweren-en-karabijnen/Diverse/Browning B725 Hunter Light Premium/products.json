@@ -1,6 +1,7 @@
-{
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "DIVERSE",
-  "name": "Browning B725 Hunter Light Premium"
-}
+ {
+    "brand": "Browning",
+    "name": "Browning B725 Hunter Light Premium",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning B725 Hunter Light Premium/B725hunterlightpremium.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

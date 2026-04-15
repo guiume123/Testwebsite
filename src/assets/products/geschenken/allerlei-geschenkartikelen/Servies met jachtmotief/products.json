@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Servies met jachtmotief"
-}
+    "brand": "",
+    "name": "Servies met jachtmotief",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Servies met jachtmotief/Servies_jachtmotief.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

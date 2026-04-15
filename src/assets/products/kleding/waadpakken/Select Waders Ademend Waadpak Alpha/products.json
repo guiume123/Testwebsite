@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Waadpakken",
-  "brand": "Select Waders",
-  "name": "Select Waders Ademend Waadpak Alpha"
-}
+    "brand": "",
+    "name": "Select Waders Ademend Waadpak Alpha",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Ademend Waadpak Alpha/Select_Waders_Ademend_Waadpak_Alpha.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Waadpakken"
+  }

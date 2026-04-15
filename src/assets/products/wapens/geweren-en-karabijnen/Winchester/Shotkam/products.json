@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "WINCHESTER",
-  "name": "Shotkam"
-}
+    "brand": "",
+    "name": "Shotkam",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Winchester/Shotkam/Shotkam.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

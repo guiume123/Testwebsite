@@ -1,0 +1,86 @@
+[
+  {
+    "brand": "Browning",
+    "name": "Browning B525",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning B525/525.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning B525 Sporter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning B525 Sporter/B525sporter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning B725 Hunter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning B725 Hunter/B725hunter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning B725 Sporter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning B725 Sporter/B725sporter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning Bar Long Trac Hunter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Bar Long Trac Hunter/Barlongtrachunter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning Bar Short Trac Eclipse Gold",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Bar Short Trac Eclipse Gold/Barshorttraceclipsegold.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning Cynergy Hunter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Cynergy Hunter/Cynergyhunter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning Elite Hunter Light",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Elite Hunter Light/Elitehunterlight.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning Maxus Camo Mobu C-12 76 INV",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Maxus Camo Mobu C-12 76 INV/Maxuscamo.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning Prestige Ultra XS",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Prestige Ultra XS/PrestigeultraXS.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning X Bolt Hunter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning X Bolt Hunter/Xbolthunter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "",
+    "name": "Shotkam",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Shotkam/Shotkam_Nu_beschikbaar.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }
+]

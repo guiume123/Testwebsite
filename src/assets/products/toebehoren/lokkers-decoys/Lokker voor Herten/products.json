@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Lokkers Decoys",
-  "brand": "Diverse",
-  "name": "Lokker voor Herten"
-}
+    "brand": "",
+    "name": "Lokker voor Herten",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker voor Herten/Lokker_voor_Herten_.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  }

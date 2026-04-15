@@ -1,32 +1,23 @@
 [
   {
+    "brand": "",
     "name": "Select Waders Ademend Waadpak Alpha",
     "image": "/src/assets/products/kleding/waadpakken/Select Waders Ademend Waadpak Alpha/Select_Waders_Ademend_Waadpak_Alpha.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Waadpakken",
-    "brand": null,
-    "link": "https://baus.be/waadpakken.html"
+    "subcategory": "Waadpakken"
   },
   {
-    "name": "Select Waders Neopreen Waadpak",
-    "image": "/src/assets/products/kleding/waadpakken/Select Waders Neopreen Waadpak/Select_Waders_Neopreen_Waadpak.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Waadpakken",
-    "brand": null,
-    "link": "https://baus.be/waadpakken.html"
-  },
-  {
+    "brand": "",
     "name": "Select Waders Neopreen Lieslaars",
     "image": "/src/assets/products/kleding/waadpakken/Select Waders Neopreen Lieslaars/Select_Waders_Neopreen_Lieslaars.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Waadpakken",
-    "brand": null,
-    "link": "https://baus.be/waadpakken.html"
+    "subcategory": "Waadpakken"
+  },
+  {
+    "brand": "",
+    "name": "Select Waders Neopreen Waadpak",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Neopreen Waadpak/Select_Waders_Neopreen_Waadpak.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Waadpakken"
   }
 ]

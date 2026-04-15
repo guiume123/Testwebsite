@@ -1,182 +1,129 @@
 [
   {
+    "brand": "",
     "name": "Duif igeflokt-",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/313_Duif_in_plastiek_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Duif igeflokt-/Duif_igeflokt-.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
-    "name": "Duif pikkend geflokt ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/318_Duif_pikkend_geflokt_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Duif pikkend geflokt",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Duif pikkend geflokt/Duif_pikkend_geflokt_.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
+    "brand": "",
     "name": "Duif vliegend met foam vleugels gelokt -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/312_Duif_vliegend_met_foam_vleugels_gelokt_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Duif vliegend met foam vleugels gelokt -/Duif_vliegend_met_foam_vleugels_gelokt_-.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
+    "brand": "",
     "name": "Ekster vliegend met foam vleugels geflokt -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/314_Ekster_vliegend_met_foam_vleugels_geflokt_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Ekster vliegend met foam vleugels geflokt -/Ekster_vliegend_met_foam_vleugels_geflokt_-.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
-    "name": "Halve duif geflokt ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/315_Halve_duif_geflokt_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
-  },
-  {
-    "name": "Kraai geflokt vliegend",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/328_Kraai_geflokt_vliegend_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
-  },
-  {
-    "name": "Kraai geflokt ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/325_Kraai_geflokt_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
-  },
-  {
+    "brand": "",
     "name": "Elektronische wild lokker verkrijgbaar voor vos, ree, everzwijn, eenden -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/320_Elektronische_wild_lokker_verkrijgbaar_voor_vos_ree_everzwijn_eenden_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Elektronische wild lokker verkrijgbaar voor vos, ree, everzwijn, eenden -/Elektronische_wild_lokker_verkrijgbaar_voor_vos,_ree,_everzwijn,_eenden_-.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
-    "name": "Lokfluit Gans ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/740_Lokfluit_Gans_Grouw_Canada.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Halve duif geflokt",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Halve duif geflokt/Halve_duif_geflokt_.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
-    "name": "Lokker Buttolo voor Ree ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/329_Lokker_Buttolo_voor_Ree_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Hunting Alarm",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Hunting Alarm/Hunting_Alarm_.png",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
+    "brand": "",
+    "name": "Hunting Alarm 5",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Hunting Alarm 5/Hunting_Alarm_5_.png",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  },
+  {
+    "brand": "",
+    "name": "Kraai geflokt",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Kraai geflokt/Kraai_geflokt_.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  },
+  {
+    "brand": "",
+    "name": "Kraai geflokt vliegend",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Kraai geflokt vliegend/Kraai_geflokt_vliegend.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  },
+  {
+    "brand": "",
+    "name": "Lokfluit Gans",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokfluit Gans/Lokfluit_Gans_.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  },
+  {
+    "brand": "",
+    "name": "Lokker Buttolo voor Ree",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker Buttolo voor Ree/Lokker_Buttolo_voor_Ree_.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  },
+  {
+    "brand": "",
     "name": "Lokker voor Duif",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/332_Lokker_voor_Duif_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker voor Duif/Lokker_voor_Duif.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
-    "name": "Lokker voor Eenden ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/334_Lokker_voor_Eenden_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Lokker voor Eenden",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker voor Eenden/Lokker_voor_Eenden_.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
-    "name": "Lokker voor Herten ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/333_Lokker_voor_Herten_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Lokker voor Herten",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker voor Herten/Lokker_voor_Herten_.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
-    "name": "Lokker voor Ree ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/335_Lokker_voor_Ree_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Lokker voor Ree",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker voor Ree/Lokker_voor_Ree_.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
-    "name": "Lokmiddel voor Everzwijnen ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/331_Lokmiddel_voor_Everzwijnen_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Lokmiddel voor Everzwijnen",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokmiddel voor Everzwijnen/Lokmiddel_voor_Everzwijnen_.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   },
   {
+    "brand": "",
     "name": "Teleschopisch houder voor duif en kraai -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/330_Teleschopisch_houder_voor_duif_en_kraai_.d4ec321e95f7f9bdf8fa17a5c45beda2.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Teleschopisch houder voor duif en kraai -/Teleschopisch_houder_voor_duif_en_kraai_-.jpg",
     "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
-  },
-  {
-    "name": "Hunting Alarm ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/326_Hunting_Alarm_9_.efe69008b3e77f448a90c9a659631147.png",
-    "price": null,
-    "description": null,
-    "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
-  },
-  {
-    "name": "Hunting Alarm 5 ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/322_Hunting_Alarm_5_.efe69008b3e77f448a90c9a659631147.png",
-    "price": null,
-    "description": null,
-    "main_category": "Toebehoren",
-    "subcategory": "Lokkers Decoys",
-    "brand": null,
-    "link": "https://baus.be/lokkers-decoys.html"
+    "subcategory": "Lokkers Decoys"
   }
+  
 ]

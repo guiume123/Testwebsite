@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning Bar Short Trac Eclipse Gold"
-}
+    "brand": "Browning",
+    "name": "Browning Bar Short Trac Eclipse Gold",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Bar Short Trac Eclipse Gold/Barshorttraceclipsegold.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

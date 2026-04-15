@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning B725 Sporter"
-}
+    "brand": "Browning",
+    "name": "Browning B525 Sporter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning B525 Sporter/B525sporter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

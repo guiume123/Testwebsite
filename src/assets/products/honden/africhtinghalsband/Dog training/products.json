@@ -1,6 +1,7 @@
 {
-  "cat": "Honden",
-  "sub": "Africhtinghalsband",
-  "brand": "Diverse",
-  "name": "Dog training"
+    "brand": "",
+    "name": "Dog training",
+    "image": "/src/assets/products/honden/africhtinghalsband/Dog training/Dog_training.jpg",
+    "main_category": "Honden",
+    "subcategory": "Africhtinghalsband"
 }

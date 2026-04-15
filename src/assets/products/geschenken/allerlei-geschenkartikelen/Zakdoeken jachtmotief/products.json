@@ -1,6 +1,8 @@
-{
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Zakdoeken jachtmotief"
-}
+
+  {
+    "brand": "",
+    "name": "Zakdoeken jachtmotief",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Zakdoeken jachtmotief/zakdoeken_jachtmotief.png",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

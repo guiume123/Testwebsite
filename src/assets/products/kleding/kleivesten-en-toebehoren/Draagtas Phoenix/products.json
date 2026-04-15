@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleivesten en toebehoren",
-  "brand": "Browning",
-  "name": "Draagtas Phoenix"
-}
+    "brand": "BROWNING",
+    "name": "Draagtas Phoenix",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas Phoenix/Draagtas_Phoenix.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  }

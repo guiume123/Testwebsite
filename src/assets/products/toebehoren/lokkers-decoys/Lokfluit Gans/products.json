@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Lokkers Decoys",
-  "brand": "Diverse",
-  "name": "Lokfluit Gans"
-}
+    "brand": "",
+    "name": "Lokfluit Gans",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokfluit Gans/Lokfluit_Gans_.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  }

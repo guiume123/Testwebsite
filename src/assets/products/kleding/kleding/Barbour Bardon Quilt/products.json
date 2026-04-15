@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleding",
-  "brand": "Barbour",
-  "name": "Barbour Bardon Quilt"
-}
+    "brand": "Barbour",
+    "name": "Barbour Bardon Quilt",
+    "image": "/src/assets/products/kleding/kleding/Barbour Bardon Quilt/Barbour_Bardon_Quilt.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  }

@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "FAIR",
-  "name": "Model SLX800 Xlight in kaliber 12 en 20 met Tecnichoke"
-}
+    "brand": "FAIR",
+    "name": "Model SLX800 Xlight in kaliber 12 en 20 met Tecnichoke",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Fair/Model SLX800 Xlight in kaliber 12 en 20 met Tecnichoke/Modelslx800xlight.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

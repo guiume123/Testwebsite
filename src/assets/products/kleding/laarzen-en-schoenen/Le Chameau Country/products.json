@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Le Chameau",
-  "name": "Le Chameau Country"
-}
+    "brand": "",
+    "name": "Le Chameau Country",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Country/Le_Chameau_Country_.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

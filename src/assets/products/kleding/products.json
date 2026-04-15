@@ -1,0 +1,250 @@
+[
+  {
+    "brand": "Barbour",
+    "name": "Barbour Bardon Quilt",
+    "image": "/src/assets/products/kleding/kleding/Barbour Bardon Quilt/Barbour_Bardon_Quilt.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  },
+  {
+    "brand": "Barbour",
+    "name": "Barbour Cordbridge Wax Jacket",
+    "image": "/src/assets/products/kleding/kleding/Barbour Cordbridge Wax Jacket/Barbour_Cordbridge_Wax_Jacket.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  },
+  {
+    "brand": "Deerhunter",
+    "name": "Deerhunter Wingshooter Fleece",
+    "image": "/src/assets/products/kleding/kleding/Deerhunter Wingshooter Fleece/Deerhunter_Wingshooter_Fleece_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  },
+  {
+    "brand": "Fjäll Räven",
+    "name": "Fjäll Räven Forest Fleece Jacket",
+    "image": "/src/assets/products/kleding/kleding/Fjäll Räven Forest Fleece Jacket/Fjäll_Räven_Forest_Fleece_Jacket.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  },
+  {
+    "brand": "Fjäll Räven",
+    "name": "Fjäll Räven Karl Pro Trousers",
+    "image": "/src/assets/products/kleding/kleding/Fjäll Räven Karl Pro Trousers/Fjäll_Räven_Karl_Pro_Trousers_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Bril Kit Eagle",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Bril Kit Eagle/Bril_Kit_Eagle.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Draagtas Phoenix",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas Phoenix/Draagtas_Phoenix.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Draagtas Ultra Flash",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas Ultra Flash/Draagtas_Ultra_Flash.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Gilet Classic",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Classic/Gilet_Classic_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "",
+    "name": "Gilet Classic 2",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Classic 2/Giles_classic2.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Gilet Pro Sport",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Pro Sport/Gilet_Pro_Sport_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Gilet Pro Sport 2",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Pro Sport 2/Gilet_Pro_Sport_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Gilet Sporter",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Sporter/Gilet_Sporter.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Oorbeschermer Cadence",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Oorbeschermer Cadence/Oorbeschermer_Cadence_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Oorbeschermer Kit Tactical",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Oorbeschermer Kit Tactical/Oorbeschermer_Kit_Tactical.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "",
+    "name": "Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47/Aigle_Bellastic_Kaki_-_Nu_90€_Maten_41_en_47_.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48/Aigle_Benyl_XL_-_NU_80€_Maten_40-41-42-47-48.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Aigle Parcours 2 Bronze -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Parcours 2 Bronze -/Aigle_Parcours_2_Bronze_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Aigle Parcours 2 Bronze ISO -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Parcours 2 Bronze ISO -/Aigle_Parcours_2_Bronze_ISO_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Arxus Primo - Primo Neoprene - Primo Neoprene Zip -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Arxus Primo - Primo Neoprene - Primo Neoprene Zip -/Arxus_Primo_-_Primo_Neoprene_-_Primo_Neoprene_Zip_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Chasseur Fourree",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Chasseur Fourree/Le_Chameau_Chasseur_Fourree.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Country",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Country/Le_Chameau_Country_.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Laarzentas",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Laarzentas/Le_Chameau_Laarzentas.png",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Saint-Hubert Leder voering -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Saint-Hubert Leder voering -/Lre_Chameau_Saint-Hubert_Leder_voering_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Vierzon Jersey voering -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzon Jersey voering -/Le_Chameau_Vierzon_Jersey_voering_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Vierzonnord",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord/Le_Chameau_Vierzonord_.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Vierzonnord Plus",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord Plus/Le_Chameau_Vierzonord_Plus.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Kansas GTX",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Kansas GTX/Meindl_Kansas_GTX.png",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Meran GTX",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Meran GTX/Meindl_Meran_GTX.png",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Tauern 2 GTX Comfort Fit -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Tauern 2 GTX Comfort Fit -/Meindl_Tauern_2_GTX_Comfort_Fit_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Vakuum Men GTX -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men GTX -/Meindl_Vakuum_Men_GTX_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Vakuum Men Ultra GTX -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men Ultra GTX -/Meindl_Vakuum_Men_Ultra_GTX_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Select Waders Ademend Waadpak Alpha",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Ademend Waadpak Alpha/Select_Waders_Ademend_Waadpak_Alpha.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Waadpakken"
+  },
+  {
+    "brand": "",
+    "name": "Select Waders Neopreen Lieslaars",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Neopreen Lieslaars/Select_Waders_Neopreen_Lieslaars.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Waadpakken"
+  },
+  {
+    "brand": "",
+    "name": "Select Waders Neopreen Waadpak",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Neopreen Waadpak/Select_Waders_Neopreen_Waadpak.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Waadpakken"
+  }
+
+
+  
+]

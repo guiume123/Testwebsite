@@ -1,6 +1,7 @@
 {
-  "cat": "Honden",
-  "sub": "Africhtinghalsband",
-  "brand": "Diverse",
-  "name": "Hondenfluit"
+    "brand": "",
+    "name": "Hondenfluit",
+    "image": "/src/assets/products/honden/africhtinghalsband/Hondenfluit/Hondenfluit.jpg",
+    "main_category": "Honden",
+    "subcategory": "Africhtinghalsband"
 }

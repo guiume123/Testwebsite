@@ -1,6 +1,7 @@
-{
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Horloges set lederen band"
-}
+ {
+    "brand": "",
+    "name": "Horloges set lederen band",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Horloges set lederen band/horloge_set_groen_lederen_band.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

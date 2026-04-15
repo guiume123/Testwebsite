@@ -1,172 +1,121 @@
 [
   {
-    "name": "Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47                     ",
+    "brand": "",
+    "name": "Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47",
     "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47/Aigle_Bellastic_Kaki_-_Nu_90€_Maten_41_en_47_.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": "Aigle",
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
+    "subcategory": "Laarzen en Schoenen"
   },
   {
+    "brand": "",
     "name": "Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48",
     "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48/Aigle_Benyl_XL_-_NU_80€_Maten_40-41-42-47-48.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": "Aigle",
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
+    "subcategory": "Laarzen en Schoenen"
   },
   {
+    "brand": "",
     "name": "Aigle Parcours 2 Bronze -",
     "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Parcours 2 Bronze -/Aigle_Parcours_2_Bronze_-.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": "Aigle",
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
+    "subcategory": "Laarzen en Schoenen"
   },
   {
+    "brand": "",
     "name": "Aigle Parcours 2 Bronze ISO -",
     "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Parcours 2 Bronze ISO -/Aigle_Parcours_2_Bronze_ISO_-.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": "Aigle",
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
+    "subcategory": "Laarzen en Schoenen"
   },
   {
+    "brand": "",
     "name": "Arxus Primo - Primo Neoprene - Primo Neoprene Zip -",
     "image": "/src/assets/products/kleding/laarzen-en-schoenen/Arxus Primo - Primo Neoprene - Primo Neoprene Zip -/Arxus_Primo_-_Primo_Neoprene_-_Primo_Neoprene_Zip_-.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
+    "subcategory": "Laarzen en Schoenen"
   },
   {
-    "name": "Le Chameau Vierzon Jersey voering -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzon Jersey voering -/Le_Chameau_Vierzon_Jersey_voering_-.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
-  },
-  {
-    "name": "Le Chameau Vierzonord ",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord/Le_Chameau_Vierzonord_.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
-  },
-  {
-    "name": "Lre Chameau Saint-Hubert Leder voering -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Saint-Hubert Leder voering -/Lre_Chameau_Saint-Hubert_Leder_voering_-.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
-  },
-  {
-    "name": "Le Chameau Country ",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Country/Le_Chameau_Country_.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
-  },
-  {
+    "brand": "",
     "name": "Le Chameau Chasseur Fourree",
     "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Chasseur Fourree/Le_Chameau_Chasseur_Fourree.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
+    "subcategory": "Laarzen en Schoenen"
   },
   {
-    "name": "Le Chameau Vierzonord Plus",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord Plus/Le_Chameau_Vierzonord_Plus.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Le Chameau Country",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Country/Le_Chameau_Country_.jpg",
     "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
+    "subcategory": "Laarzen en Schoenen"
   },
   {
-    "name": "Meindl Tauern 2 GTX Comfort Fit -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Tauern 2 GTX Comfort Fit -/Meindl_Tauern_2_GTX_Comfort_Fit_-.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
-  },
-  {
-    "name": "Meindl Vakuum Men GTX -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men GTX -/Meindl_Vakuum_Men_GTX_-.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
-  },
-  {
-    "name": "Meindl Vakuum Men Ultra GTX -",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men Ultra GTX -/Meindl_Vakuum_Men_Ultra_GTX_-.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
-  },
-  {
-    "name": "Meindl Kansas GTX",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Kansas GTX/Meindl_Kansas_GTX.png",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
-  },
-  {
-    "name": "Meindl Meran GTX",
-    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Meran GTX/Meindl_Meran_GTX.png",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
-  },
-  {
+    "brand": "",
     "name": "Le Chameau Laarzentas",
     "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Laarzentas/Le_Chameau_Laarzentas.png",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Laarzen en Schoenen",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-laarzen-en-schoenen.html"
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Saint-Hubert Leder voering -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Saint-Hubert Leder voering -/Lre_Chameau_Saint-Hubert_Leder_voering_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Vierzon Jersey voering -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzon Jersey voering -/Le_Chameau_Vierzon_Jersey_voering_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Vierzonnord",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord/Le_Chameau_Vierzonord_.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Le Chameau Vierzonnord Plus",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord Plus/Le_Chameau_Vierzonord_Plus.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Kansas GTX",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Kansas GTX/Meindl_Kansas_GTX.png",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Meran GTX",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Meran GTX/Meindl_Meran_GTX.png",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Tauern 2 GTX Comfort Fit -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Tauern 2 GTX Comfort Fit -/Meindl_Tauern_2_GTX_Comfort_Fit_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Vakuum Men GTX -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men GTX -/Meindl_Vakuum_Men_GTX_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  },
+  {
+    "brand": "",
+    "name": "Meindl Vakuum Men Ultra GTX -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Vakuum Men Ultra GTX -/Meindl_Vakuum_Men_Ultra_GTX_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
   }
 ]

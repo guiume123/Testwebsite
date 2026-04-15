@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Bronzen beeld hert"
-}
+    "brand": "",
+    "name": "Bronzen beeld hert",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Bronzen beeld hert/Bronzen_beeld_hert.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

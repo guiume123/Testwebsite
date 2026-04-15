@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "DIVERSE",
-  "name": "Browning T-Bolt Sporter Threaded"
-}
+    "brand": "",
+    "name": "Browning T-Bolt Sporter Threaded",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Winchester/Browning T-Bolt Sporter Threaded/BrowningTbolt.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

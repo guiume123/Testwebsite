@@ -1,6 +1,7 @@
-{
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "DIVERSE",
-  "name": "Browning Maxus One Composite"
-}
+ {
+    "brand": "Browning",
+    "name": "Browning Maxus One Composite",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning Maxus One Composite/Maxusonecomposite.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning B725 Hunter"
-}
+    "brand": "Browning",
+    "name": "Browning B725 Hunter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning B725 Hunter/B725hunter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

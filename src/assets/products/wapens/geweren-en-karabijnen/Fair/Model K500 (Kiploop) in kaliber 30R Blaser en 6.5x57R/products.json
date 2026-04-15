@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "FAIR",
-  "name": "Model K500 (Kiploop) in kaliber 30R Blaser en 6.5x57R"
-}
+    "brand": "FAIR",
+    "name": "Model K500 (Kiploop) in kaliber 30R Blaser en 6.5x57R",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Fair/Model K500 (Kiploop) in kaliber 30R Blaser en 6.5x57R/K500.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

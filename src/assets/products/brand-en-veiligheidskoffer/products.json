@@ -1,34 +1,26 @@
 [
   {
-    "cat": "Brand- en veiligheidskoffer",
-    "sub": "Veiligheidskoffers",
     "brand": "",
     "name": "btb-150-5",
     "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/btb-150-5.jpg",
     "main_category": "Brand- en veiligheidskoffer",
     "subcategory": "Veiligheidskoffers"
   },
-   {
-    "cat": "Brand- en veiligheidskoffer",
-    "sub": "Veiligheidskoffers",
-    "brand": "Artisanale",
+  {
+    "brand": "",
     "name": "btb-150-9",
     "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/btb-150-9.jpg",
     "main_category": "Brand- en veiligheidskoffer",
     "subcategory": "Veiligheidskoffers"
   },
-   {
-    "cat": "Brand- en veiligheidskoffer",
-    "sub": "Veiligheidskoffers",
+  {
     "brand": "",
     "name": "btb-1675-2",
     "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/btb-1675-2.jpg",
     "main_category": "Brand- en veiligheidskoffer",
     "subcategory": "Veiligheidskoffers"
   },
-   {
-    "cat": "Brand- en veiligheidskoffer",
-    "sub": "Veiligheidskoffers",
+  {
     "brand": "",
     "name": "btb-1675-4",
     "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/btb-1675-4.jpg",
@@ -36,8 +28,7 @@
     "subcategory": "Veiligheidskoffers"
   },
    {
-    "cat": "Brand- en veiligheidskoffer",
-    "sub": "Veiligheidskoffers",
+
     "brand": "",
     "name": "",
     "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/Gamme_Classic_cd10.251351ac9003e6f3ccc8216eb18856c.png",
@@ -45,8 +36,6 @@
     "subcategory": "Veiligheidskoffers"
   },
    {
-    "cat": "Brand- en veiligheidskoffer",
-    "sub": "Veiligheidskoffers",
     "brand": "",
     "name": "",
     "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/Gamme_Classic_cd10.251351ac9003e6f3ccc8216eb18856c.png",

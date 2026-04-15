@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Mokken met jachtmotief"
-}
+    "brand": "",
+    "name": "Koffietassen",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Koffietassen/Koffietassen.png",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

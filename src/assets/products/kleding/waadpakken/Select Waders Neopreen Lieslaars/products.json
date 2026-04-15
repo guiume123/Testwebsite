@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Waadpakken",
-  "brand": "Select Waders",
-  "name": "Select Waders Neopreen Lieslaars"
-}
+    "brand": "",
+    "name": "Select Waders Neopreen Lieslaars",
+    "image": "/src/assets/products/kleding/waadpakken/Select Waders Neopreen Lieslaars/Select_Waders_Neopreen_Lieslaars.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Waadpakken"
+  }

@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Meindl",
-  "name": "Meindl Meran GTX"
-}
+    "brand": "",
+    "name": "Meindl Meran GTX",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Meran GTX/Meindl_Meran_GTX.png",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

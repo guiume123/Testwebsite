@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "DIVERSE",
-  "name": "Browning B725 Sporter Verstelbare kolf"
-}
+    "brand": "Browning",
+    "name": "Browning B725 Sporter Verstelbare kolf",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning B725 Sporter Verstelbare kolf/B725verstelbarekolf.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

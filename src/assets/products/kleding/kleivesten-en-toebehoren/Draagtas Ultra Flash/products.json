@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleivesten en toebehoren",
-  "brand": "Browning",
-  "name": "Draagtas Ultra Flash"
-}
+    "brand": "BROWNING",
+    "name": "Draagtas Ultra Flash",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas Ultra Flash/Draagtas_Ultra_Flash.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  }

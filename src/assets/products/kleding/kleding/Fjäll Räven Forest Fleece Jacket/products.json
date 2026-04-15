@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleding",
-  "brand": "Fjäll Räven",
-  "name": "Fjäll Räven Forest Fleece Jacket"
-}
+    "brand": "Fjäll Räven",
+    "name": "Fjäll Räven Forest Fleece Jacket",
+    "image": "/src/assets/products/kleding/kleding/Fjäll Räven Forest Fleece Jacket/Fjäll_Räven_Forest_Fleece_Jacket.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  }

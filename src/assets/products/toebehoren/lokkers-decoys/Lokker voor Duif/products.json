@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Lokkers Decoys",
-  "brand": "Diverse",
-  "name": "Lokker voor Duif"
-}
+    "brand": "",
+    "name": "Lokker voor Duif",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker voor Duif/Lokker_voor_Duif.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  }

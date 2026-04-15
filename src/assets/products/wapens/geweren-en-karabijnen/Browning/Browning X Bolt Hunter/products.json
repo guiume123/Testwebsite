@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning X Bolt Hunter"
-}
+    "brand": "Browning",
+    "name": "Browning X Bolt Hunter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning X Bolt Hunter/Xbolthunter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

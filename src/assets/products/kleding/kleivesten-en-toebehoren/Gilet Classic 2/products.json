@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleivesten en toebehoren",
-  "brand": "Browning",
-  "name": "Gilet Classic"
-}
+    "brand": "",
+    "name": "Gilet Classic 2",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Classic 2/Giles_classic2.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  }

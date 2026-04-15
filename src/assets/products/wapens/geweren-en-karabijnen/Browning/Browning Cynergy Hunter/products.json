@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning Cynergy Hunter"
-}
+    "brand": "Browning",
+    "name": "Browning Cynergy Hunter",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Cynergy Hunter/Cynergyhunter.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

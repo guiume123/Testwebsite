@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Le Chameau",
-  "name": "Le Chameau Saint-Hubert Leder voering -"
-}
+    "brand": "",
+    "name": "Le Chameau Saint-Hubert Leder voering -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Saint-Hubert Leder voering -/Lre_Chameau_Saint-Hubert_Leder_voering_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

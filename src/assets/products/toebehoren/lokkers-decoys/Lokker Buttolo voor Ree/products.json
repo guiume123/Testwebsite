@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Lokkers Decoys",
-  "brand": "Diverse",
-  "name": "Lokker Buttolo voor Ree"
-}
+    "brand": "",
+    "name": "Lokker Buttolo voor Ree",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker Buttolo voor Ree/Lokker_Buttolo_voor_Ree_.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  }

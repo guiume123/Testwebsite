@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Set Borrelglaasjes op houten plank"
-}
+    "brand": "",
+    "name": "Set Borrelglaasjes op houten plank",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Set Borrelglaasjes op houten plank/setborrelglaasjes.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

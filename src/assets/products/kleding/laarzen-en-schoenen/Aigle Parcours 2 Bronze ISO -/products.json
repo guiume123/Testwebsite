@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Aigle",
-  "name": "Aigle Parcours 2 Bronze ISO -"
-}
+    "brand": "",
+    "name": "Aigle Parcours 2 Bronze ISO -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Parcours 2 Bronze ISO -/Aigle_Parcours_2_Bronze_ISO_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

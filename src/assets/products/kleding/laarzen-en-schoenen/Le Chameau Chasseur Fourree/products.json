@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Le Chameau",
-  "name": "Le Chameau Chasseur Fourree"
-}
+    "brand": "",
+    "name": "Le Chameau Chasseur Fourree",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Chasseur Fourree/Le_Chameau_Chasseur_Fourree.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

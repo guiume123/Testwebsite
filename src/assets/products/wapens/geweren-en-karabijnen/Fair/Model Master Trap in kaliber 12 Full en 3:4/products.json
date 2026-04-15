@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "FAIR",
-  "name": "Model Master Trap in kaliber 12 Full en 3/4."
-}
+    "brand": "FAIR",
+    "name": "Model Master Trap in kaliber 12 Full en 3/4.",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Fair/Model Master Trap in kaliber 12 Full en 3:4/Modelmastertrap.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

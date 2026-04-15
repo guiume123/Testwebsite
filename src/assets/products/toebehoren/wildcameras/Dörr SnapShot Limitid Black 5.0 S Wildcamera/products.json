@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Wildcamera's",
-  "brand": "Dörr",
-  "name": "Dörr SnapShot Limitid Black 5.0 S Wildcamera"
-}
+    "brand": "",
+    "name": "Dörr SnapShot Limitid Black 5.0 S Wildcamera",
+    "image": "/src/assets/products/toebehoren/wildcameras/Dörr SnapShot Limitid Black 5.0 S Wildcamera/Dörr_SnapShot_Limitid_Black_5.0_S_Wildcamera.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Wildcameras"
+  }

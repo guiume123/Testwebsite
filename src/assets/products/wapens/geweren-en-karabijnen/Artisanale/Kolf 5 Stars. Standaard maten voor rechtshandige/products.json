@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "Artisanale",
-  "name": "Kolf 5 Stars. Standaard maten voor rechtshandige"
-}
+    "brand": "Artisanale",
+    "name": "Kolf 5 Stars. Standaard maten voor rechtshandige",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Kolf 5 Stars. Standaard maten voor rechtshandige/Kolf5stars.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Hoogzitten en Tenten",
-  "brand": "Diverse",
-  "name": "Tent 100% Waterdicht inclusief stoel met armsteunen 90x150cm Hoogte"
-}
+    "brand": "",
+    "name": "Tent 100% Waterdicht inclusief stoel met armsteunen 90x150cm Hoogte",
+    "image": "/src/assets/products/toebehoren/hoogzitten-en-tenten/Tent 100% Waterdicht inclusief stoel met armsteunen 90x150cm Hoogte/Tent_100-_Waterdicht_inclusief_stoel_met_armsteunen_90x150cm.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Hoogzitten en Tenten"
+  }

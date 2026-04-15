@@ -1,0 +1,72 @@
+[
+  {
+    "brand": "BROWNING",
+    "name": "Bril Kit Eagle",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Bril Kit Eagle/Bril_Kit_Eagle.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Draagtas Phoenix",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas Phoenix/Draagtas_Phoenix.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Draagtas Ultra Flash",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Draagtas Ultra Flash/Draagtas_Ultra_Flash.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Gilet Classic",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Classic/Gilet_Classic_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "",
+    "name": "Gilet Classic 2",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Classic 2/Giles_classic2.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Gilet Pro Sport",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Pro Sport/Gilet_Pro_Sport_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Gilet Pro Sport 2",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Pro Sport 2/Gilet_Pro_Sport_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Gilet Sporter",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Sporter/Gilet_Sporter.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Oorbeschermer Cadence",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Oorbeschermer Cadence/Oorbeschermer_Cadence_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  },
+  {
+    "brand": "BROWNING",
+    "name": "Oorbeschermer Kit Tactical",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Oorbeschermer Kit Tactical/Oorbeschermer_Kit_Tactical.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  }
+]

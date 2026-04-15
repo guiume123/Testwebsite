@@ -1,6 +1,7 @@
-{
-  "cat": "Kleding",
-  "sub": "Kleding",
-  "brand": "Deerhunter",
-  "name": "Deerhunter Wingshooter Fleece"
-}
+ {
+    "brand": "Deerhunter",
+    "name": "Deerhunter Wingshooter Fleece",
+    "image": "/src/assets/products/kleding/kleding/Deerhunter Wingshooter Fleece/Deerhunter_Wingshooter_Fleece_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  }

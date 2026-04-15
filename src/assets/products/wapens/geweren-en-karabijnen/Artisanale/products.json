@@ -1,7 +1,5 @@
 [
     {
-    "cat": "Wapens",
-    "sub": "Geweren en Karabijnen",
     "brand": "Artisanale",
     "name": "Jachtkarabijn Belge kaliber 9.3x74R voorzien van battue kijker swarovski",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Jachtkarabijn Belge kaliber 9.3x74R voorzien van battue kijker swarovski/Jachtkarabijnbelge.jpg",
@@ -9,8 +7,6 @@
     "subcategory": "Geweren en Karabijnen"
   },
   {
-    "cat": "Wapens",
-    "sub": "Geweren en Karabijnen",
     "brand": "Artisanale",
     "name": "Jachtkarabijn Type Karpat met platines H & H. Kaliber 8x57JRS -",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Jachtkarabijn Type Karpat met platines H & H. Kaliber 8x57JRS -/Jachtkarabijnkarpat.jpg",
@@ -18,17 +14,13 @@
     "subcategory": "Geweren en Karabijnen"
   },
   {
-    "cat": "Wapens",
-    "sub": "Geweren en Karabijnen",
     "brand": "Artisanale",
     "name": "Karpat voorzien van Swarovski 2.5-12x56 met inhaakmontage",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Karpat voorzien van Swarovski 2.5-12x56 met inhaakmontage/Jachtkarabijnswarovskiinhaakmontage.jpg",
     "main_category": "Wapens",
     "subcategory": "Geweren en Karabijnen"
   },
-  {
-    "cat": "Wapens",
-    "sub": "Geweren en Karabijnen",
+  { 
     "brand": "Artisanale",
     "name": "Kolf 4 stars in stijl varkensrug met wangstuk",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Kolf 4 stars in stijl varkensrug met wangstuk/Kolf4stars.jpg",
@@ -36,8 +28,6 @@
     "subcategory": "Geweren en Karabijnen"
   },
   {
-    "cat": "Wapens",
-    "sub": "Geweren en Karabijnen",
     "brand": "Artisanale",
     "name": "Kolf 5 Stars. Standaard maten voor rechtshandige",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Kolf 5 Stars. Standaard maten voor rechtshandige/Kolf5stars.jpg",
@@ -45,8 +35,6 @@
     "subcategory": "Geweren en Karabijnen"
   },
   {
-    "cat": "Wapens",
-    "sub": "Geweren en Karabijnen",
     "brand": "Artisanale",
     "name": "Kolf 5 stars. Voorhout nog te kiezen",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Kolf 5 stars. Voorhout nog te kiezen/Kolf5startsmetvoorhoutnogtekiezen.jpg",
@@ -54,17 +42,13 @@
     "subcategory": "Geweren en Karabijnen"
   },
   {
-    "cat": "Wapens",
-    "sub": "Geweren en Karabijnen",
     "brand": "Artisanale",
     "name": "Luiks jachtgeweer kaliber 12 loop 71cm voorhout en boringen nog te",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Luiks jachtgeweer kaliber 12 loop 71cm voorhout en boringen nog te/Luiksjachtgeweerkaliber12.jpg",
     "main_category": "Wapens",
     "subcategory": "Geweren en Karabijnen"
   },
-  {
-    "cat": "Wapens",
-    "sub": "Geweren en Karabijnen",
+  { 
     "brand": "Artisanale",
     "name": "Luiks jachtgeweer kaliber 20-76 loop 71 cm Boring full en 1-2",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Luiks jachtgeweer kaliber 20-76 loop 71 cm Boring full en 1-2/Luiksjachtgeweerkaliber20.jpg",

@@ -1,6 +1,7 @@
-{
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Bronzen beeld staande hond"
-}
+ {
+    "brand": "",
+    "name": "Bronzen beeld staande hond",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Bronzen beeld staande hond/Bronzen_beeld_hond.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

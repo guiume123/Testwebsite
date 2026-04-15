@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Wijnglazen met jachtmotief"
-}
+    "brand": "",
+    "name": "Wijnglazen met jachtmotief",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Wijnglazen met jachtmotief/Wijnglazen_jachtmotief.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

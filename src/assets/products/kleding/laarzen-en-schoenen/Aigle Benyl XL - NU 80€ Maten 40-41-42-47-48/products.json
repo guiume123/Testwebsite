@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Aigle",
-  "name": "Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48"
-}
+    "brand": "",
+    "name": "Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Benyl XL - NU 80€ Maten 40-41-42-47-48/Aigle_Benyl_XL_-_NU_80€_Maten_40-41-42-47-48.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

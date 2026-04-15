@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning Elite Hunter Light"
-}
+    "brand": "Browning",
+    "name": "Browning Elite Hunter Light",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning Elite Hunter Light/Elitehunterlight.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

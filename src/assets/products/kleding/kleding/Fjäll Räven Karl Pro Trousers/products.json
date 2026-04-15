@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleding",
-  "brand": "Fjäll Räven",
-  "name": "Fjäll Räven Karl Pro Trousers"
-}
+    "brand": "Fjäll Räven",
+    "name": "Fjäll Räven Karl Pro Trousers",
+    "image": "/src/assets/products/kleding/kleding/Fjäll Räven Karl Pro Trousers/Fjäll_Räven_Karl_Pro_Trousers_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  }

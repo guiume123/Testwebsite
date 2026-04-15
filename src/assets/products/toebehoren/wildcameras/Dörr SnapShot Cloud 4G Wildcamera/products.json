@@ -1,6 +1,7 @@
-{
-  "cat": "Toebehoren",
-  "sub": "Wildcamera's",
-  "brand": "Dörr",
-  "name": "Dörr SnapShot Cloud 4G Wildcamera"
-}
+ {
+    "brand": "",
+    "name": "Dörr SnapShot Cloud 4G Wildcamera",
+    "image": "/src/assets/products/toebehoren/wildcameras/Dörr SnapShot Cloud 4G Wildcamera/Dörr_SnapShot_Cloud_4G_Wildcamera.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Wildcameras"
+  }

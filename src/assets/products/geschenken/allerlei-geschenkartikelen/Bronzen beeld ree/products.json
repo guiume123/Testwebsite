@@ -1,6 +1,7 @@
-{
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Bronzen beeld ree"
-}
+ {
+    "brand": "",
+    "name": "Bronzen beeld ree",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Bronzen beeld ree/Bronzen_beeld_ree.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

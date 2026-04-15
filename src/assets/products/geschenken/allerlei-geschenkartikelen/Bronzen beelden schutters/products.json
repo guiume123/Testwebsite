@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Bronzen beelden schutters"
-}
+    "brand": "",
+    "name": "Bronzen beelden schutters",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Bronzen beelden schutters/Beeld_schutters.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

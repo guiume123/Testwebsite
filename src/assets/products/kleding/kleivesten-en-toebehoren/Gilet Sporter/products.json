@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleivesten en toebehoren",
-  "brand": "Browning",
-  "name": "Gilet Sporter"
-}
+    "brand": "BROWNING",
+    "name": "Gilet Sporter",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Gilet Sporter/Gilet_Sporter.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  }

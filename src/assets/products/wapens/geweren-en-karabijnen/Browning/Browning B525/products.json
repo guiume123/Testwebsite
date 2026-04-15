@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Browning B525"
-}
+    "brand": "Browning",
+    "name": "Browning B525",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning B525/525.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

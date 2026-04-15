@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleivesten en toebehoren",
-  "brand": "Browning",
-  "name": "Bril Kit Eagle"
-}
+    "brand": "BROWNING",
+    "name": "Bril Kit Eagle",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Bril Kit Eagle/Bril_Kit_Eagle.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  }

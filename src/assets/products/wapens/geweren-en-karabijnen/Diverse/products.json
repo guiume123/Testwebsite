@@ -1,0 +1,44 @@
+[
+  {
+    "brand": "Browning",
+    "name": "Browning A-Bolt 3 Composite",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning A-Bolt 3 Composite/A-3BOLT.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning B725 Hunter Light Premium",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning B725 Hunter Light Premium/B725hunterlightpremium.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning B725 Sporter Verstelbare kolf",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning B725 Sporter Verstelbare kolf/B725verstelbarekolf.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning Maxus One Composite",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning Maxus One Composite/Maxusonecomposite.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning Maxus Premium Grade 3",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning Maxus Premium Grade 3/Maxuspremiumgrade 3.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "Browning",
+    "name": "Browning T-Bolt Sporter Threaded",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning T-Bolt Sporter Threaded/T-boltspoterthreaded.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }
+]

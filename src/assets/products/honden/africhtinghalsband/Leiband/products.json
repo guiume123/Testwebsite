@@ -1,6 +1,7 @@
 {
-  "cat": "Honden",
-  "sub": "Africhtinghalsband",
-  "brand": "Diverse",
-  "name": "Leiband"
+    "brand": "",
+    "name": "Leiband",
+    "image": "/src/assets/products/honden/africhtinghalsband/Leiband/Leiband.jpg",
+    "main_category": "Honden",
+    "subcategory": "Africhtinghalsband"
 }

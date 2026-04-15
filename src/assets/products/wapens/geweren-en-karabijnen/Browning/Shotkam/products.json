@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "BROWNING",
-  "name": "Shotkam Nu beschikbaar"
-}
+    "brand": "",
+    "name": "Shotkam",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Browning/Shotkam/Shotkam_Nu_beschikbaar.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

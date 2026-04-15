@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Le Chameau",
-  "name": "Le Chameau Vierzon Jersey voering -"
-}
+    "brand": "",
+    "name": "Le Chameau Vierzon Jersey voering -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzon Jersey voering -/Le_Chameau_Vierzon_Jersey_voering_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

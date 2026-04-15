@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleivesten en toebehoren",
-  "brand": "Browning",
-  "name": "Oorbeschermer Cadence"
-}
+    "brand": "BROWNING",
+    "name": "Oorbeschermer Cadence",
+    "image": "/src/assets/products/kleding/kleivesten-en-toebehoren/Oorbeschermer Cadence/Oorbeschermer_Cadence_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleivesten en Toebehoren"
+  }

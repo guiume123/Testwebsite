@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Horloges set stalen band"
-}
+    "brand": "",
+    "name": "Horloge stalen band",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Horloge stalen band/horloge_stalen_band.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

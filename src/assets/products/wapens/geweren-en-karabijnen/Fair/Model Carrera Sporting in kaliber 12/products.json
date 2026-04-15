@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "FAIR",
-  "name": "Model Carrera Sporting in kaliber 12"
-}
+    "brand": "FAIR",
+    "name": "Model Carrera Sporting in kaliber 12",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Fair/Model Carrera Sporting in kaliber 12/Carrerasportingkaliber12.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

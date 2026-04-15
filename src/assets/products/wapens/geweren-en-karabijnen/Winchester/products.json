@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "brand": "",
+    "name": "Browning T-Bolt Sporter Threaded",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Winchester/Browning T-Bolt Sporter Threaded/BrowningTbolt.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "",
+    "name": "Shotkam",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Winchester/Shotkam/Shotkam.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "",
+    "name": "select-energy",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Winchester/select-energy/Selectenergy.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  },
+  {
+    "brand": "",
+    "name": "select-sporting",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Winchester/select-sporting/Selectsporting.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }
+]

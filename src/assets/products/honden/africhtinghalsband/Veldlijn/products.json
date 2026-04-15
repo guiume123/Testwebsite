@@ -1,6 +1,7 @@
 {
-  "cat": "Honden",
-  "sub": "Africhtinghalsband",
-  "brand": "Diverse",
-  "name": "Veldlijn"
+    "brand": "",
+    "name": "Veldlijn",
+    "image": "/src/assets/products/honden/africhtinghalsband/Veldlijn/Veldlijn.png",
+    "main_category": "Honden",
+    "subcategory": "Africhtinghalsband"
 }

@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "Artisanale",
-  "name": "Karpat voorzien van Swarovski 2.5-12x56 met inhaakmontage"
-}
+    "brand": "Artisanale",
+    "name": "Karpat voorzien van Swarovski 2.5-12x56 met inhaakmontage",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Karpat voorzien van Swarovski 2.5-12x56 met inhaakmontage/Jachtkarabijnswarovskiinhaakmontage.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

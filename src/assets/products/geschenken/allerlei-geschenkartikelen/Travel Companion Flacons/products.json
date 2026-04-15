@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Travel Companion Flacons"
-}
+    "brand": "",
+    "name": "Travel Companion Flacons",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Travel Companion Flacons/Travel_companion_flacons.jpg",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

@@ -1,6 +1,7 @@
 {
-  "cat": "Geschenken",
-  "sub": "Allerlei Geschenkartikelen",
-  "brand": "Diverse",
-  "name": "Flacons jachtmotief"
-}
+    "brand": "",
+    "name": "Flacons jachtmotief",
+    "image": "/src/assets/products/geschenken/allerlei-geschenkartikelen/Flacons jachtmotief/Flacons_jachtmotief.png",
+    "main_category": "Geschenken",
+    "subcategory": "Allerlei Geschenkartikelen"
+  }

@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Lokkers Decoys",
-  "brand": "Diverse",
-  "name": "Kraai geflokt vliegend"
-}
+    "brand": "",
+    "name": "Kraai geflokt vliegend",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Kraai geflokt vliegend/Kraai_geflokt_vliegend.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  }

@@ -1,52 +1,37 @@
 [
   {
+    "brand": "Barbour",
     "name": "Barbour Bardon Quilt",
     "image": "/src/assets/products/kleding/kleding/Barbour Bardon Quilt/Barbour_Bardon_Quilt.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Kleding",
-    "brand": "Barbour",
-    "link": "https://baus.be/duplicaat-van-kleding.html"
+    "subcategory": "Kleding"
   },
   {
+    "brand": "Barbour",
     "name": "Barbour Cordbridge Wax Jacket",
     "image": "/src/assets/products/kleding/kleding/Barbour Cordbridge Wax Jacket/Barbour_Cordbridge_Wax_Jacket.jpg",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Kleding",
-    "brand": "Barbour",
-    "link": "https://baus.be/duplicaat-van-kleding.html"
+    "subcategory": "Kleding"
   },
   {
+    "brand": "Deerhunter",
+    "name": "Deerhunter Wingshooter Fleece",
+    "image": "/src/assets/products/kleding/kleding/Deerhunter Wingshooter Fleece/Deerhunter_Wingshooter_Fleece_.png",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  },
+  {
+    "brand": "Fjäll Räven",
     "name": "Fjäll Räven Forest Fleece Jacket",
     "image": "/src/assets/products/kleding/kleding/Fjäll Räven Forest Fleece Jacket/Fjäll_Räven_Forest_Fleece_Jacket.png",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Kleding",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-kleding.html"
+    "subcategory": "Kleding"
   },
   {
-    "name": "Fjäll Räven Karl Pro Trousers ",
+    "brand": "Fjäll Räven",
+    "name": "Fjäll Räven Karl Pro Trousers",
     "image": "/src/assets/products/kleding/kleding/Fjäll Räven Karl Pro Trousers/Fjäll_Räven_Karl_Pro_Trousers_.png",
-    "price": null,
-    "description": null,
     "main_category": "Kleding",
-    "subcategory": "Kleding",
-    "brand": null,
-    "link": "https://baus.be/duplicaat-van-kleding.html"
-  },
-  {
-    "name": "Deerhunter Wingshooter Fleece ",
-    "image": "/src/assets/products/kleding/kleding/Deerhunter Wingshooter Fleece/Deerhunter_Wingshooter_Fleece_.png",
-    "price": null,
-    "description": null,
-    "main_category": "Kleding",
-    "subcategory": "Kleding",
-    "brand": "Deerhunter",
-    "link": "https://baus.be/duplicaat-van-kleding.html"
+    "subcategory": "Kleding"
   }
 ]

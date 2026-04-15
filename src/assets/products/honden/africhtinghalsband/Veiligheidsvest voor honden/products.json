@@ -1,6 +1,7 @@
 {
-  "cat": "Honden",
-  "sub": "Africhtinghalsband",
-  "brand": "Diverse",
-  "name": "Veiligheidsvest voor honden"
+    "brand": "",
+    "name": "Veiligheidsvest voor honden",
+    "image": "/src/assets/products/honden/africhtinghalsband/Veiligheidsvest voor honden/Veiligheidsvest_voor_honden_.jpg",
+    "main_category": "Honden",
+    "subcategory": "Africhtinghalsband"
 }

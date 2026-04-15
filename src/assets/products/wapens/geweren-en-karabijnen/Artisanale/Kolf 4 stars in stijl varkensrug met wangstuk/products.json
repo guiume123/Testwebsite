@@ -1,6 +1,7 @@
-{
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "Artisanale",
-  "name": "Kolf 4 stars in stijl varkensrug met wangstuk"
-}
+{ 
+    "brand": "Artisanale",
+    "name": "Kolf 4 stars in stijl varkensrug met wangstuk",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Kolf 4 stars in stijl varkensrug met wangstuk/Kolf4stars.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

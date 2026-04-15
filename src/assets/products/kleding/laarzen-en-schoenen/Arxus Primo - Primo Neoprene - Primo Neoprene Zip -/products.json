@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Arxus",
-  "name": "Arxus Primo - Primo Neoprene - Primo Neoprene Zip -"
-}
+    "brand": "",
+    "name": "Arxus Primo - Primo Neoprene - Primo Neoprene Zip -",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Arxus Primo - Primo Neoprene - Primo Neoprene Zip -/Arxus_Primo_-_Primo_Neoprene_-_Primo_Neoprene_Zip_-.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

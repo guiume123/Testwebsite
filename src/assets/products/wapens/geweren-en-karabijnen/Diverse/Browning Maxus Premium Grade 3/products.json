@@ -1,6 +1,7 @@
 {
-  "cat": "Wapens",
-  "sub": "Geweren en Karabijnen",
-  "brand": "DIVERSE",
-  "name": "Browning Maxus Premium Grade 3"
-}
+    "brand": "Browning",
+    "name": "Browning Maxus Premium Grade 3",
+    "image": "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Browning Maxus Premium Grade 3/Maxuspremiumgrade 3.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Geweren en Karabijnen"
+  }

@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Lokkers Decoys",
-  "brand": "Diverse",
-  "name": "Lokker voor Ree"
-}
+    "brand": "",
+    "name": "Lokker voor Ree",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokker voor Ree/Lokker_voor_Ree_.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  }

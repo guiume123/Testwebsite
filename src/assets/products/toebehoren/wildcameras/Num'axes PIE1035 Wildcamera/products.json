@@ -1,6 +1,7 @@
-{
-  "cat": "Toebehoren",
-  "sub": "Wildcamera's",
-  "brand": "Num'axes",
-  "name": "Num'axes PIE1035 Wildcamera"
-}
+ {
+    "brand": "Num'axes",
+    "name": "Num'axes PIE1035 Wildcamera",
+    "image": "/src/assets/products/toebehoren/wildcameras/Num'axes PIE1035 Wildcamera/_Num'axes_PIE1035_Wildcamera.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Wildcameras"
+  }

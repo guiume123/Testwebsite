@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Aigle",
-  "name": "Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47"
-}
+    "brand": "",
+    "name": "Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Aigle Bellastic Kaki - Nu 90€ Maten 41 en 47/Aigle_Bellastic_Kaki_-_Nu_90€_Maten_41_en_47_.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

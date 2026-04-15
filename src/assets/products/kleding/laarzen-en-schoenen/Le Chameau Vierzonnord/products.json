@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Le Chameau",
-  "name": "Le Chameau Vierzonnord"
-}
+    "brand": "",
+    "name": "Le Chameau Vierzonnord",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Le Chameau Vierzonnord/Le_Chameau_Vierzonord_.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

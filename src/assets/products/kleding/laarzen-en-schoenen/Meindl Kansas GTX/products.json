@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Laarzen en Schoenen",
-  "brand": "Meindl",
-  "name": "Meindl Kansas GTX"
-}
+    "brand": "",
+    "name": "Meindl Kansas GTX",
+    "image": "/src/assets/products/kleding/laarzen-en-schoenen/Meindl Kansas GTX/Meindl_Kansas_GTX.png",
+    "main_category": "Kleding",
+    "subcategory": "Laarzen en Schoenen"
+  }

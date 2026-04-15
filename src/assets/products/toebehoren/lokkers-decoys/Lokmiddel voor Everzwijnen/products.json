@@ -1,6 +1,7 @@
 {
-  "cat": "Toebehoren",
-  "sub": "Lokkers Decoys",
-  "brand": "Diverse",
-  "name": "Lokmiddel voor Everzwijnen"
-}
+    "brand": "",
+    "name": "Lokmiddel voor Everzwijnen",
+    "image": "/src/assets/products/toebehoren/lokkers-decoys/Lokmiddel voor Everzwijnen/Lokmiddel_voor_Everzwijnen_.jpg",
+    "main_category": "Toebehoren",
+    "subcategory": "Lokkers Decoys"
+  }

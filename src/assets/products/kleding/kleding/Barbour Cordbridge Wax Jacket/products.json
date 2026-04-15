@@ -1,6 +1,7 @@
 {
-  "cat": "Kleding",
-  "sub": "Kleding",
-  "brand": "Barbour",
-  "name": "Barbour Cordbridge Wax Jacket"
-}
+    "brand": "Barbour",
+    "name": "Barbour Cordbridge Wax Jacket",
+    "image": "/src/assets/products/kleding/kleding/Barbour Cordbridge Wax Jacket/Barbour_Cordbridge_Wax_Jacket.jpg",
+    "main_category": "Kleding",
+    "subcategory": "Kleding"
+  }
