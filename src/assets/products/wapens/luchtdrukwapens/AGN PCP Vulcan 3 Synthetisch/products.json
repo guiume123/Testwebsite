@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "AGN",
-  "name": "AGN PCP Vulcan 3 Synthetisch"
-}
+[
+  {
+    "brand": "",
+    "name": "AGN PCP Vulcan 3 Synthetisch",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Vulcan 3 Synthetisch/AGN_PCP_Vulcan_3_Synthetisch_.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

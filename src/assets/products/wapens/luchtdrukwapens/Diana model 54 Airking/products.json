@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Diana model 54 Airking"
-}
+[
+  {
+    "brand": "",
+    "name": "Diana model 54 Airking",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana model 54 Airking/Diana_model_54_Airking.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

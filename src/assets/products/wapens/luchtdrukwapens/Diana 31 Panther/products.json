@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Diana 31 Panther"
-}
+[
+  {
+    "brand": "",
+    "name": "Diana 31 Panther",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana 31 Panther/Diana_31_Panther_.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

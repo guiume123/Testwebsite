@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Kruisbogen",
-  "brand": "Crossbow",
-  "name": "MK-300B 175lbs 20inch"
-}
+[
+  {
+    "brand": "",
+    "name": "MK-300B 175lbs 20inch",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-300B 175lbs 20inch/MK-300B_175lbs_20inch.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  }
+]

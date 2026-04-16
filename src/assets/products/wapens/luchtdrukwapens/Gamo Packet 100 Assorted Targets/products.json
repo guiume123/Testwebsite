@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Gamo",
-  "name": "Gamo Packet 100 Assorted Targets"
-}
+[
+  {
+    "brand": "",
+    "name": "Gamo Packet 100 Assorted Targets",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Packet 100 Assorted Targets/Gamo_Packet_100_Assorted_Targets.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

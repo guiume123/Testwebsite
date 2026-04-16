@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Beretta",
-  "name": "Soft Air Beratta M92 6mm"
-}
+[
+  {
+    "brand": "",
+    "name": "Soft Air Beratta M92 6mm",
+    "image": "/src/assets/products/wapens/soft-air-guns/Soft Air Beratta M92 6mm/Soft_Air_Beratta_M92_6mm.png",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

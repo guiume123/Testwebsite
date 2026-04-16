@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Beretta",
-  "name": "CO2 Pistool Beretta PX4 Storm C-4,5mm -"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Pistool Beretta PX4 Storm C-4,5mm -",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Pistool Beretta PX4 Storm C-4,5mm -/CO2_Pistool_Beretta_PX4_Storm_C-4,5mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

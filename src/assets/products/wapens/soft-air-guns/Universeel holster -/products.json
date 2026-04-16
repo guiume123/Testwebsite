@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Diverse",
-  "name": "Universeel holster -"
-}
+[
+  {
+    "brand": "",
+    "name": "Universeel holster -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Universeel holster -/Universeel_holster_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

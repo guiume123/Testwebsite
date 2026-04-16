@@ -1,382 +1,269 @@
 [
   {
-    "name": "AGN PCP Vulcan 3 High Power Synthetisch  ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/877_agn_vulcan_3_HP.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "1.Gamo Replay 10 Maxxim IGT",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/1.Gamo Replay 10 Maxxim IGT/1.Gamo_Replay_10_Maxxim_IGT_.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "AGN PCP Vulcan 3 Walnut                                                                                                                             ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/876_agn_vulcan_3_wood_.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
-    "name": "AGN PCP Vulcan 3 Synthetisch ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/874_agn_vulcan_3_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
-    "name": "AGN PCP Uragan 3 Synthetisch ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/873_agn_uragan_3_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
+    "brand": "",
     "name": "AGN PCP Uragan 2 Carbon",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/872_agn_uragan_2_carbon.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Carbon/AGN_PCP_Uragan_2_Carbon.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
+    "brand": "",
     "name": "AGN PCP Uragan 2 Groen",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/871_Foto_9_05_2025_om_14.12.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Groen/AGN_PCP_Uragan_2_Groen.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
+    "brand": "",
     "name": "AGN PCP Uragan 2 Rood",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/870_uragan_2_red_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Rood/AGN_PCP_Uragan_2_Rood.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
+    "brand": "",
+    "name": "AGN PCP Uragan 2 Synthetisch",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Synthetisch/AGN_PCP_Uragan_2_Synthetisch_.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
     "name": "AGN PCP Uragan 2 Walnut",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/869_uragan_2_wood_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Walnut/AGN_PCP_Uragan_2_Walnut.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "AGN PCP Uragan 2 Synthetisch ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/868_uragan_2_synthetisch_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "AGN PCP Uragan 3 Synthetisch",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 3 Synthetisch/AGN_PCP_Uragan_3_Synthetisch_.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "AGN PCP Vixen 2 Long ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/867_agn_vixen_2_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "AGN PCP Vixen",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Vixen/AGN_PCP_Vixen_.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "AGN PCP Vixen ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/875_agn_vixen.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "AGN PCP Vixen 2 Long",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Vixen 2 Long/AGN_PCP_Vixen_2_Long_.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Diana Stormride Perslucht",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/642_Diana_stormride_.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "AGN PCP Vulcan 3 High Power Synthetisch",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Vulcan 3 High Power Synthetisch/AGN_PCP_Vulcan_3_High_Power_Synthetisch_.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Diana 31 Panther ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/100_Diana_31_Panther_4_5mm_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "AGN PCP Vulcan 3 Synthetisch",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Vulcan 3 Synthetisch/AGN_PCP_Vulcan_3_Synthetisch_.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Diana 34 Classic ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/98_Diana_34_Classic_4_5mm_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "AGN PCP Vulcan 3 Walnut",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Vulcan 3 Walnut/AGN_PCP_Vulcan_3_Walnut_.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Diana 460 Magnum ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/99_Diana_460_Magnum_4_5mm_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Bipod",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Bipod/Bipod_.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Diana model 48",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/638_48.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Diana 31 Panther",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana 31 Panther/Diana_31_Panther_.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Diana model 54 Airking",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/637_54_Airking.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Diana 34 Classic",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana 34 Classic/Diana_34_Classic_.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
+    "brand": "",
+    "name": "Diana 460 Magnum",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana 460 Magnum/Diana_460_Magnum_.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
     "name": "Diana K98",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/645_K98.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana K98/Diana_K98.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Diana eleven",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/641_Diana_eleven.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
+    "brand": "",
     "name": "Diana Panther 350 N TEC",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/646_Panther_350_N_TEC.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana Panther 350 N TEC/Diana_Panther_350_N_TEC.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
+    "brand": "",
+    "name": "Diana Stormride Perslucht",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana Stormride Perslucht/Diana_Stormride_Perslucht.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
     "name": "Diana airbug CO2",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/640_Diana_airbug.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana airbug CO2/Diana_airbug_CO2.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Gamo Hunter 1250 Grizzly",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/644_Hunter_1250_Grizzly.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Diana eleven",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana eleven/Diana_eleven.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Gamo Black Fusion IGT ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/111_Gamo_Black_Fusion_IGT_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Diana model 48",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana model 48/Diana_model_48.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Gamo Delta Fox ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/639_Delta_fox_GT_Youth_airgun.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Diana model 54 Airking",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana model 54 Airking/Diana_model_54_Airking.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "1.Gamo Replay 10 Maxxim IGT ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/634_Replay_10_MAXXIM_Multishot.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
-    "name": "Gamo Black Maxxim  IGT ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/635_Black_MAXXIM_IGT_MACH_1.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
-    "name": "Trevox UX",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/684_Trevox_UX.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
+    "brand": "",
     "name": "FX Dreamline Perslucht",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/787_fx_dreamline_classic_walnut_22.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/FX Dreamline Perslucht/FX_Dreamline_Perslucht.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
+    "brand": "",
     "name": "FX Impact M3 Perslucht",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/790_fximpact_2_.30.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/FX Impact M3 Perslucht/FX_Impact_M3_Perslucht.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Luchtdruk fles 4L en 7L 300 Bar met Gun Valve en manometer -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/110_Luchtdruk_fles_4L_en_7L_300_Bar_met_Gun_Valve_en_manometer_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Gamo Black Fusion IGT",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Black Fusion IGT/Gamo_Black_Fusion_IGT_.jpg",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Bipod ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/651_Bipod_TMB_II.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Gamo Black Maxxim IGT",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Black Maxxim IGT/Gamo_Black_Maxxim_IGT_.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Kogelvangers Silhouetten -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/108_Kogelvangers_Silhouetten_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Gamo Delta Fox",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Delta Fox/Gamo_Delta_Fox_.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Gamo Packet 100 Assorted Targets",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/654_Gamo_Packet_100_Assorted_Targets.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Gamo Field Target",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Field Target/Gamo_Field_Target_.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Gamo Field Target ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/655_Gamo_Squirrel_target_trap.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
-    "name": "Walther Pellet ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/652_Walther_Pellet_Trap.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": "Walther",
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
-    "name": "Walther Magnum Pellet ",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/653_Walther_Magnum_Pellet_Trap.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": "Walther",
-    "link": "https://baus.be/luchtdrukwapens.html"
-  },
-  {
+    "brand": "",
     "name": "Gamo Gun Cover Black Green 130cm",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/704_Gamo_Gun_Cover_Black_Green_130cm.a32dd7c1678dda7befff3936593c568f.png",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Gun Cover Black Green 130cm/Gamo_Gun_Cover_Black_Green_130cm.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
   },
   {
-    "name": "Spinner Target Spinner Target De Luxe -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/112_Spinner_Target_Spinner_Target_De_Luxe_.c3ee36e665f0b26718b6ec9bb8aa41ba.jpg",
-    "price": null,
-    "description": null,
+    "brand": "",
+    "name": "Gamo Hunter 1250 Grizzly",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Hunter 1250 Grizzly/Gamo_Hunter_1250_Grizzly.png",
     "main_category": "Wapens",
-    "subcategory": "Luchtdrukwapens",
-    "brand": null,
-    "link": "https://baus.be/luchtdrukwapens.html"
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
+    "name": "Gamo Packet 100 Assorted Targets",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Packet 100 Assorted Targets/Gamo_Packet_100_Assorted_Targets.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
+    "name": "Kogelvangers Silhouetten -",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Kogelvangers Silhouetten -/Kogelvangers_Silhouetten_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
+    "name": "Luchtdruk fles 4L en 7L 300 Bar met Gun Valve en manometer -",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Luchtdruk fles 4L en 7L 300 Bar met Gun Valve en manometer -/Luchtdruk_fles_4L_en_7L_300_Bar_met_Gun_Valve_en_manometer_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
+    "name": "Spinner Target Spinner Target De Luxe -",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Spinner Target Spinner Target De Luxe -/Spinner_Target_Spinner_Target_De_Luxe_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
+    "name": "Trevox UX",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Trevox UX/Trevox_UX.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
+    "name": "Walther Magnum Pellet",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Walther Magnum Pellet/Walther_Magnum_Pellet_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  },
+  {
+    "brand": "",
+    "name": "Walther Pellet",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Walther Pellet/Walther_Pellet_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
   }
 ]
+ 

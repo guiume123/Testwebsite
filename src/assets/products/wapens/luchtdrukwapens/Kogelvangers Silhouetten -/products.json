@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Kogelvangers Silhouetten -"
-}
+[
+  {
+    "brand": "",
+    "name": "Kogelvangers Silhouetten -",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Kogelvangers Silhouetten -/Kogelvangers_Silhouetten_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

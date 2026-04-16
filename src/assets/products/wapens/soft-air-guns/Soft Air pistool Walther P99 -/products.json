@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Walther",
-  "name": "Soft Air pistool Walther P99 -"
-}
+[
+  {
+    "brand": "",
+    "name": "Soft Air pistool Walther P99 -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Soft Air pistool Walther P99 -/Soft_Air_pistool_Walther_P99_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Pistolen en Revolvers",
-  "brand": "CZ",
-  "name": "CZ 75 SP- 01 cal. 9x19"
-}
+[
+  {
+    "brand": "",
+    "name": "CZ 75 SP- 01 cal. 9x19",
+    "image": "/src/assets/products/wapens/pistolen-en-revolvers/CZ 75 SP- 01 cal. 9x19/CZ_75_SP-_01_cal._9x19.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Pistolen en Revolvers"
+  }
+]

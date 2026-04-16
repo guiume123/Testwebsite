@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Gamo",
-  "name": "Gamo Black Fusion IGT"
-}
+[
+  {
+    "brand": "",
+    "name": "Gamo Black Fusion IGT",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Black Fusion IGT/Gamo_Black_Fusion_IGT_.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

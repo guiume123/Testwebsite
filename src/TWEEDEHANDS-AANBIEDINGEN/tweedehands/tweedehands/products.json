@@ -1,0 +1,98 @@
+[
+  {
+    "brand": "",
+    "name": "Revolver Colt Detective",
+    "image": "/src/assets/products/tweedehands/Revolver Colt Detective.jpg",
+    "special": "Tweedehands",
+    "price": "450 euro",
+    "description": "Revolver Colt Detective Spee Cal. 38 spee"
+  },
+  {
+    "brand": "",
+    "name": "Pistool Colt",
+    "image": "/src/assets/products/tweedehands/Pistool Colt.jpg",
+    "special": "Tweedehands",
+    "price": "600 euro",
+    "description": "Pistool Colt Kadet .22LR inclusief koffer"
+  },
+  {
+    "brand": "",
+    "name": "Revolver Uberti",
+    "image": "/src/assets/products/tweedehands/Revolver Uberti.jpg",
+    "special": "Tweedehands",
+    "price": "375 euro",
+    "description": "Revolver Uberti 45 Long Colt"
+  },
+  {
+    "brand": "",
+    "name": "Revolver Colt",
+    "image": "/src/assets/products/tweedehands/Revolver Colt.jpg",
+    "special": "Tweedehands",
+    "price": "400 euro",
+    "description": "Revolver Colt New Frontier .22LR"
+  },
+  {
+    "brand": "",
+    "name": "Pistool Glock",
+    "image": "/src/assets/products/tweedehands/Pistool Glock.jpg",
+    "special": "Tweedehands",
+    "price": "400 euro",
+    "description": "Pistool Glock Mod 22 Cal. 40"
+  },
+  {
+    "brand": "",
+    "name": "Pistool Melior",
+    "image": "/src/assets/products/tweedehands/Pistool Melior.jpg",
+    "special": "Tweedehands",
+    "price": "150 euro",
+    "description": "Pistool Melior 6,35 mm"
+  },
+  {
+    "brand": "",
+    "name": "Revolver S&W mod 36",
+    "image": "/src/assets/products/tweedehands/Revolver S&W mod 36.jpg",
+    "special": "Tweedehands",
+    "price": "150 euro",
+    "description": "Smith & Wesson mod 36  3inch .38"
+  },
+  {
+    "brand": "",
+    "name": "Revolver Ruger",
+    "image": "/src/assets/products/tweedehands/Revolver Ruger.jpg",
+    "special": "Tweedehands",
+    "price": "950 euro",
+    "description": "Ruger CP100 .357 Magnum"
+  },
+  {
+    "brand": "",
+    "name": "Revolver S&W",
+    "image": "/src/assets/products/tweedehands/Revolver S&W.jpg",
+    "special": "Tweedehands",
+    "price": "750 euro",
+    "description": "S&W Mod 686 STST 357 Magnum"
+  },
+  {
+    "brand": "",
+    "name": "Mixste",
+    "image": "/src/assets/products/tweedehands/Mixste.jpg",
+    "special": "Tweedehands",
+    "price": "1000,-",
+    "description": "Juxtaposée Mixste Gebr Kupper Dresden kaliber 16  -  8x57JRS met voorspanner kijker Swarovski 1.5-6x42 Duitse inhaakmontage."
+  },
+  {
+    "brand": "",
+    "name": "Juxtaposée",
+    "image": "/src/assets/products/tweedehands/Juxtaposée.jpg",
+    "special": "Tweedehands",
+    "price": "1550,-",
+    "description": "ANGELO ZOLI Platines syst H&H Model Edward Cal. 12/70 71 cm F/M"
+  },
+  {
+    "brand": "",
+    "name": "Superposée",
+    "image": "/src/assets/products/tweedehands/Superposée.jpg",
+    "special": "Tweedehands",
+    "price": "195,-",
+    "description": "LAMBER  DUE KALIBER. 12/70  75cm F/M"
+  }
+]

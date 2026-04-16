@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Glock",
-  "name": "CO2 Pistool Glock 19 4.5mm"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Pistool Glock 19 4.5mm",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Pistool Glock 19 4.5mm/CO2_Pistool_Glock_19_4.5mm.png",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

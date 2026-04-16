@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "CZ",
-  "name": "Soft Air CZ 75- P 07 Duty 6mm"
-}
+[
+  {
+    "brand": "",
+    "name": "Soft Air CZ 75- P 07 Duty 6mm",
+    "image": "/src/assets/products/wapens/soft-air-guns/Soft Air CZ 75- P 07 Duty 6mm/Soft_Air_CZ_75-_P_07_Duty_6mm.png",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

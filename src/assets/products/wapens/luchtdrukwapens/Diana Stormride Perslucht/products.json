@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Diana Stormride Perslucht"
-}
+[
+  {
+    "brand": "",
+    "name": "Diana Stormride Perslucht",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana Stormride Perslucht/Diana_Stormride_Perslucht.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

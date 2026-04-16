@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Walther",
-  "name": "Walther Magnum Pellet"
-}
+[
+  {
+    "brand": "",
+    "name": "Walther Magnum Pellet",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Walther Magnum Pellet/Walther_Magnum_Pellet_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

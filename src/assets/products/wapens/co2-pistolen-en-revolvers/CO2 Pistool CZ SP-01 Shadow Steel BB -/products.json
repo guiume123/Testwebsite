@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "CZ",
-  "name": "CO2 Pistool CZ SP-01 Shadow Steel BB -"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Pistool CZ SP-01 Shadow Steel BB -",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Pistool CZ SP-01 Shadow Steel BB -/CO2_Pistool_CZ_SP-01_Shadow_Steel_BB_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

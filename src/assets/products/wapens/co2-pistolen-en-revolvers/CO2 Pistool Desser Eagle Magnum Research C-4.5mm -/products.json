@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Magnum Research",
-  "name": "CO2 Pistool Desser Eagle Magnum Research C-4.5mm -"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Pistool Desser Eagle Magnum Research C-4.5mm -",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Pistool Desser Eagle Magnum Research C-4.5mm -/CO2_Pistool_Desser_Eagle_Magnum_Research_C-4.5mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

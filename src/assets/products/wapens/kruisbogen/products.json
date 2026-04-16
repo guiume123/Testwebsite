@@ -1,92 +1,65 @@
 [
   {
-    "name": "MK-150A1PB 150lbs 16inch",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/181_MK_150A1PB_150lbs_16inch.c28655a0813e24f7d7c6dd8bad63dabd.png",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Kruisbogen",
-    "brand": null,
-    "link": "https://baus.be/kruisbogen.html"
-  },
-  {
-    "name": "MK-150A3B 150lbs 16inch",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/182_MK_150A3B_150lbs_16inch.bffe23f86661caa79a7eace02e05e72a.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Kruisbogen",
-    "brand": null,
-    "link": "https://baus.be/kruisbogen.html"
-  },
-  {
-    "name": "MK-160AC 130lbs 14inch",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/180_MK_160AC_130lbs_14inch.bffe23f86661caa79a7eace02e05e72a.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Kruisbogen",
-    "brand": null,
-    "link": "https://baus.be/kruisbogen.html"
-  },
-  {
-    "name": "MK-200A1 150lbs 16inch",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/184_MK_200A1_150lbs_16inch.bffe23f86661caa79a7eace02e05e72a.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Kruisbogen",
-    "brand": null,
-    "link": "https://baus.be/kruisbogen.html"
-  },
-  {
-    "name": "MK-250A1B 150lbs 20inch",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/183_MK_250A1B_150lbs_20inch.bffe23f86661caa79a7eace02e05e72a.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Kruisbogen",
-    "brand": null,
-    "link": "https://baus.be/kruisbogen.html"
-  },
-  {
-    "name": "MK-300B 175lbs 20inch",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/179_MK_300B_175lbs_20inch.bffe23f86661caa79a7eace02e05e72a.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Kruisbogen",
-    "brand": null,
-    "link": "https://baus.be/kruisbogen.html"
-  },
-  {
-    "name": "MK-XB 52 185lbs 20inch Richtkijkker in optie",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/185_MK_XB_52_185lbs_20inch_Richtkijkker_in_optie.bffe23f86661caa79a7eace02e05e72a.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Kruisbogen",
-    "brand": null,
-    "link": "https://baus.be/kruisbogen.html"
-  },
-  {
-    "name": "Richtkijker speciaal voor kruisbogen -",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/186_Richtkijker_speciaal_voor_kruisbogen_.bffe23f86661caa79a7eace02e05e72a.jpg",
-    "price": null,
-    "description": null,
-    "main_category": "Wapens",
-    "subcategory": "Kruisbogen",
-    "brand": null,
-    "link": "https://baus.be/kruisbogen.html"
-  },
-  {
+    "brand": "",
     "name": "Aluminium pijl 14inch 16inch 20inch",
-    "image": "https://baus.be/assets/components/phpthumbof/cache/187_Aluminium_pijl_14inch_16inch_20inch.bffe23f86661caa79a7eace02e05e72a.jpg",
-    "price": null,
-    "description": null,
+    "image": "/src/assets/products/wapens/kruisbogen/Aluminium pijl 14inch 16inch 20inch/Aluminium_pijl_14inch_16inch_20inch.jpg",
     "main_category": "Wapens",
-    "subcategory": "Kruisbogen",
-    "brand": null,
-    "link": "https://baus.be/kruisbogen.html"
+    "subcategory": "Kruisbogen"
+  },
+  {
+    "brand": "",
+    "name": "MK-150A1PB 150lbs 16inch",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-150A1PB 150lbs 16inch/MK-150A1PB_150lbs_16inch.png",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  },
+  {
+    "brand": "",
+    "name": "MK-150A3B 150lbs 16inch",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-150A3B 150lbs 16inch/MK-150A3B_150lbs_16inch.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  },
+  {
+    "brand": "",
+    "name": "MK-160AC 130lbs 14inch",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-160AC 130lbs 14inch/MK-160AC_130lbs_14inch.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  },
+  {
+    "brand": "",
+    "name": "MK-200A1 150lbs 16inch",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-200A1 150lbs 16inch/MK-200A1_150lbs_16inch.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  },
+  {
+    "brand": "",
+    "name": "MK-250A1B 150lbs 20inch",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-250A1B 150lbs 20inch/MK-250A1B_150lbs_20inch.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  },
+  {
+    "brand": "",
+    "name": "MK-300B 175lbs 20inch",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-300B 175lbs 20inch/MK-300B_175lbs_20inch.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  },
+  {
+    "brand": "",
+    "name": "MK-XB 52 185lbs 20inch Richtkijkker in optie",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-XB 52 185lbs 20inch Richtkijkker in optie/MK-XB_52_185lbs_20inch_Richtkijkker_in_optie.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  },
+  {
+    "brand": "",
+    "name": "Richtkijker speciaal voor kruisbogen -",
+    "image": "/src/assets/products/wapens/kruisbogen/Richtkijker speciaal voor kruisbogen -/Richtkijker_speciaal_voor_kruisbogen_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
   }
 ]

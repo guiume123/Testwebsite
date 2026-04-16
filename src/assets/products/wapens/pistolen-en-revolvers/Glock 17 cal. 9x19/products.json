@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Pistolen en Revolvers",
-  "brand": "Glock",
-  "name": "Glock 17 cal. 9x19"
-}
+[
+  {
+    "brand": "",
+    "name": "Glock 17 cal. 9x19",
+    "image": "/src/assets/products/wapens/pistolen-en-revolvers/Glock 17 cal. 9x19/CO2_Pistool_Glock_17_4.5mm.png",
+    "main_category": "Wapens",
+    "subcategory": "Pistolen en Revolvers"
+  }
+]

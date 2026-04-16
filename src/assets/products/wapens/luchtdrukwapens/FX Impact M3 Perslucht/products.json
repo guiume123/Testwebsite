@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "FX",
-  "name": "FX Impact M3 Perslucht"
-}
+[
+  {
+    "brand": "",
+    "name": "FX Impact M3 Perslucht",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/FX Impact M3 Perslucht/FX_Impact_M3_Perslucht.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Umarex",
-  "name": "BB Steel C-4,5mm -"
-}
+[
+  {
+    "brand": "",
+    "name": "BB Steel C-4,5mm -",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/BB Steel C-4,5mm -/BB_Steel_C-4,5mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "VZ",
-  "name": "Soft Air wapen Scorpion Vz61 -"
-}
+[
+  {
+    "brand": "",
+    "name": "Soft Air wapen Scorpion Vz61 -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Soft Air wapen Scorpion Vz61 -/Soft_Air_wapen_Scorpion_Vz61_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

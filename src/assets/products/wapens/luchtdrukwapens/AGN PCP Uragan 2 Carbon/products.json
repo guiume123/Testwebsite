@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "AGN",
-  "name": "AGN PCP Uragan 2 Carbon"
-}
+[
+  {
+    "brand": "",
+    "name": "AGN PCP Uragan 2 Carbon",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Carbon/AGN_PCP_Uragan_2_Carbon.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

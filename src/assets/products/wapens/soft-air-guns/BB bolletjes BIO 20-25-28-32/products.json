@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Diverse",
-  "name": "BB bolletjes BIO 20-25-28-32"
-}
+[
+  {
+    "brand": "",
+    "name": "BB bolletjes BIO 20-25-28-32",
+    "image": "/src/assets/products/wapens/soft-air-guns/BB bolletjes BIO 20-25-28-32/BB_bolletjes_BIO_20-25-28-32.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

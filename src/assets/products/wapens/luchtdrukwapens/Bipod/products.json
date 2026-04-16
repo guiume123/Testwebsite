@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diverse",
-  "name": "Bipod"
-}
+[
+  {
+    "brand": "",
+    "name": "Bipod",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Bipod/Bipod_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

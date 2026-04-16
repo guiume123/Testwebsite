@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Smith&Wesson",
-  "name": "CO2 Revover Smith&Wesson Mod.686 6 inch C -4,5mm -"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Revover Smith&Wesson Mod.686 6 inch C -4,5mm -",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Revover Smith&Wesson Mod.686 6 inch C -4,5mm -/CO2_Revover_Smith&Wesson_Mod.686_6_inch_C_-4,5mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Diana eleven"
-}
+[
+  {
+    "brand": "",
+    "name": "Diana eleven",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana eleven/Diana_eleven.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Kruisbogen",
-  "brand": "Crossbow",
-  "name": "Richtkijker speciaal voor kruisbogen -"
-}
+[
+  {
+    "brand": "",
+    "name": "Richtkijker speciaal voor kruisbogen -",
+    "image": "/src/assets/products/wapens/kruisbogen/Richtkijker speciaal voor kruisbogen -/Richtkijker_speciaal_voor_kruisbogen_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  }
+]

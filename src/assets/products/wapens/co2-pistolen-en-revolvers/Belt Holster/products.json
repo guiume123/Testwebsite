@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Umarex",
-  "name": "Belt Holster"
-}
+[
+  {
+    "brand": "",
+    "name": "Belt Holster",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/Belt Holster/Belt_Holster.png",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

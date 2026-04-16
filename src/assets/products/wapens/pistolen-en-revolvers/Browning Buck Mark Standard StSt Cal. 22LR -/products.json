@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Pistolen en Revolvers",
-  "brand": "Browning",
-  "name": "Browning Buck Mark Standard StSt Cal. 22LR -"
-}
+[
+  {
+    "brand": "",
+    "name": "Browning Buck Mark Standard StSt Cal. 22LR -",
+    "image": "/src/assets/products/wapens/pistolen-en-revolvers/Browning Buck Mark Standard StSt Cal. 22LR -/Browning_Buck_Mark_Standard_StSt_Cal._22LR_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Pistolen en Revolvers"
+  }
+]

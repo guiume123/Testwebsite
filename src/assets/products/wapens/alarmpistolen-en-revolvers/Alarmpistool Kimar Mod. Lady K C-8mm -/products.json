@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Alarmpistolen en Revolvers",
-  "brand": "Kimar",
-  "name": "Alarmpistool Kimar Mod. Lady K C-8mm -"
-}
+[
+  {
+    "brand": "",
+    "name": "Alarmpistool Kimar Mod. Lady K C-8mm -",
+    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Kimar Mod. Lady K C-8mm -/Alarmpistool_Kimar_Mod._Lady_K_C-8mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Alarmpistolen en Revolvers"
+  }
+]

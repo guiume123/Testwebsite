@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Gamo",
-  "name": "Gamo Delta Fox"
-}
+[
+  {
+    "brand": "",
+    "name": "Gamo Delta Fox",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Delta Fox/Gamo_Delta_Fox_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

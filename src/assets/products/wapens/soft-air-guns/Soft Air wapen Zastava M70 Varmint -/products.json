@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Zastava",
-  "name": "Soft Air wapen Zastava M70 Varmint -"
-}
+[
+  {
+    "brand": "",
+    "name": "Soft Air wapen Zastava M70 Varmint -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Soft Air wapen Zastava M70 Varmint -/Soft_Air_wapen_Zastava_M70_Varmint_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Walther",
-  "name": "Walther Pellet"
-}
+[
+  {
+    "brand": "",
+    "name": "Walther Pellet",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Walther Pellet/Walther_Pellet_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

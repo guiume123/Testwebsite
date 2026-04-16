@@ -1,6 +1,6 @@
 import type { Product } from '../../types';
 import aanbiedingen from './aanbiedingen.html?raw';
-import aanbiedingenData from '../../assets/products/aanbiedingen/products.json';
+import aanbiedingenData from '../../TWEEDEHANDS-AANBIEDINGEN/aanbiedingen/aanbiedingen/products.json';
 
 export function createAanbiedingen(): string {
   return `

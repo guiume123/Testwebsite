@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Kruisbogen",
-  "brand": "Crossbow",
-  "name": "MK-200A1 150lbs 16inch"
-}
+[
+  {
+    "brand": "",
+    "name": "MK-200A1 150lbs 16inch",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-200A1 150lbs 16inch/MK-200A1_150lbs_16inch.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  }
+]

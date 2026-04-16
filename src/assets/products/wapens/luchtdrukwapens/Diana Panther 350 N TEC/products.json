@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Diana Panther 350 N TEC"
-}
+[
+  {
+    "brand": "",
+    "name": "Diana Panther 350 N TEC",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana Panther 350 N TEC/Diana_Panther_350_N_TEC.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

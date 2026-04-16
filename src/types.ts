@@ -14,14 +14,15 @@ export interface CategoryCard {
 }
 
 export interface Product {
+  brand: string;
   name: string;
   image: string;
-  price: string | null;
-  description: string | null;
-  main_category: string;
-  subcategory: string | null;
-  brand: string | null;
-  link: string;
+  price?: string | null;
+  description?: string | null;
+  main_category?: string;
+  subcategory?: string | null;
+  special?: string;
+  link?: string;
 }
 
 export interface UspItem {

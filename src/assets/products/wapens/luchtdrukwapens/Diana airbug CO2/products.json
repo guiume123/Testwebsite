@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Diana airbug CO2"
-}
+[
+  {
+    "brand": "",
+    "name": "Diana airbug CO2",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana airbug CO2/Diana_airbug_CO2.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

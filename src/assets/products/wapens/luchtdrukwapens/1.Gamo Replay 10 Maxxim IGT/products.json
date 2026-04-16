@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Gamo",
-  "name": "1.Gamo Replay 10 Maxxim IGT"
-}
+[
+  {
+    "brand": "",
+    "name": "1.Gamo Replay 10 Maxxim IGT",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/1.Gamo Replay 10 Maxxim IGT/1.Gamo_Replay_10_Maxxim_IGT_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

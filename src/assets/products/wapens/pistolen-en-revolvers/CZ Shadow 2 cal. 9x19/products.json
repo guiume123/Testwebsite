@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Pistolen en Revolvers",
-  "brand": "CZ",
-  "name": "CZ Shadow 2 cal. 9x19"
-}
+[
+  {
+    "brand": "",
+    "name": "CZ Shadow 2 cal. 9x19",
+    "image": "/src/assets/products/wapens/pistolen-en-revolvers/CZ Shadow 2 cal. 9x19/CZ_Shadow_2_cal._9x19.png",
+    "main_category": "Wapens",
+    "subcategory": "Pistolen en Revolvers"
+  }
+]

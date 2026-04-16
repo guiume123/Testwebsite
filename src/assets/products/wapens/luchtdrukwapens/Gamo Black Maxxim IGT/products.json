@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Gamo",
-  "name": "Gamo Black Maxxim IGT"
-}
+[
+  {
+    "brand": "",
+    "name": "Gamo Black Maxxim IGT",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Black Maxxim IGT/Gamo_Black_Maxxim_IGT_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "AGN",
-  "name": "AGN PCP Vixen"
-}
+[
+  {
+    "brand": "",
+    "name": "AGN PCP Vixen",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Vixen/AGN_PCP_Vixen_.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

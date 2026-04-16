@@ -1,5 +1,5 @@
 [
-    {
+  {
     "brand": "Artisanale",
     "name": "Jachtkarabijn Belge kaliber 9.3x74R voorzien van battue kijker swarovski",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Jachtkarabijn Belge kaliber 9.3x74R voorzien van battue kijker swarovski/Jachtkarabijnbelge.jpg",
@@ -20,7 +20,7 @@
     "main_category": "Wapens",
     "subcategory": "Geweren en Karabijnen"
   },
-  { 
+  {
     "brand": "Artisanale",
     "name": "Kolf 4 stars in stijl varkensrug met wangstuk",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Kolf 4 stars in stijl varkensrug met wangstuk/Kolf4stars.jpg",
@@ -48,7 +48,7 @@
     "main_category": "Wapens",
     "subcategory": "Geweren en Karabijnen"
   },
-  { 
+  {
     "brand": "Artisanale",
     "name": "Luiks jachtgeweer kaliber 20-76 loop 71 cm Boring full en 1-2",
     "image": "/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Luiks jachtgeweer kaliber 20-76 loop 71 cm Boring full en 1-2/Luiksjachtgeweerkaliber20.jpg",
@@ -314,9 +314,4 @@
     "main_category": "Wapens",
     "subcategory": "Geweren en Karabijnen"
   }
-
 ]
-
-
-
-  

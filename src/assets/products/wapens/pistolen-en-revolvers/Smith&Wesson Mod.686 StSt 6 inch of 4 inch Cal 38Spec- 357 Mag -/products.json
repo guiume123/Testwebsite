@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Pistolen en Revolvers",
-  "brand": "Smith&Wesson",
-  "name": "Smith&Wesson Mod.686 StSt 6 inch of 4 inch Cal 38Spec- 357 Mag -"
-}
+[
+  {
+    "brand": "",
+    "name": "Smith&Wesson Mod.686 StSt 6 inch of 4 inch Cal 38Spec- 357 Mag -",
+    "image": "/src/assets/products/wapens/pistolen-en-revolvers/Smith&Wesson Mod.686 StSt 6 inch of 4 inch Cal 38Spec- 357 Mag -/Smith&Wesson_Mod.686_StSt_6_inch_of_4_inch_Cal_38Spec-_357_Mag_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Pistolen en Revolvers"
+  }
+]

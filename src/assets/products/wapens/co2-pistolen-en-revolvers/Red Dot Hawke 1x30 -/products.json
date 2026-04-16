@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Hawke",
-  "name": "Red Dot Hawke 1x30 -"
-}
+[
+  {
+    "brand": "",
+    "name": "Red Dot Hawke 1x30 -",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/Red Dot Hawke 1x30 -/Red_Dot_Hawke_1x30_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

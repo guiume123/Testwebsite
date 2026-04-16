@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "AGN",
-  "name": "AGN PCP Uragan 2 Synthetisch"
-}
+[
+  {
+    "brand": "",
+    "name": "AGN PCP Uragan 2 Synthetisch",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Synthetisch/AGN_PCP_Uragan_2_Synthetisch_.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

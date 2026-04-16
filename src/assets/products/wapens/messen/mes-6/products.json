@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Messen",
-  "brand": "Buck",
-  "name": "mes-6"
-}
+[
+  {
+    "brand": "",
+    "name": "mes-6",
+    "image": "/src/assets/products/wapens/messen/mes-6/mes-6.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Messen"
+  }
+]

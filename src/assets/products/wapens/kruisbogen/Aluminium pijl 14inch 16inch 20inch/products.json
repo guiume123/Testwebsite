@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Kruisbogen",
-  "brand": "Crossbow",
-  "name": "Aluminium pijl 14inch 16inch 20inch"
-}
+[
+  {
+    "brand": "",
+    "name": "Aluminium pijl 14inch 16inch 20inch",
+    "image": "/src/assets/products/wapens/kruisbogen/Aluminium pijl 14inch 16inch 20inch/Aluminium_pijl_14inch_16inch_20inch.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  }
+]

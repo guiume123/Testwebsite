@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "CZ",
-  "name": "CO2 Piostool CZ P- 09 4.5mm"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Piostool CZ P- 09 4.5mm",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Piostool CZ P- 09 4.5mm/CO2_Piostool_CZ_P-_09_4.5mm.png",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

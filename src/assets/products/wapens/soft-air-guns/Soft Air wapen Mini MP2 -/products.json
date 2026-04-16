@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Diverse",
-  "name": "Soft Air wapen Mini MP2 -"
-}
+[
+  {
+    "brand": "",
+    "name": "Soft Air wapen Mini MP2 -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Soft Air wapen Mini MP2 -/Soft_Air_wapen_Mini_MP2_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

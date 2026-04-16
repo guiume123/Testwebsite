@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "CZ",
-  "name": "Soft Air CZ 75- SP 01 Shadow 6mm"
-}
+[
+  {
+    "brand": "",
+    "name": "Soft Air CZ 75- SP 01 Shadow 6mm",
+    "image": "/src/assets/products/wapens/soft-air-guns/Soft Air CZ 75- SP 01 Shadow 6mm/Soft_Air_CZ_75-_SP_01_Shadow_6mm.png",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "AGN",
-  "name": "AGN PCP Vulcan 3 Walnut"
-}
+[
+  {
+    "brand": "",
+    "name": "AGN PCP Vulcan 3 Walnut",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Vulcan 3 Walnut/AGN_PCP_Vulcan_3_Walnut_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Walther",
-  "name": "CO2 Pistool Walther CP99 Compact C-4,5mm -"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Pistool Walther CP99 Compact C-4,5mm -",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Pistool Walther CP99 Compact C-4,5mm -/CO2_Pistool_Walther_CP99_Compact_C-4,5mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

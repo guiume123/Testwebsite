@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "UX",
-  "name": "Trevox UX"
-}
+[
+  {
+    "brand": "",
+    "name": "Trevox UX",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Trevox UX/Trevox_UX.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

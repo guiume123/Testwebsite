@@ -1,44 +1,43 @@
 [
   {
     "brand": "",
-    "name": "btb-150-5",
-    "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/btb-150-5.jpg",
+    "name": "BTB 150-5",
+    "image": "/src/assets/products/brand-en-veiligheidskoffer/Veiligheidskoffers/btb-150-5/btb-150-5.jpg",
     "main_category": "Brand- en veiligheidskoffer",
     "subcategory": "Veiligheidskoffers"
   },
   {
     "brand": "",
-    "name": "btb-150-9",
-    "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/btb-150-9.jpg",
+    "name": "BTB 150-9",
+    "image": "/src/assets/products/brand-en-veiligheidskoffer/Veiligheidskoffers/btb-150-9/btb-150-9.jpg",
     "main_category": "Brand- en veiligheidskoffer",
     "subcategory": "Veiligheidskoffers"
   },
   {
     "brand": "",
-    "name": "btb-1675-2",
-    "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/btb-1675-2.jpg",
+    "name": "BTB 1675-2",
+    "image": "/src/assets/products/brand-en-veiligheidskoffer/Veiligheidskoffers/btb-1675-2/btb-1675-2.jpg",
     "main_category": "Brand- en veiligheidskoffer",
     "subcategory": "Veiligheidskoffers"
   },
   {
     "brand": "",
-    "name": "btb-1675-4",
-    "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/btb-1675-4.jpg",
+    "name": "BTB 1675-4",
+    "image": "/src/assets/products/brand-en-veiligheidskoffer/Veiligheidskoffers/btb-1675-4/btb-1675-4.jpg",
     "main_category": "Brand- en veiligheidskoffer",
     "subcategory": "Veiligheidskoffers"
   },
-   {
-
+  {
     "brand": "",
-    "name": "",
-    "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/Gamme_Classic_cd10.251351ac9003e6f3ccc8216eb18856c.png",
+    "name": "Gamme Classic CD10",
+    "image": "/src/assets/products/brand-en-veiligheidskoffer/Veiligheidskoffers/brandkoffer 1/Gamme_Classic_cd10.251351ac9003e6f3ccc8216eb18856c.png",
     "main_category": "Brand- en veiligheidskoffer",
     "subcategory": "Veiligheidskoffers"
   },
-   {
+  {
     "brand": "",
-    "name": "",
-    "image": "/src/assets/products/brand-en-veiligheidskoffer/veiligheidskoffers/Gamme_Classic_cd10.251351ac9003e6f3ccc8216eb18856c.png",
+    "name": "Gamme Classic CD14",
+    "image": "/src/assets/products/brand-en-veiligheidskoffer/Veiligheidskoffers/brandkoffer 2/Gamme_Classic_cd14.251351ac9003e6f3ccc8216eb18856c.png",
     "main_category": "Brand- en veiligheidskoffer",
     "subcategory": "Veiligheidskoffers"
   }

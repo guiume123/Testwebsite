@@ -1,16 +1,18 @@
 import type { Product } from '../../types';
 import productsHTML from './products.html?raw';
-import productsData from '../../data/products.json';
+import productsData from '../../ALL PRODUCTS/products.json';
 
 let products: any[] = productsData;
 
-const GEWEREN_BRAND_IMAGE_MAP: Record<string, string> = {
-  artisanale: '/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Artsinale.jpg',
-  fair: '/src/assets/products/wapens/geweren-en-karabijnen/Fair/Fair.jpg',
-  browning: '/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning.jpg',
-  winchester: '/src/assets/products/wapens/geweren-en-karabijnen/Winchester/Winchester.jpg',
-  diverse: '/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Diverse.jpg'
+const GEWEREN_BRAND_IMAGES: Record<string, string> = {
+  'artisanale': '/src/assets/products/wapens/geweren-en-karabijnen/Artisanale/Artsinale.jpg',
+  'browning': '/src/assets/products/wapens/geweren-en-karabijnen/Browning/Browning.jpg',
+  'diverse': '/src/assets/products/wapens/geweren-en-karabijnen/Diverse/Diverse.jpg',
+  'fair': '/src/assets/products/wapens/geweren-en-karabijnen/Fair/Fair.jpg',
+  'winchester': '/src/assets/products/wapens/geweren-en-karabijnen/Winchester/Winchester.jpg'
 };
+
+const GEWEREN_BRANDS = ['Artisanale', 'Browning', 'Diverse', 'FAIR', 'Winchester'];
 
 function getParams() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -21,19 +23,19 @@ function getParams() {
   };
 }
 
-function renderProductCard(product: Product, isTweedehands: boolean): string {
-  const sub = product.subcategory ? product.subcategory.toLowerCase().replace(/ /g, '-') : 'unknown';
-  const imagePath = product.image 
-    ? product.image 
-    : `/src/assets/products/${(product.main_category || '').toLowerCase()}/${sub}/${encodeURIComponent(product.name)}/image.jpg`;
+function getBrandFromImagePath(imagePath: string): string | null {
+  // Extract brand from path like "/src/assets/products/wapens/geweren-en-karabijnen/Diverse/..."
+  const match = imagePath.match(/geweren-en-karabijnen\/([^\/]+)\//);
+  return match ? match[1] : null;
+}
+
+function renderProductCard(product: Product): string {
+  const imagePath = product.image || '/placeholder.jpg';
   
   let priceHtml = '';
   if (product.price) {
-     if (isTweedehands || (product.main_category && product.main_category.toLowerCase() === 'tweedehands')) {
-       priceHtml = `<div class="product-price" style="font-size: 1.1rem; font-weight: bold; color: #d97636; margin-top: 0.5rem;">Prijs: €${product.price}</div>`;
-     } else {
-       priceHtml = `<p class="product-price">€${product.price}</p>`;
-     }
+    const priceDisplay = product.price.toString().includes('euro') ? product.price : `€${product.price}`;
+    priceHtml = `<div class="product-price" style="font-size: 0.95rem; font-weight: bold; color: #d97636; margin-top: 0.5rem;">${priceDisplay}</div>`;
   }
 
   return `
@@ -43,11 +45,40 @@ function renderProductCard(product: Product, isTweedehands: boolean): string {
       </div>
       <div class="product-info">
         <h3 class="product-name">${product.name}</h3>
-        <p class="product-brand">${product.brand || ''}</p>
-        <p class="product-description">${product.description || 'Geen beschrijving beschikbaar'}</p>
+        ${product.brand ? `<p class="product-brand">${product.brand}</p>` : ''}
+        ${product.description ? `<p class="product-description">${product.description}</p>` : ''}
         ${priceHtml}
       </div>
     </div>
+  `;
+}
+
+function renderBrandCard(brand: string, imageUrl: string, category: string, subcategory: string, normalizeString: (str: string) => string): string {
+  const normalizedSubcategory = normalizeString(subcategory);
+  const normalizedBrand = normalizeString(brand);
+  return `
+    <a href="?category=${encodeURIComponent(category)}&amp;subcategory=${encodeURIComponent(normalizedSubcategory)}&amp;brand=${encodeURIComponent(normalizedBrand)}" style="text-decoration: none; color: inherit;">
+      <div class="product-card" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; background: transparent; height: 100%; border: none; box-shadow: none;">
+        <div style="height: 150px; background: #fff; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 0.75rem; padding: 0.75rem;">
+          <img src="${imageUrl}" alt="${brand}" style="max-height: 100%; max-width: 100%; object-fit: contain;" loading="lazy" onerror="this.src='/placeholder.jpg'">
+        </div>
+        <h3 style="color: var(--c-baus-gold, #d39535); font-style: italic; font-size: 1.3rem; font-weight: 700; text-transform: uppercase; margin: 0; align-self: flex-start; width: 100%;">${brand}</h3>
+      </div>
+    </a>
+  `;
+}
+
+function renderSubcategoryCard(subcategory: string, imageUrl: string, category: string, normalizeString: (str: string) => string): string {
+  const normalizedSubcategory = normalizeString(subcategory);
+  return `
+    <a href="?category=${encodeURIComponent(category)}&amp;subcategory=${encodeURIComponent(normalizedSubcategory)}" style="text-decoration: none; color: inherit;">
+      <div class="product-card" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; background: transparent; height: 100%; border: none; box-shadow: none;">
+        <div style="height: 150px; background: #fff; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 0.75rem; padding: 0.75rem;">
+          <img src="${imageUrl}" alt="${subcategory}" style="max-height: 100%; max-width: 100%; object-fit: cover;" loading="lazy" onerror="this.src='/placeholder.jpg'">
+        </div>
+        <h3 style="color: var(--c-baus-gold, #d39535); font-style: italic; font-size: 1rem; font-weight: 700; text-transform: capitalize; margin: 0; align-self: flex-start; width: 100%;">${subcategory}</h3>
+      </div>
+    </a>
   `;
 }
 
@@ -61,107 +92,164 @@ export function initProducts() {
   const { category, subcategory, brand } = getParams();
   const allProducts: Product[] = products;
   
-  let filteredProducts = allProducts;
+  // === HELPER FUNCTION ===
+  const normalizeString = (str: string): string => {
+    return str
+      .toLowerCase()
+      .replace(/\s+/g, '-')      // Replace spaces with hyphens
+      .replace(/[^\w-]/g, '')    // Remove special characters (keep word chars and hyphens)
+      .replace(/-+/g, '-');      // Collapse multiple hyphens to single
+  };
 
-  if (category && category.toLowerCase() !== 'alle') {
-    filteredProducts = filteredProducts.filter(p => p.main_category && p.main_category.toLowerCase() === category.toLowerCase());
+  // === DETERMINE VIEW TYPE (early) ===
+  const isSpecialCategory = category && (category.toLowerCase() === 'tweedehands' || category.toLowerCase() === 'aanbiedingen');
+  const normalizedUrlSubcat = subcategory ? normalizeString(subcategory) : '';
+  const isGewerenSubcategory = normalizedUrlSubcat === normalizeString('Geweren en Karabijnen');
+  
+  // === FILTERING LOGIC ===
+  
+  // Filter by main category or special field
+  let filteredByCategory = allProducts.filter(p => {
+    const mainCat = p.main_category ? normalizeString(p.main_category) : '';
+    const specialCat = p.special ? normalizeString(p.special) : '';
+    
+    if (category && category.toLowerCase() !== 'alle') {
+      const normalizedCategory = normalizeString(category);
+      return mainCat === normalizedCategory || specialCat === normalizedCategory;
+    }
+    return true;
+  });
+
+  // Get unique subcategories from filtered category
+  const uniqueSubcategories = Array.from(new Set(
+    filteredByCategory
+      .filter(p => p.subcategory)
+      .map(p => p.subcategory)
+  )) as string[];
+
+  // Check if we should show subcategory selection
+  const shouldShowSubcategorySelection = 
+    !isSpecialCategory && 
+    !subcategory && 
+    category && 
+    uniqueSubcategories.length > 1;
+
+  // Filter by subcategory (only if category is not special and subcategory is provided)
+  let filteredBySubcategory = filteredByCategory;
+  if (subcategory && category?.toLowerCase() !== 'tweedehands' && category?.toLowerCase() !== 'aanbiedingen') {
+    filteredBySubcategory = filteredByCategory.filter(p => 
+      p.subcategory && normalizeString(p.subcategory) === normalizedUrlSubcat
+    );
   }
 
-  if (subcategory) {
-    filteredProducts = filteredProducts.filter(p => p.subcategory && p.subcategory.toLowerCase() === subcategory.toLowerCase());
-  }
-
+  // Filter by brand (for geweren: filter by brand folder from image path)
+  let filteredByBrand = filteredBySubcategory;
   if (brand) {
-    filteredProducts = filteredProducts.filter(p => p.brand && p.brand.toLowerCase() === brand.toLowerCase());
+    if (isGewerenSubcategory) {
+      // For geweren products: filter by brand folder in image path
+      filteredByBrand = filteredBySubcategory.filter(p => {
+        const brandFromPath = getBrandFromImagePath(p.image || '');
+        return brandFromPath && brandFromPath.toLowerCase() === brand.toLowerCase();
+      });
+    } else {
+      // For other products: filter by brand field
+      filteredByBrand = filteredBySubcategory.filter(p => p.brand && p.brand.toLowerCase() === brand.toLowerCase());
+    }
   }
 
-  const isTweedehands = category && category.toLowerCase() === 'tweedehands';
+  const shouldShowBrands = isGewerenSubcategory && !brand;
+
+  // === SET PAGE TITLE ===
   
   let title = 'Alle Producten';
-
-  if (category && category.toLowerCase() !== 'alle') {
-    title = subcategory ? subcategory : category;
-  }
-  
-  if (brand) {
+  if (isSpecialCategory) {
+    title = category?.toLowerCase() === 'tweedehands' ? 'Tweedehands Aanbod' : 'Aanbiedingen';
+  } else if (brand) {
     title = brand.toUpperCase();
+  } else if (subcategory) {
+    // Use the actual subcategory name from data if available
+    const subFromData = filteredBySubcategory.length > 0 ? filteredBySubcategory[0].subcategory : subcategory;
+    title = subFromData || subcategory;
+  } else if (shouldShowSubcategorySelection) {
+    // When showing subcategory selection, show the category name
+    title = category || 'Categorieën';
+  } else if (category) {
+    title = category;
   }
 
-  if (isTweedehands) {
-    title = 'Tweedehands Aanbod';
-  } else if (category && category.toLowerCase() === 'aanbiedingen') {
-    title = 'Aanbiedingen';
-  }
-
+  // === UPDATE DOM ===
+  
   const titleEl = document.getElementById('category-title');
   const subtitleEl = document.getElementById('category-subtitle');
   const labelEl = document.getElementById('category-label');
-  if (titleEl) titleEl.textContent = title;
-  if (subtitleEl) subtitleEl.style.display = 'none';
-
   const grid = document.getElementById('products-grid');
   const section = document.querySelector('.products-section') as HTMLElement;
 
-  if (subcategory && subcategory.toLowerCase() === 'geweren en karabijnen' && !brand && grid) {
-    if (labelEl) labelEl.style.display = 'none';
-    if (section) section.classList.add('geweren-brand-view');
-    if (section) section.style.backgroundColor = 'var(--c-baus-green, #173f35)';
-    if (titleEl) {
-      titleEl.style.color = 'var(--c-baus-gold, #d39535)';
-      titleEl.parentElement!.style.backgroundColor = 'var(--c-baus-green, #173f35)';
-    }
-    
-    const brands = Array.from(new Set(filteredProducts.map(p => p.brand).filter(Boolean))) as string[];
-    
-    grid.classList.add('geweren-brand-grid');
-    
-    grid.innerHTML = brands.map(b => {
-      const firstProduct = filteredProducts.find(p => p.brand === b);
-      const sub = firstProduct?.subcategory ? firstProduct.subcategory.toLowerCase().replace(/ /g, '-') : 'unknown';
-      let imagePath = '/placeholder.jpg';
-      const brandImage = GEWEREN_BRAND_IMAGE_MAP[b.toLowerCase()];
-      
-      if (brandImage) {
-        imagePath = brandImage;
-      } else if (firstProduct) {
-        if (firstProduct.image) {
-          imagePath = firstProduct.image;
-        } else {
-          imagePath = `/src/assets/products/${(firstProduct.main_category || '').toLowerCase()}/${sub}/${encodeURIComponent(firstProduct.name)}/image.jpg`;
-        }
-      }
+  if (titleEl) titleEl.textContent = title;
+  if (subtitleEl) subtitleEl.style.display = 'none';
 
-      return `
-        <a href="?category=${encodeURIComponent(category || '')}&subcategory=${encodeURIComponent(subcategory)}&brand=${encodeURIComponent(b)}" style="text-decoration: none; color: inherit;">
-          <div class="product-card" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; background: transparent; height: 100%; border: none; box-shadow: none;">
-            <div style="height: 150px; background: #fff; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 0.75rem; padding: 0.75rem;">
-              <img src="${imagePath}" alt="${b}" style="max-height: 100%; max-width: 100%; object-fit: contain;" loading="lazy" onerror="this.src='/placeholder.jpg'">
-            </div>
-            <h3 style="color: var(--c-baus-gold, #d39535); font-style: italic; font-size: 1.3rem; font-weight: 700; text-transform: uppercase; margin: 0; align-self: flex-start; width: 100%;">${b}</h3>
-          </div>
-        </a>
-      `;
-    }).join('');
-  } else if (grid) {
-    grid.style.cssText = '';
-    grid.classList.remove('geweren-brand-grid');
-    if (section) section.classList.remove('geweren-brand-view');
-    if (section) section.style.backgroundColor = '';
-    if (titleEl) {
-      titleEl.style.color = '';
-      titleEl.parentElement!.style.backgroundColor = '';
+  // === RENDER GRID ===
+  
+  if (!grid) return;
+
+  // Style for geweren brand view
+  if (isGewerenSubcategory) {
+    if (labelEl) labelEl.style.display = 'none';
+    if (section) {
+      section.classList.add('geweren-brand-view');
+      section.style.backgroundColor = 'var(--c-baus-green, #173f35)';
     }
+    if (titleEl && titleEl.parentElement) {
+      titleEl.style.color = 'var(--c-baus-gold, #d39535)';
+      titleEl.parentElement.style.backgroundColor = 'var(--c-baus-green, #173f35)';
+    }
+  } else {
     if (labelEl) labelEl.style.display = '';
-    grid.innerHTML = filteredProducts.map(p => renderProductCard(p, !!isTweedehands)).join('');
+    if (section) {
+      section.classList.remove('geweren-brand-view');
+      section.style.backgroundColor = '';
+    }
+    if (titleEl && titleEl.parentElement) {
+      titleEl.style.color = '';
+      titleEl.parentElement.style.backgroundColor = '';
+    }
   }
 
-  // Add lightbox functionality for all images
+  // Render subcategory selection for normal categories
+  if (shouldShowSubcategorySelection) {
+    grid.classList.add('subcategory-grid');
+    grid.innerHTML = uniqueSubcategories.sort().map(subcat => {
+      // Get first product image from this subcategory
+      const productsInSubcat = filteredByCategory.filter(p => p.subcategory === subcat);
+      const firstProduct = productsInSubcat[0];
+      const imageUrl = firstProduct?.image || '/placeholder.jpg';
+      return renderSubcategoryCard(subcat, imageUrl, category || '', normalizeString);
+    }).join('');
+  }
+  // Render brands for geweren-en-karabijnen when no brand is selected
+  else if (shouldShowBrands) {
+    grid.classList.add('geweren-brand-grid');
+    grid.innerHTML = GEWEREN_BRANDS.map(b => {
+      const imageUrl = GEWEREN_BRAND_IMAGES[b.toLowerCase()] || '/placeholder.jpg';
+      return renderBrandCard(b, imageUrl, category || '', subcategory || '', normalizeString);
+    }).join('');
+  } 
+  // Render normal product cards
+  else {
+    grid.classList.remove('subcategory-grid');
+    grid.classList.remove('geweren-brand-grid');
+    grid.innerHTML = filteredByBrand.map(p => renderProductCard(p)).join('');
+  }
+
+  // === LIGHTBOX FUNCTIONALITY ===
+  
   const lightbox = document.getElementById('image-lightbox');
   const lightboxImage = document.getElementById('lightbox-image') as HTMLImageElement;
   const lightboxClose = document.getElementById('lightbox-close');
-  
+
   if (lightbox) {
     const images = document.querySelectorAll('.lightbox-trigger');
+    
     images.forEach(img => {
       img.addEventListener('click', (e) => {
         e.preventDefault();

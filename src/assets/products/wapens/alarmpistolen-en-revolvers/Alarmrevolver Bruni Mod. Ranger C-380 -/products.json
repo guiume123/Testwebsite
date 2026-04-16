@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Alarmpistolen en Revolvers",
-  "brand": "Bruni",
-  "name": "Alarmrevolver Bruni Mod. Ranger C-380 -"
-}
+[
+  {
+    "brand": "",
+    "name": "Alarmrevolver Bruni Mod. Ranger C-380 -",
+    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmrevolver Bruni Mod. Ranger C-380 -/Alarmrevolver_Bruni_Mod._Ranger_C-380_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Alarmpistolen en Revolvers"
+  }
+]

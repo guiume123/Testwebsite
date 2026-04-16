@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Diana 460 Magnum"
-}
+[
+  {
+    "brand": "",
+    "name": "Diana 460 Magnum",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana 460 Magnum/Diana_460_Magnum_.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

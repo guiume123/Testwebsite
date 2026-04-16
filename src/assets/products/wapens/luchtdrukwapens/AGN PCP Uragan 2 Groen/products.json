@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "AGN",
-  "name": "AGN PCP Uragan 2 Groen"
-}
+[
+  {
+    "brand": "",
+    "name": "AGN PCP Uragan 2 Groen",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Groen/AGN_PCP_Uragan_2_Groen.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

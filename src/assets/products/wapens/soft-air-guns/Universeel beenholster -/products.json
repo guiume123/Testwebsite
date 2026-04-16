@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Diverse",
-  "name": "Universeel beenholster -"
-}
+[
+  {
+    "brand": "",
+    "name": "Universeel beenholster -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Universeel beenholster -/Universeel_beenholster_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

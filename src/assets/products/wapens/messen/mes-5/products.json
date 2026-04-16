@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Messen",
-  "brand": "Herbertz",
-  "name": "mes-5"
-}
+[
+  {
+    "brand": "",
+    "name": "mes-5",
+    "image": "/src/assets/products/wapens/messen/mes-5/mes-5.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Messen"
+  }
+]

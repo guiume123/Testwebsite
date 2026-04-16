@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Walther",
-  "name": "Walther PPK S"
-}
+[
+  {
+    "brand": "",
+    "name": "Walther PPK S",
+    "image": "/src/assets/products/wapens/soft-air-guns/Walther PPK S/Walther_PPK_S.png",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

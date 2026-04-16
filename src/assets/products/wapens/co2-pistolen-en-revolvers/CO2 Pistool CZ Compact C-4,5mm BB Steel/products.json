@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "CZ",
-  "name": "CO2 Pistool CZ Compact C-4,5mm BB Steel"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Pistool CZ Compact C-4,5mm BB Steel",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Pistool CZ Compact C-4,5mm BB Steel/CO2_Pistool_CZ_Compact_C-4,5mm_BB_Steel.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

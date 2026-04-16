@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Gamo",
-  "name": "Gamo Field Target"
-}
+[
+  {
+    "brand": "",
+    "name": "Gamo Field Target",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Field Target/Gamo_Field_Target_.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

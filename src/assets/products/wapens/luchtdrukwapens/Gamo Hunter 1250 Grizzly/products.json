@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Gamo",
-  "name": "Gamo Hunter 1250 Grizzly"
-}
+[
+  {
+    "brand": "",
+    "name": "Gamo Hunter 1250 Grizzly",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Hunter 1250 Grizzly/Gamo_Hunter_1250_Grizzly.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

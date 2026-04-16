@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Smith&Wesson",
-  "name": "CO2 Revolver Smith Wesson 586 4.5mm"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Revolver Smith Wesson 586 4.5mm",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Revolver Smith Wesson 586 4.5mm/CO2_Revolver_Smith_Wesson_586_4.5mm.png",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

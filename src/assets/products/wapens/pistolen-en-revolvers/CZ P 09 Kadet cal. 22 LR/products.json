@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Pistolen en Revolvers",
-  "brand": "CZ",
-  "name": "CZ P 09 Kadet cal. 22 LR"
-}
+[
+  {
+    "brand": "",
+    "name": "CZ P 09 Kadet cal. 22 LR",
+    "image": "/src/assets/products/wapens/pistolen-en-revolvers/CZ P 09 Kadet cal. 22 LR/CZ_P_09_Kadet_cal._22_LR.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Pistolen en Revolvers"
+  }
+]

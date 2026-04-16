@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "FX",
-  "name": "FX Dreamline Perslucht"
-}
+[
+  {
+    "brand": "",
+    "name": "FX Dreamline Perslucht",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/FX Dreamline Perslucht/FX_Dreamline_Perslucht.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

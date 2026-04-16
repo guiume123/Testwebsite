@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Gamo",
-  "name": "Spinner Target Spinner Target De Luxe -"
-}
+[
+  {
+    "brand": "",
+    "name": "Spinner Target Spinner Target De Luxe -",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Spinner Target Spinner Target De Luxe -/Spinner_Target_Spinner_Target_De_Luxe_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

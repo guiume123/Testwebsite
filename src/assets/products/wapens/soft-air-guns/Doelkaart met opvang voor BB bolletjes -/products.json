@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Diverse",
-  "name": "Doelkaart met opvang voor BB bolletjes -"
-}
+[
+  {
+    "brand": "",
+    "name": "Doelkaart met opvang voor BB bolletjes -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Doelkaart met opvang voor BB bolletjes -/Doelkaart_met_opvang_voor_BB_bolletjes_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "brand": "",
+    "name": "Airgun Technology",
+    "image": "/src/assets/products/aanbiedingen/Airgun_technology.jpg",
+    "special": "Aanbiedingen",
+    "price": null,
+    "description": "Deze precisie P.C.P.'s zijn nu beschikbaar"
+  },
+  {
+    "brand": "",
+    "name": "FAIR einde reeks/fin serie",
+    "image": "/src/assets/products/aanbiedingen/FAIR EINDE REEKS:FIN SERIE.jpg",
+    "special": "Aanbiedingen",
+    "price": "1550,-  -25%",
+    "description": "FAIR O/U 12/70 Steel Proof Mod LX600 DL 71cm Inv XP50 eject DUS"
+  },
+  {
+    "brand": "",
+    "name": "FAIR einde reeks/fin serie",
+    "image": "/src/assets/products/aanbiedingen/FAIR EINDE REEKS:FIN SERIE1.jpg",
+    "special": "Aanbiedingen",
+    "price": "1395,-  -25%",
+    "description": "FAIR O/U 12/70 Steel Proof Mod LX 600 71cm inv XP50 eject DUS"
+  },
+  {
+    "brand": "",
+    "name": "FAIR einde reeks/fin serie",
+    "image": "/src/assets/products/aanbiedingen/FAIR EINDE REEKS:FIN SERIE2.jpg",
+    "special": "Aanbiedingen",
+    "price": "1580,-  -25%",
+    "description": "FAIR O/U 12/70 Steel Proof Mod LX 680 71 cm Inv XP50 eject DUS"
+  }
+]

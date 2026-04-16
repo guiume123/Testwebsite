@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Ultrair",
-  "name": "Ultrair Power Gas voor Soft Air -"
-}
+[
+  {
+    "brand": "",
+    "name": "Ultrair Power Gas voor Soft Air -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Ultrair Power Gas voor Soft Air -/Ultrair_Power_Gas_voor_Soft_Air_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

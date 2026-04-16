@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Messen",
-  "brand": "Herbertz",
-  "name": "129423"
-}
+[
+  {
+    "brand": "",
+    "name": "129423",
+    "image": "/src/assets/products/wapens/messen/129423/129423.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Messen"
+  }
+]

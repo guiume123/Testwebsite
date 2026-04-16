@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Pistolen en Revolvers",
-  "brand": "Browning",
-  "name": "Browning Buck Mark URX cal. 22LR"
-}
+[
+  {
+    "brand": "",
+    "name": "Browning Buck Mark URX cal. 22LR",
+    "image": "/src/assets/products/wapens/pistolen-en-revolvers/Browning Buck Mark URX cal. 22LR/Browning_Buck_Mark_URX_cal._22LR.png",
+    "main_category": "Wapens",
+    "subcategory": "Pistolen en Revolvers"
+  }
+]

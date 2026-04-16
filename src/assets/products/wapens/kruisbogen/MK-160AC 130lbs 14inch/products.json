@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Kruisbogen",
-  "brand": "Crossbow",
-  "name": "MK-160AC 130lbs 14inch"
-}
+[
+  {
+    "brand": "",
+    "name": "MK-160AC 130lbs 14inch",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-160AC 130lbs 14inch/MK-160AC_130lbs_14inch.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  }
+]

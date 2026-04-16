@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "CZ",
-  "name": "CO2 Pistool CZ 75D Compact"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Pistool CZ 75D Compact",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Pistool CZ 75D Compact/CO2_Pistool_CZ_75D_Compact.png",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

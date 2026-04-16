@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Gamo",
-  "name": "Gamo Gun Cover Black Green 130cm"
-}
+[
+  {
+    "brand": "",
+    "name": "Gamo Gun Cover Black Green 130cm",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Gamo Gun Cover Black Green 130cm/Gamo_Gun_Cover_Black_Green_130cm.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Kruisbogen",
-  "brand": "Crossbow",
-  "name": "MK-XB 52 185lbs 20inch Richtkijkker in optie"
-}
+[
+  {
+    "brand": "",
+    "name": "MK-XB 52 185lbs 20inch Richtkijkker in optie",
+    "image": "/src/assets/products/wapens/kruisbogen/MK-XB 52 185lbs 20inch Richtkijkker in optie/MK-XB_52_185lbs_20inch_Richtkijkker_in_optie.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Kruisbogen"
+  }
+]

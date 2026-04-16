@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Diana model 48"
-}
+[
+  {
+    "brand": "",
+    "name": "Diana model 48",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana model 48/Diana_model_48.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

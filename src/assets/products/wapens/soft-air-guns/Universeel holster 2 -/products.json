@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Umarex",
-  "name": "Universeel holster 2 -"
-}
+[
+  {
+    "brand": "",
+    "name": "Universeel holster 2 -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Universeel holster 2 -/Universeel_holster_2_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

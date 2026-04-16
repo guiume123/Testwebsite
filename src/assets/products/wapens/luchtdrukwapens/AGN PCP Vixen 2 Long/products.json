@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "AGN",
-  "name": "AGN PCP Vixen 2 Long"
-}
+[
+  {
+    "brand": "",
+    "name": "AGN PCP Vixen 2 Long",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Vixen 2 Long/AGN_PCP_Vixen_2_Long_.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

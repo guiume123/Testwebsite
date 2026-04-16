@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Taurus",
-  "name": "Soft Air Taurus PT92 6mm"
-}
+[
+  {
+    "brand": "",
+    "name": "Soft Air Taurus PT92 6mm",
+    "image": "/src/assets/products/wapens/soft-air-guns/Soft Air Taurus PT92 6mm/Soft_Air_Taurus_PT92_6mm.png",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

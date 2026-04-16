@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "AGN",
-  "name": "AGN PCP Uragan 2 Rood"
-}
+[
+  {
+    "brand": "",
+    "name": "AGN PCP Uragan 2 Rood",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Rood/AGN_PCP_Uragan_2_Rood.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

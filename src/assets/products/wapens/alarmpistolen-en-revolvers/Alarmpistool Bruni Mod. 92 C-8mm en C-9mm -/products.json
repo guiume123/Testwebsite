@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Alarmpistolen en Revolvers",
-  "brand": "Bruni",
-  "name": "Alarmpistool Bruni Mod. 92 C-8mm en C-9mm -"
-}
+[
+  {
+    "brand": "",
+    "name": "Alarmpistool Bruni Mod. 92 C-8mm en C-9mm -",
+    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Bruni Mod. 92 C-8mm en C-9mm -/Alarmpistool_Bruni_Mod._92_C-8mm_en_C-9mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Alarmpistolen en Revolvers"
+  }
+]

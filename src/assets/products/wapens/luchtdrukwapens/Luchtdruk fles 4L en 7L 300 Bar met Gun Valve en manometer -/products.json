@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diverse",
-  "name": "Luchtdruk fles 4L en 7L 300 Bar met Gun Valve en manometer -"
-}
+[
+  {
+    "brand": "",
+    "name": "Luchtdruk fles 4L en 7L 300 Bar met Gun Valve en manometer -",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Luchtdruk fles 4L en 7L 300 Bar met Gun Valve en manometer -/Luchtdruk_fles_4L_en_7L_300_Bar_met_Gun_Valve_en_manometer_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

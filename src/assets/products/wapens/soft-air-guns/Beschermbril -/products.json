@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Soft-Air Guns",
-  "brand": "Diverse",
-  "name": "Beschermbril -"
-}
+[
+  {
+    "brand": "",
+    "name": "Beschermbril -",
+    "image": "/src/assets/products/wapens/soft-air-guns/Beschermbril -/Beschermbril_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Soft-Air Guns"
+  }
+]

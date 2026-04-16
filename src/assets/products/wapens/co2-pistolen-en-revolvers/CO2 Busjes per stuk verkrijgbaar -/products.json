@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "CO2 Pistolen en Revolvers",
-  "brand": "Diverse",
-  "name": "CO2 Busjes per stuk verkrijgbaar -"
-}
+[
+  {
+    "brand": "",
+    "name": "CO2 Busjes per stuk verkrijgbaar -",
+    "image": "/src/assets/products/wapens/co2-pistolen-en-revolvers/CO2 Busjes per stuk verkrijgbaar -/CO2_Busjes_per_stuk_verkrijgbaar_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "CO2 Pistolen en Revolvers"
+  }
+]

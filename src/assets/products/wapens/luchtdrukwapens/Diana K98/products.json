@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "Diana",
-  "name": "Diana K98"
-}
+[
+  {
+    "brand": "",
+    "name": "Diana K98",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/Diana K98/Diana_K98.png",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]

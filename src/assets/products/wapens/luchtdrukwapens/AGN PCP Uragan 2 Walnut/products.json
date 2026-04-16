@@ -1,6 +1,9 @@
-{
-  "cat": "Wapens",
-  "sub": "Luchtdrukwapens",
-  "brand": "AGN",
-  "name": "AGN PCP Uragan 2 Walnut"
-}
+[
+  {
+    "brand": "",
+    "name": "AGN PCP Uragan 2 Walnut",
+    "image": "/src/assets/products/wapens/luchtdrukwapens/AGN PCP Uragan 2 Walnut/AGN_PCP_Uragan_2_Walnut.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Luchtdrukwapens"
+  }
+]
