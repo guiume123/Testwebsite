@@ -46,6 +46,26 @@
   padding-top: 0;
 }
 
+.products-grid.pistolen-revolvers-view {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.products-grid.pistolen-revolvers-view .product-image {
+  height: 240px;
+  background: #f7f7f7;
+}
+
+.products-grid.pistolen-revolvers-view .product-image img {
+  object-fit: contain;
+  padding: 0.5rem;
+}
+
+.products-grid.pistolen-revolvers-view .product-name {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  min-height: 2.8em;
+}
+
 .product-card {
   background: var(--c-bg);
   border-radius: var(--radius-lg);
@@ -105,6 +125,48 @@
   font-weight: 700;
   color: var(--c-primary);
   margin-bottom: 1rem;
+}
+
+.product-detail-link {
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--c-baus-green, #173f35);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.product-detail-link:hover {
+  color: var(--c-baus-gold, #d39535);
+}
+
+.products-info-card {
+  grid-column: 1 / -1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--c-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  color: var(--c-text);
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+.products-info-card p {
+  margin: 0 0 1.25rem 0;
+}
+
+.products-info-link {
+  color: var(--c-baus-green, #173f35);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.products-info-link:hover {
+  color: var(--c-baus-gold, #d39535);
 }
 
 /* Image Lightbox Styles */

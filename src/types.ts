@@ -21,6 +21,13 @@ export interface Product {
   description?: string | null;
   main_category?: string;
   subcategory?: string | null;
+  productcode?: string | null;
+  specs?: {
+    gewicht?: string | null;
+    jaar?: string | null;
+    munitie?: string | null;
+    precisie?: string | null;
+  };
   special?: string;
   link?: string;
 }

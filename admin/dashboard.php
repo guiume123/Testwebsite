@@ -22,7 +22,12 @@ if (!in_array($category, $validCategories)) {
 $products = [];
 $messages = [];
 
-$jsonPath = "../src/assets/products/{$category}/algemeen/products.json";
+$categoryJsonPaths = [
+    'aanbiedingen' => '../src/TWEEDEHANDS-AANBIEDINGEN/aanbiedingen/aanbiedingen/products.json',
+    'tweedehands' => '../src/TWEEDEHANDS-AANBIEDINGEN/tweedehands/tweedehands/products.json'
+];
+
+$jsonPath = $categoryJsonPaths[$category];
 
 if (file_exists($jsonPath)) {
     $jsonContent = file_get_contents($jsonPath);
@@ -352,6 +357,9 @@ if (isset($_GET['logout'])) {
                     <button class="tab-btn <?php echo $tab === 'products' && $category === 'tweedehands' ? 'active' : ''; ?>" 
                             onclick="window.location.href='?tab=products&category=tweedehands'">
                         Tweedehands
+                    </button>
+                    <button class="tab-btn" onclick="window.location.href='catalog-products.php'">
+                        Producten
                     </button>
                     <button class="tab-btn <?php echo $tab === 'berichten' ? 'active' : ''; ?>" 
                             onclick="window.location.href='?tab=berichten'">

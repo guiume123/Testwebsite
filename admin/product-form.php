@@ -8,6 +8,10 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
 }
 
 $category = $_GET['category'] ?? 'aanbiedingen';
+$validCategories = ['aanbiedingen', 'tweedehands'];
+if (!in_array($category, $validCategories, true)) {
+    $category = 'aanbiedingen';
+}
 $index = $_GET['index'] ?? null;
 $isEdit = $index !== null;
 
@@ -21,7 +25,12 @@ $product = [
 
 // Load existing product if editing
 if ($isEdit) {
-    $jsonPath = "../src/assets/products/{$category}/algemeen/products.json";
+    $categoryJsonPaths = [
+        'aanbiedingen' => '../src/TWEEDEHANDS-AANBIEDINGEN/aanbiedingen/aanbiedingen/products.json',
+        'tweedehands' => '../src/TWEEDEHANDS-AANBIEDINGEN/tweedehands/tweedehands/products.json'
+    ];
+
+    $jsonPath = $categoryJsonPaths[$category];
     if (file_exists($jsonPath)) {
         $products = json_decode(file_get_contents($jsonPath), true) ?? [];
         if (isset($products[$index])) {

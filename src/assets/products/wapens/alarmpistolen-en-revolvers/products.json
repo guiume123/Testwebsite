@@ -1,13 +1,6 @@
 [
   {
     "brand": "",
-    "name": "Alarmpistool Bruni Mod. 315 Auto C-8mm -",
-    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Bruni Mod. 315 Auto C-8mm -/Alarmpistool_Bruni_Mod._315_Auto_C-8mm_-.jpg",
-    "main_category": "Wapens",
-    "subcategory": "Alarmpistolen en Revolvers"
-  },
-  {
-    "brand": "",
     "name": "Alarmpistool Bruni Mod. 92 C-8mm en C-9mm -",
     "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Bruni Mod. 92 C-8mm en C-9mm -/Alarmpistool_Bruni_Mod._92_C-8mm_en_C-9mm_-.jpg",
     "main_category": "Wapens",
@@ -15,22 +8,8 @@
   },
   {
     "brand": "",
-    "name": "Alarmpistool Bruni Mod. GAP 8mm -",
-    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Bruni Mod. GAP 8mm -/Alarmpistool_Bruni_Mod._GAP_8mm_-.jpg",
-    "main_category": "Wapens",
-    "subcategory": "Alarmpistolen en Revolvers"
-  },
-  {
-    "brand": "",
-    "name": "Alarmpistool Bruni Mod.85 C-8mm -",
-    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Bruni Mod.85 C-8mm -/Alarmpistool_Bruni_Mod.85_C-8mm_-.jpg",
-    "main_category": "Wapens",
-    "subcategory": "Alarmpistolen en Revolvers"
-  },
-  {
-    "brand": "",
-    "name": "Alarmpistool Kimar Mod. Colt 911 C-8mm -",
-    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Kimar Mod. Colt 911 C-8mm -/Alarmpistool_Kimar_Mod._Colt_911_C-8mm_-.jpg",
+    "name": "Alarmrevolver Bruni Mod. Ranger C-380 -",
+    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmrevolver Bruni Mod. Ranger C-380 -/Alarmrevolver_Bruni_Mod._Ranger_C-380_-.jpg",
     "main_category": "Wapens",
     "subcategory": "Alarmpistolen en Revolvers"
   },
@@ -43,13 +22,6 @@
   },
   {
     "brand": "",
-    "name": "Alarmrevolver Bruni Mod. Magnum C-380 -",
-    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmrevolver Bruni Mod. Magnum C-380 -/Alarmrevolver_Bruni_Mod._Magnum_C-380_-.jpg",
-    "main_category": "Wapens",
-    "subcategory": "Alarmpistolen en Revolvers"
-  },
-  {
-    "brand": "",
     "name": "Alarmrevolver Bruni Mod. Olympic C-22 long -",
     "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmrevolver Bruni Mod. Olympic C-22 long -/Alarmrevolver_Bruni_Mod._Olympic_C-22_long_-.jpg",
     "main_category": "Wapens",
@@ -57,8 +29,36 @@
   },
   {
     "brand": "",
-    "name": "Alarmrevolver Bruni Mod. Ranger C-380 -",
-    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmrevolver Bruni Mod. Ranger C-380 -/Alarmrevolver_Bruni_Mod._Ranger_C-380_-.jpg",
+    "name": "Alarmpistool Bruni Mod.85 C-8mm -",
+    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Bruni Mod.85 C-8mm -/Alarmpistool_Bruni_Mod.85_C-8mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Alarmpistolen en Revolvers"
+  },
+  {
+    "brand": "",
+    "name": "Alarmrevolver Bruni Mod. Magnum C-380 -",
+    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmrevolver Bruni Mod. Magnum C-380 -/Alarmrevolver_Bruni_Mod._Magnum_C-380_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Alarmpistolen en Revolvers"
+  },
+  {
+    "brand": "",
+    "name": "Alarmpistool Bruni Mod. GAP 8mm -",
+    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Bruni Mod. GAP 8mm -/Alarmpistool_Bruni_Mod._GAP_8mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Alarmpistolen en Revolvers"
+  },
+  {
+    "brand": "",
+    "name": "Alarmpistool Kimar Mod. Colt 911 C-8mm -",
+    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Kimar Mod. Colt 911 C-8mm -/Alarmpistool_Kimar_Mod._Colt_911_C-8mm_-.jpg",
+    "main_category": "Wapens",
+    "subcategory": "Alarmpistolen en Revolvers"
+  },
+  {
+    "brand": "",
+    "name": "Alarmpistool Bruni Mod. 315 Auto C-8mm -",
+    "image": "/src/assets/products/wapens/alarmpistolen-en-revolvers/Alarmpistool Bruni Mod. 315 Auto C-8mm -/Alarmpistool_Bruni_Mod._315_Auto_C-8mm_-.jpg",
     "main_category": "Wapens",
     "subcategory": "Alarmpistolen en Revolvers"
   }

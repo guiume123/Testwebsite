@@ -49,7 +49,7 @@ const navItems: NavItem[] = [
       {
         label: 'Optiek', href: '?category=optiek', id: 'nav-optiek',
         children: [
-          { label: 'Richtkijkers & verrekijkers', href: '?category=optiek&subcategory=Richtkijkers%20%26%20verrekijkers', id: 'nav-richtkijkers' },
+          { label: 'Richtkijkers en Verrekijkers', href: '?category=optiek&subcategory=Richtkijkers%20en%20Verrekijkers', id: 'nav-richtkijkers' },
         ],
       },
       {
@@ -82,6 +82,9 @@ const navItems: NavItem[] = [
     label: 'Tweedehands', href: '?category=tweedehands', id: 'nav-tweedehands',
   },
   {
+    label: 'Regelgeving', href: '?page=regelgeving', id: 'nav-regelgeving',
+  },
+  {
     label: 'Openingsuren', href: '#', id: 'nav-openingsuren',
   },
 ];
@@ -89,7 +92,7 @@ const navItems: NavItem[] = [
 const navItemsLeft = navItems.filter(
   item => item.id === 'nav-producten' || item.id === 'nav-aanbiedingen' || item.id === 'nav-tweedehands'
 );
-const navItemsRight = navItems.filter(item => item.id === 'nav-openingsuren');
+const navItemsRight = navItems.filter(item => item.id === 'nav-regelgeving' || item.id === 'nav-openingsuren');
 
 function renderNavItem(item: NavItem, isNested: boolean = false): string {
   const hasChildren = item.children && item.children.length > 0;

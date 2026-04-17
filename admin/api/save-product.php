@@ -20,6 +20,20 @@ try {
         throw new Exception('Ongeldige categorie');
     }
 
+    $categoryPaths = [
+        'aanbiedingen' => [
+            'jsonPath' => '../../src/TWEEDEHANDS-AANBIEDINGEN/aanbiedingen/aanbiedingen/products.json',
+            'imageDir' => '../../src/TWEEDEHANDS-AANBIEDINGEN/aanbiedingen/aanbiedingen/',
+            'imageUrlPrefix' => '/src/TWEEDEHANDS-AANBIEDINGEN/aanbiedingen/aanbiedingen/'
+        ],
+        'tweedehands' => [
+            'jsonPath' => '../../src/TWEEDEHANDS-AANBIEDINGEN/tweedehands/tweedehands/products.json',
+            'imageDir' => '../../src/TWEEDEHANDS-AANBIEDINGEN/tweedehands/tweedehands/',
+            'imageUrlPrefix' => '/src/TWEEDEHANDS-AANBIEDINGEN/tweedehands/tweedehands/'
+        ]
+    ];
+    $paths = $categoryPaths[$category];
+
     // Get product data
     $name = trim($_POST['name'] ?? '');
     $description = trim($_POST['description'] ?? '');
@@ -34,7 +48,7 @@ try {
     $imageUrl = $currentImage;
     if (!empty($_FILES['image']['name'])) {
         $file = $_FILES['image'];
-        $uploadDir = '../../public/images/admin/';
+        $uploadDir = $paths['imageDir'];
         
         // Create directory if it doesn't exist
         if (!is_dir($uploadDir)) {
@@ -61,11 +75,11 @@ try {
             throw new Exception('Fout bij uploaden van afbeelding');
         }
 
-        $imageUrl = '/images/admin/' . $filename;
+        $imageUrl = $paths['imageUrlPrefix'] . $filename;
 
         // Delete old image if editing
-        if ($isEdit && !empty($currentImage) && strpos($currentImage, '/images/admin/') !== false) {
-            $oldFile = '../../public' . $currentImage;
+        if ($isEdit && !empty($currentImage) && strpos($currentImage, $paths['imageUrlPrefix']) === 0) {
+            $oldFile = '../../' . ltrim($currentImage, '/');
             if (file_exists($oldFile)) {
                 unlink($oldFile);
             }
@@ -73,7 +87,7 @@ try {
     }
 
     // Load or create products file
-    $jsonPath = "../../src/assets/products/{$category}/algemeen/products.json";
+    $jsonPath = $paths['jsonPath'];
     $jsonDir = dirname($jsonPath);
     
     if (!is_dir($jsonDir)) {

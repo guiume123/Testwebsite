@@ -1,0 +1,44 @@
+[
+  {
+    "brand": "RWS",
+    "name": "RWS",
+    "image": "/src/assets/products/munitie/kogel-munitie-jacht/RWS/RWS.jpg",
+    "main_category": "Munitie",
+    "subcategory": "Kogel Munitie Jacht"
+  },
+  {
+    "brand": "Remington",
+    "name": "REMINGTON",
+    "image": "/src/assets/products/munitie/kogel-munitie-jacht/REMINGTON/Remington.jpg",
+    "main_category": "Munitie",
+    "subcategory": "Kogel Munitie Jacht"
+  },
+  {
+    "brand": "Norma",
+    "name": "NORMA",
+    "image": "/src/assets/products/munitie/kogel-munitie-jacht/NORMA/norma.jpg",
+    "main_category": "Munitie",
+    "subcategory": "Kogel Munitie Jacht"
+  },
+  {
+    "brand": "Winchester",
+    "name": "WINCHESTER",
+    "image": "/src/assets/products/munitie/kogel-munitie-jacht/WINCHESTER/Winchester.jpg",
+    "main_category": "Munitie",
+    "subcategory": "Kogel Munitie Jacht"
+  },
+  {
+    "brand": "RWS",
+    "name": "RWS",
+    "image": "/src/assets/products/munitie/kogel-munitie-jacht/RWS1/RWS1.jpg",
+    "main_category": "Munitie",
+    "subcategory": "Kogel Munitie Jacht"
+  },
+  {
+    "brand": "RWS",
+    "name": "RWS",
+    "image": "/src/assets/products/munitie/kogel-munitie-jacht/RWS2/RWS2.jpg",
+    "main_category": "Munitie",
+    "subcategory": "Kogel Munitie Jacht"
+  }
+]

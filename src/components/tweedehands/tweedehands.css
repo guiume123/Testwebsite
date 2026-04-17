@@ -72,6 +72,20 @@
   margin-bottom: 0.4rem;
 }
 
+.tweedehands-detail-link {
+  display: inline-block;
+  margin-top: 0.2rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--c-baus-green, #173f35);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.tweedehands-detail-link:hover {
+  color: var(--c-baus-gold, #d39535);
+}
+
 /* Image Lightbox Styles */
 .image-lightbox {
   display: none;

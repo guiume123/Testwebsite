@@ -9,6 +9,10 @@ export function createTweedehands(): string {
 }
 
 function renderTweedehandsCard(product: Product): string {
+  const imagePath = product.image || '/placeholder.jpg';
+  const productName = product.name || 'Onbekend product';
+  const productDetailUrl = `?page=product&product=${encodeURIComponent(productName)}&img=${encodeURIComponent(imagePath)}`;
+
   let priceHtml = '';
   if (product.price) {
     priceHtml = `<div class="tweedehands-price">Prijs: €${product.price}</div>`;
@@ -17,13 +21,14 @@ function renderTweedehandsCard(product: Product): string {
   return `
     <div class="tweedehands-card" role="listitem">
       <div class="tweedehands-image" style="cursor: pointer;">
-        <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='/placeholder.jpg'" class="lightbox-trigger" data-src="${product.image}" data-alt="${product.name}">
+        <img src="${imagePath}" alt="${productName}" loading="lazy" onerror="this.src='/placeholder.jpg'" class="lightbox-trigger" data-src="${imagePath}" data-alt="${productName}">
       </div>
       <div class="tweedehands-info">
-        <h3 class="tweedehands-name">${product.name}</h3>
+        <h3 class="tweedehands-name">${productName}</h3>
         ${product.brand ? `<p class="tweedehands-brand">${product.brand}</p>` : ''}
         <p class="tweedehands-description">${product.description || 'Geen beschrijving beschikbaar'}</p>
         ${priceHtml}
+        <a class="tweedehands-detail-link" href="${productDetailUrl}">Meer info</a>
       </div>
     </div>
   `;

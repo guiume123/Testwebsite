@@ -20,12 +20,17 @@ try {
         throw new Exception('Ongeldige categorie');
     }
 
+    $categoryJsonPaths = [
+        'aanbiedingen' => '../../src/TWEEDEHANDS-AANBIEDINGEN/aanbiedingen/aanbiedingen/products.json',
+        'tweedehands' => '../../src/TWEEDEHANDS-AANBIEDINGEN/tweedehands/tweedehands/products.json'
+    ];
+
     if ($index === null || $index === '') {
         throw new Exception('Geen product index opgegeven');
     }
 
     // Load products
-    $jsonPath = "../../src/assets/products/{$category}/algemeen/products.json";
+    $jsonPath = $categoryJsonPaths[$category];
     
     if (!file_exists($jsonPath)) {
         throw new Exception('Products bestand niet gevonden');
@@ -39,8 +44,8 @@ try {
 
     // Delete image if it exists
     $product = $products[(int)$index];
-    if (!empty($product['image']) && strpos($product['image'], '/images/admin/') !== false) {
-        $imageFile = '../../public' . $product['image'];
+    if (!empty($product['image']) && strpos($product['image'], '/src/TWEEDEHANDS-AANBIEDINGEN/') === 0) {
+        $imageFile = '../../' . ltrim($product['image'], '/');
         if (file_exists($imageFile)) {
             unlink($imageFile);
         }

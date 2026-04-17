@@ -138,7 +138,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <div class="login-header">
             <img src="../public/images/logo/baus-logo.png" alt="Baus logo" class="login-logo">
-            <h1>Baus Admin</h1>
         </div>
 
         <div class="error-message"><?php echo htmlspecialchars($error); ?></div>

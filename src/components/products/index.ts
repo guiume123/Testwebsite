@@ -31,6 +31,8 @@ function getBrandFromImagePath(imagePath: string): string | null {
 
 function renderProductCard(product: Product): string {
   const imagePath = product.image || '/placeholder.jpg';
+  const productName = product.name || 'Onbekend product';
+  const productDetailUrl = `?page=product&product=${encodeURIComponent(productName)}&img=${encodeURIComponent(imagePath)}`;
   
   let priceHtml = '';
   if (product.price) {
@@ -44,10 +46,11 @@ function renderProductCard(product: Product): string {
         <img src="${imagePath}" alt="${product.name}" loading="lazy" onerror="this.src='/placeholder.jpg'" class="lightbox-trigger" data-src="${imagePath}" data-alt="${product.name}">
       </div>
       <div class="product-info">
-        <h3 class="product-name">${product.name}</h3>
+        <h3 class="product-name">${productName}</h3>
         ${product.brand ? `<p class="product-brand">${product.brand}</p>` : ''}
         ${product.description ? `<p class="product-description">${product.description}</p>` : ''}
         ${priceHtml}
+        <a class="product-detail-link" href="${productDetailUrl}">Meer info</a>
       </div>
     </div>
   `;
@@ -92,6 +95,9 @@ export function initProducts() {
   const { category, subcategory, brand } = getParams();
   const allProducts: Product[] = products;
   
+  console.log('=== INIT PRODUCTS DEBUG ===');
+  console.log('URL Params:', { category, subcategory, brand });
+  
   // === HELPER FUNCTION ===
   const normalizeString = (str: string): string => {
     return str
@@ -105,6 +111,12 @@ export function initProducts() {
   const isSpecialCategory = category && (category.toLowerCase() === 'tweedehands' || category.toLowerCase() === 'aanbiedingen');
   const normalizedUrlSubcat = subcategory ? normalizeString(subcategory) : '';
   const isGewerenSubcategory = normalizedUrlSubcat === normalizeString('Geweren en Karabijnen');
+  const isPistolenRevolversSubcategory =
+    normalizedUrlSubcat === normalizeString('Pistolen en Revolvers') ||
+    normalizedUrlSubcat === normalizeString('CO2 Pistolen en Revolvers') ||
+    normalizedUrlSubcat === normalizeString('Alarmpistolen en Revolvers');
+  
+  console.log('View Type:', { isSpecialCategory, normalizedUrlSubcat, isGewerenSubcategory });
   
   // === FILTERING LOGIC ===
   
@@ -120,12 +132,16 @@ export function initProducts() {
     return true;
   });
 
+  console.log('After category filter:', filteredByCategory.length, 'products');
+
   // Get unique subcategories from filtered category
   const uniqueSubcategories = Array.from(new Set(
     filteredByCategory
       .filter(p => p.subcategory)
       .map(p => p.subcategory)
   )) as string[];
+
+  console.log('Unique subcategories:', uniqueSubcategories);
 
   // Check if we should show subcategory selection
   const shouldShowSubcategorySelection = 
@@ -134,12 +150,17 @@ export function initProducts() {
     category && 
     uniqueSubcategories.length > 1;
 
+  console.log('shouldShowSubcategorySelection:', shouldShowSubcategorySelection);
+
   // Filter by subcategory (only if category is not special and subcategory is provided)
   let filteredBySubcategory = filteredByCategory;
   if (subcategory && category?.toLowerCase() !== 'tweedehands' && category?.toLowerCase() !== 'aanbiedingen') {
     filteredBySubcategory = filteredByCategory.filter(p => 
       p.subcategory && normalizeString(p.subcategory) === normalizedUrlSubcat
     );
+    console.log('After subcategory filter:', filteredBySubcategory.length, 'products');
+  } else {
+    console.log('No subcategory filter applied');
   }
 
   // Filter by brand (for geweren: filter by brand folder from image path)
@@ -155,9 +176,42 @@ export function initProducts() {
       // For other products: filter by brand field
       filteredByBrand = filteredBySubcategory.filter(p => p.brand && p.brand.toLowerCase() === brand.toLowerCase());
     }
+    console.log('After brand filter:', filteredByBrand.length, 'products');
   }
 
   const shouldShowBrands = isGewerenSubcategory && !brand;
+  const isHagelMunitieJacht =
+    category?.toLowerCase() === 'munitie' &&
+    normalizedUrlSubcat === normalizeString('Hagel Munitie Jacht');
+  const isHagelMunitieSport =
+    category?.toLowerCase() === 'munitie' &&
+    normalizedUrlSubcat === normalizeString('Hagel Munitie Sport');
+  const isAlarmMunitie =
+    category?.toLowerCase() === 'munitie' &&
+    normalizedUrlSubcat === normalizeString('Alarm Munitie');
+  const isLuchtdrukMunitie =
+    category?.toLowerCase() === 'munitie' &&
+    normalizedUrlSubcat === normalizeString('Luchtdruk Munitie');
+  const isHerlaadToebehoren =
+    category?.toLowerCase() === 'munitie' &&
+    normalizedUrlSubcat === normalizeString('Herlaad Toebehoren');
+  const isKogelMunitieSport =
+    category?.toLowerCase() === 'munitie' &&
+    normalizedUrlSubcat === normalizeString('Kogel Munitie Sport');
+  const shouldShowMunitieCatalogInfo =
+    isHagelMunitieJacht ||
+    isHagelMunitieSport ||
+    isAlarmMunitie ||
+    isLuchtdrukMunitie ||
+    isHerlaadToebehoren ||
+    isKogelMunitieSport;
+
+  console.log('Final render decision:', {
+    shouldShowSubcategorySelection,
+    shouldShowBrands,
+    shouldShowMunitieCatalogInfo,
+    productsToShow: filteredByBrand.length
+  });
 
   // === SET PAGE TITLE ===
   
@@ -190,7 +244,12 @@ export function initProducts() {
 
   // === RENDER GRID ===
   
-  if (!grid) return;
+  if (!grid) {
+    console.error('Products grid not found');
+    return;
+  }
+
+  console.log('Grid found. Rendering...');
 
   // Style for geweren brand view
   if (isGewerenSubcategory) {
@@ -215,8 +274,17 @@ export function initProducts() {
     }
   }
 
+  if (grid) {
+    if (isPistolenRevolversSubcategory) {
+      grid.classList.add('pistolen-revolvers-view');
+    } else {
+      grid.classList.remove('pistolen-revolvers-view');
+    }
+  }
+
   // Render subcategory selection for normal categories
   if (shouldShowSubcategorySelection) {
+    console.log('Rendering subcategory selection with', uniqueSubcategories.length, 'options');
     grid.classList.add('subcategory-grid');
     grid.innerHTML = uniqueSubcategories.sort().map(subcat => {
       // Get first product image from this subcategory
@@ -228,14 +296,85 @@ export function initProducts() {
   }
   // Render brands for geweren-en-karabijnen when no brand is selected
   else if (shouldShowBrands) {
+    console.log('Rendering brand cards for geweren');
     grid.classList.add('geweren-brand-grid');
     grid.innerHTML = GEWEREN_BRANDS.map(b => {
       const imageUrl = GEWEREN_BRAND_IMAGES[b.toLowerCase()] || '/placeholder.jpg';
       return renderBrandCard(b, imageUrl, category || '', subcategory || '', normalizeString);
     }).join('');
-  } 
+  }
+  // Render static catalog info for hagel munitie pages
+  else if (shouldShowMunitieCatalogInfo) {
+    console.log('Rendering static MARY ARM catalog info block');
+    grid.classList.remove('subcategory-grid');
+    grid.classList.remove('geweren-brand-grid');
+
+    if (isAlarmMunitie) {
+      grid.innerHTML = `
+        <article class="products-info-card" role="article" aria-label="Alarm munitie informatie">
+          <p>Ruime keuze in munitie voor alarmpistolen en revolvers.</p>
+          <p>Accurate blank patronen voor de hondenafrichting.</p>
+          <p>De courante voorraden zijn Fiocchi en Umarex.</p>
+        </article>
+      `;
+      return;
+    }
+
+    if (isLuchtdrukMunitie) {
+      grid.innerHTML = `
+        <article class="products-info-card" role="article" aria-label="Luchtdruk munitie informatie">
+          <p>Verkrijgbaar in alle calibers 4.5mm .22 .25 .30 .35</p>
+          <p>Merken : DIANA - GAMO - H&amp;N - JSB - RWS</p>
+        </article>
+      `;
+      return;
+    }
+
+    if (isHerlaadToebehoren) {
+      grid.innerHTML = `
+        <article class="products-info-card" role="article" aria-label="Herlaad toebehoren informatie">
+          <p>Koppen verkrijgbaar in kaliber 9mm - 10mm - 45ACP - 38/357 - 223 - 30/308 - 38 Sup/9mm</p>
+          <p>Poeder Vectan</p>
+          <p>Primers Large Pistol - Small Pistol - Large Rifle- Small Rifle</p>
+        </article>
+      `;
+      return;
+    }
+
+    if (isKogelMunitieSport) {
+      grid.innerHTML = `
+        <article class="products-info-card" role="article" aria-label="Kogel munitie sport informatie">
+          <p>Kleinkaliber, Pistool- en revolvermunitie</p>
+          <p>Van de volgende merken houden wij een courante voorraad ter beschikking</p>
+          <p>CCI - ELEY - FIOCCHI - FEDERAL - RWS - REMINGTON - WINCHESTER e.a.</p>
+          <p>Munitie enkel verkrijgbaar op vertoon van wettelijke documenten</p>
+        </article>
+      `;
+      return;
+    }
+
+    const pdfPath = isHagelMunitieJacht
+      ? '/src/assets/products/munitie/hagel-munitie-jacht/jacht.pdf'
+      : '/src/assets/products/munitie/hagel-munitie-sport/sport.pdf';
+
+    const linkText = isHagelMunitieJacht
+      ? 'Druk hier om de catalogus jachtpatronen te bekijken.'
+      : 'Druk hier om de catalogus sportpatronen te bekijken.';
+
+    grid.innerHTML = `
+      <article class="products-info-card" role="article" aria-label="Catalogus informatie">
+        <p>
+          Het uitgebreide assortiment van de kwaliteitspatronen MARY ARM laat toe naar ieders wens een gepaste patroon te vinden.
+          Het ruim assortiment van deze fabrikant is steeds op voorraad, dit zowel voor de jacht als voor het kleiduif schieten,
+          in lood en in staal, van de grootste tot de kleinste kaliber.
+        </p>
+        <a class="products-info-link" href="${pdfPath}" target="_blank" rel="noopener noreferrer">${linkText}</a>
+      </article>
+    `;
+  }
   // Render normal product cards
   else {
+    console.log('Rendering', filteredByBrand.length, 'product cards');
     grid.classList.remove('subcategory-grid');
     grid.classList.remove('geweren-brand-grid');
     grid.innerHTML = filteredByBrand.map(p => renderProductCard(p)).join('');

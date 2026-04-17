@@ -52,7 +52,7 @@ const categoryMenu: NavItem[] = [
   {
     label: 'Optiek', href: '?category=optiek', id: 'sidebar-optiek',
     children: [
-      { label: 'Richtkijkers & verrekijkers', href: '?category=optiek&subcategory=Richtkijkers%20%26%20verrekijkers', id: 'sidebar-richtkijkers' },
+      { label: 'Richtkijkers en Verrekijkers', href: '?category=optiek&subcategory=Richtkijkers%20en%20Verrekijkers', id: 'sidebar-richtkijkers' },
     ],
   },
   {

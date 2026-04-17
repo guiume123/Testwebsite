@@ -52,11 +52,32 @@
   margin-bottom: 0.5rem;
 }
 
+.aanbiedingen-price {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--c-baus-gold, #d39535);
+  margin-bottom: 0.65rem;
+}
+
 .aanbiedingen-description {
   font-size: 0.875rem;
   color: var(--c-text);
   margin-bottom: 1rem;
   line-height: 1.5;
+}
+
+.aanbiedingen-detail-link {
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--c-baus-green, #173f35);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.aanbiedingen-detail-link:hover {
+  color: var(--c-baus-gold, #d39535);
 }
 
 /* Image Lightbox Styles */
