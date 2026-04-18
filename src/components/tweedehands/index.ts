@@ -1,6 +1,7 @@
 import type { Product } from '../../types';
 import tweedehands from './tweedehands.html?raw';
 import tweedehandsData from '../../TWEEDEHANDS-AANBIEDINGEN/tweedehands/tweedehands/products.json';
+import { toSafeImageUrl } from '../../utils/image-url';
 
 export function createTweedehands(): string {
   return `
@@ -9,9 +10,10 @@ export function createTweedehands(): string {
 }
 
 function renderTweedehandsCard(product: Product): string {
-  const imagePath = product.image || '/placeholder.jpg';
+  const rawImagePath = product.image || '/placeholder.jpg';
+  const imagePath = toSafeImageUrl(rawImagePath);
   const productName = product.name || 'Onbekend product';
-  const productDetailUrl = `?page=product&product=${encodeURIComponent(productName)}&img=${encodeURIComponent(imagePath)}`;
+  const productDetailUrl = `?page=product&product=${encodeURIComponent(productName)}&img=${encodeURIComponent(rawImagePath)}`;
 
   let priceHtml = '';
   if (product.price) {

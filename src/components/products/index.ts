@@ -1,6 +1,7 @@
 import type { Product } from '../../types';
 import productsHTML from './products.html?raw';
 import productsData from '../../ALL PRODUCTS/products.json';
+import { toSafeImageUrl } from '../../utils/image-url';
 
 let products: any[] = productsData;
 
@@ -30,9 +31,10 @@ function getBrandFromImagePath(imagePath: string): string | null {
 }
 
 function renderProductCard(product: Product): string {
-  const imagePath = product.image || '/placeholder.jpg';
+  const rawImagePath = product.image || '/placeholder.jpg';
+  const imagePath = toSafeImageUrl(rawImagePath);
   const productName = product.name || 'Onbekend product';
-  const productDetailUrl = `?page=product&product=${encodeURIComponent(productName)}&img=${encodeURIComponent(imagePath)}`;
+  const productDetailUrl = `?page=product&product=${encodeURIComponent(productName)}&img=${encodeURIComponent(rawImagePath)}`;
   
   let priceHtml = '';
   if (product.price) {
@@ -57,13 +59,14 @@ function renderProductCard(product: Product): string {
 }
 
 function renderBrandCard(brand: string, imageUrl: string, category: string, subcategory: string, normalizeString: (str: string) => string): string {
+  const safeImageUrl = toSafeImageUrl(imageUrl);
   const normalizedSubcategory = normalizeString(subcategory);
   const normalizedBrand = normalizeString(brand);
   return `
     <a href="?category=${encodeURIComponent(category)}&amp;subcategory=${encodeURIComponent(normalizedSubcategory)}&amp;brand=${encodeURIComponent(normalizedBrand)}" style="text-decoration: none; color: inherit;">
       <div class="product-card" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; background: transparent; height: 100%; border: none; box-shadow: none;">
         <div style="height: 150px; background: #fff; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 0.75rem; padding: 0.75rem;">
-          <img src="${imageUrl}" alt="${brand}" style="max-height: 100%; max-width: 100%; object-fit: contain;" loading="lazy" onerror="this.src='/placeholder.jpg'">
+          <img src="${safeImageUrl}" alt="${brand}" style="max-height: 100%; max-width: 100%; object-fit: contain;" loading="lazy" onerror="this.src='/placeholder.jpg'">
         </div>
         <h3 style="color: var(--c-baus-gold, #d39535); font-style: italic; font-size: 1.3rem; font-weight: 700; text-transform: uppercase; margin: 0; align-self: flex-start; width: 100%;">${brand}</h3>
       </div>
@@ -72,12 +75,13 @@ function renderBrandCard(brand: string, imageUrl: string, category: string, subc
 }
 
 function renderSubcategoryCard(subcategory: string, imageUrl: string, category: string, normalizeString: (str: string) => string): string {
+  const safeImageUrl = toSafeImageUrl(imageUrl);
   const normalizedSubcategory = normalizeString(subcategory);
   return `
     <a href="?category=${encodeURIComponent(category)}&amp;subcategory=${encodeURIComponent(normalizedSubcategory)}" style="text-decoration: none; color: inherit;">
       <div class="product-card" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; background: transparent; height: 100%; border: none; box-shadow: none;">
         <div style="height: 150px; background: #fff; display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 0.75rem; padding: 0.75rem;">
-          <img src="${imageUrl}" alt="${subcategory}" style="max-height: 100%; max-width: 100%; object-fit: cover;" loading="lazy" onerror="this.src='/placeholder.jpg'">
+          <img src="${safeImageUrl}" alt="${subcategory}" style="max-height: 100%; max-width: 100%; object-fit: cover;" loading="lazy" onerror="this.src='/placeholder.jpg'">
         </div>
         <h3 style="color: var(--c-baus-gold, #d39535); font-style: italic; font-size: 1rem; font-weight: 700; text-transform: capitalize; margin: 0; align-self: flex-start; width: 100%;">${subcategory}</h3>
       </div>

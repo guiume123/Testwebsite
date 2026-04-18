@@ -44,6 +44,7 @@ import './components/regelgeving/regelgeving.css';
 
 import { createFooter } from './components/footer';
 import './components/footer/footer.css';
+import { toSafeImageUrl } from './utils/image-url';
 
 
 function escapeHtml(value: string): string {
@@ -56,15 +57,7 @@ function escapeHtml(value: string): string {
 }
 
 function sanitizeImageSrc(value: string): string {
-  if (!value) {
-    return '/placeholder.jpg';
-  }
-
-  if (value.startsWith('/') || value.startsWith('http://') || value.startsWith('https://')) {
-    return value;
-  }
-
-  return '/placeholder.jpg';
+  return toSafeImageUrl(value);
 }
 
 const EMPTY_PRODUCT_TEMPLATE = {
